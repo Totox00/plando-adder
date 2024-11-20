@@ -66,7 +66,7 @@ pool
 
 Broney
 Super Metroid Map Rando
-Spazer Beam
+Spazer
 ranged weapon II-4
 pool
 
@@ -138,7 +138,7 @@ pool
 
 Broney
 Super Metroid
-Spazer Beam
+Spazer
 ranged weapon IV-3
 pool
 
@@ -270,7 +270,7 @@ pool
 
 TzufRougelike
 Super Metroid
-Spazer Beam
+Spazer
 progressive I-2
 pool
 
@@ -1536,7 +1536,7 @@ pool
 
 Slipomatic_SM
 Super Metroid
-Spazer Beam
+Spazer
 progressive II-2
 pool
 
@@ -1788,7 +1788,7 @@ pool
 
 Maxor
 A Link to the Past
-Progressive Armor
+Progressive Mail
 defense IV-3
 pool
 

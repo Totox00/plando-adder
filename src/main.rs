@@ -130,15 +130,17 @@ fn main() {
                             locations.push(location.clone());
                         }
                     }
-
-                    let mut items = vec![];
-                    for (item_game, item) in filler_items {
-                        if item_game == game {
-                            items.push(format!("\"{item}\": {}", locations.len()));
+                    
+                    if !locations.is_empty() {
+                        let mut items = vec![];
+                        for (item_game, item) in filler_items {
+                            if item_game == game {
+                                items.push(format!("\"{item}\": {}", locations.len()));
+                            }
                         }
-                    }
 
-                    plando_entries.push(format!("{{\"items\": {{{}}}, \"locations\": [{}], \"world\": \"The Cauldron\", \"force\": true, \"from_pool\": true}}", items.join(", "), locations.join(", ")));
+                        plando_entries.push(format!("{{\"items\": {{{}}}, \"locations\": [{}], \"world\": \"The Cauldron\", \"force\": true, \"from_pool\": true}}", items.join(", "), locations.join(", ")));
+                    }
                 }
             }
 
@@ -216,14 +218,16 @@ fn add_plando(yaml: &OsString, plando_list: &mut PlandoList, filler_list: &mut F
                                 }
                             }
 
-                            let mut items = vec![];
-                            for (game, item) in filler_items {
-                                if game == maybe_game {
-                                    items.push(format!("\"{item}\": {}", locations.len()));
+                            if !locations.is_empty() {
+                                let mut items = vec![];
+                                for (game, item) in filler_items {
+                                    if game == maybe_game {
+                                        items.push(format!("\"{item}\": {}", locations.len()));
+                                    }
                                 }
-                            }
 
-                            plando_entries.push(format!("{{\"items\": {{{}}}, \"locations\": [{}], \"world\": \"The Cauldron\", \"force\": true, \"from_pool\": true}}", items.join(", "), locations.join(", ")));
+                                plando_entries.push(format!("{{\"items\": {{{}}}, \"locations\": [{}], \"world\": \"The Cauldron\", \"force\": true, \"from_pool\": true}}", items.join(", "), locations.join(", ")));
+                            }
                         }
                     }
                 }
