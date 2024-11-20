@@ -1,0 +1,275 @@
+name: DeathclawCavern
+game: 
+  Celeste 64: 69
+  Ocarina of Time: 69
+  Timespinner: 69
+  Super Mario 64: 69
+description: Funneh
+Celeste 64:
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'true'
+  death_link_amnesty: '10' # Change Amnesty to 20, then 25, then 30
+  logic_difficulty: standard
+  move_shuffle: 'false' 
+  total_strawberries: '46' # Change to 40, then 35, then 30, then 25, then 20, then 15, then 10
+  strawberries_required_percentage: '80'
+  friendsanity: 'true'
+  signsanity: 'true'
+  carsanity: 'true'
+  badeline_chaser_source: locations
+  badeline_chaser_frequency: '0'
+  badeline_chaser_speed: '3'
+  start_inventory: {}
+
+
+
+
+Ocarina of Time:
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'true'
+  logic_rules: glitchless
+  logic_no_night_tokens_without_suns_song: 'false'
+  starting_age: child
+  shuffle_interior_entrances: 'off'
+  shuffle_grotto_entrances: 'false'
+  shuffle_overworld_entrances: 'false'
+  owl_drops: 'false'
+  warp_songs: 'false'
+  spawn_positions: 'off'
+  shuffle_bosses: 'off'
+  triforce_goal: '40'
+  extra_triforce_percentage: '50'
+  dungeon_shortcuts_list:
+  - Deku Tree
+  - Dodongo's Cavern
+  - Fire Temple
+  - Forest Temple
+  - Jabu Jabu's Belly
+  - Shadow Temple
+  - Spirit Temple
+  - Water Temple
+  mq_dungeons_mode: vanilla
+  mq_dungeons_count: '0'
+  bridge_stones: '3'
+  bridge_medallions: '3'
+  bridge_rewards: '4'
+  bridge_tokens: '30'
+  bridge_hearts: '10'
+  shopsanity: fixed_number
+  shop_slots: '4'
+  shopsanity_prices: normal
+  shuffle_scrubs: low
+  shuffle_child_trade: vanilla
+  shuffle_mapcompass: startwith
+  shuffle_smallkeys: dungeon
+  shuffle_bosskeys: dungeon
+  enhance_map_compass: 'true'
+  ganon_bosskey_medallions: '6'
+  ganon_bosskey_stones: '3'
+  ganon_bosskey_rewards: '8'
+  ganon_bosskey_tokens: '80' # Change to 60, then to 40
+  ganon_bosskey_hearts: '16' # Change to 12, then to 8
+  key_rings_list:
+  - Bottom of the Well
+  - Fire Temple
+  - Forest Temple
+  - Ganon's Castle
+  - Gerudo Training Ground
+  - Shadow Temple
+  - Spirit Temple
+  - Thieves' Hideout
+  - Water Temple
+  no_escape_sequence: 'true'
+  no_guard_stealth: 'true'
+  no_epona_race: 'true'
+  skip_some_minigame_phases: 'true'
+  complete_mask_quest: 'false'
+  useful_cutscenes: 'false'
+  fast_chests: 'true'
+  free_scarecrow: 'true'
+  fast_bunny_hood: 'true'
+  plant_beans: 'true'
+  chicken_count: '0'
+  big_poe_count: '1'
+  fae_torch_count: '24'
+  correct_chest_appearances: textures
+  minor_items_as_major_chest: 'true'
+  correct_potcrate_appearances: textures_unchecked
+  hints: always
+  misc_hints: 'true'
+  hint_dist: async
+  text_shuffle: none
+  damage_multiplier: quadruple # Change to Double, then to Vanilla
+  deadly_bonks: quadruple # Change to Double, then to Vanilla
+  no_collectible_hearts: 'false'
+  starting_tod: default
+  blue_fire_arrows: 'true'
+  fix_broken_drops: 'true'
+  start_with_consumables: 'true'
+  start_with_rupees: 'true'
+  item_pool_value: balanced
+  junk_ice_traps: normal
+  ice_trap_appearance: anything
+  adult_trade_start: claim_check
+  default_targeting: hold
+  display_dpad: 'true'
+  dpad_dungeon_menu: 'true'
+  correct_model_colors: 'true'
+  background_music: 'off'
+  fanfares: normal
+  ocarina_fanfares: 'false'
+  sword_trail_duration: '20'
+  sfx_navi_overworld: default
+  sfx_navi_enemy: default
+  sfx_low_hp: default
+  sfx_menu_cursor: default
+  sfx_menu_select: default
+  sfx_nightfall: default
+  sfx_horse_neigh: default
+  sfx_hover_boots: default
+  sfx_ocarina: ocarina
+  start_inventory: {}
+  open_forest: random
+  open_kakariko: random
+  open_door_of_time: random
+  zora_fountain: random
+  gerudo_fortress: random
+  bridge: random
+  trials: random
+  shuffle_dungeon_entrances: random
+  triforce_hunt: random
+  bombchus_in_logic: random
+  dungeon_shortcuts: random
+  shuffle_song_items: random
+  tokensanity: random
+  shuffle_freestanding_items: random
+  shuffle_pots: random
+  shuffle_crates: random
+  shuffle_cows: random
+  shuffle_beehives: random
+  shuffle_kokiri_sword: random
+  shuffle_ocarinas: random
+  shuffle_gerudo_card: random
+  shuffle_beans: random
+  shuffle_medigoron_carpet_salesman: random
+  shuffle_frog_song_rupees: random
+  shuffle_hideoutkeys: random
+  shuffle_ganon_bosskey: random
+  key_rings: random
+  invisible_chests: random
+  kokiri_color: random
+  goron_color: random
+  zora_color: random
+  silver_gauntlets_color: random
+  golden_gauntlets_color: random
+  mirror_shield_frame_color: random
+  navi_color_default_inner: random
+  navi_color_default_outer: random
+  navi_color_enemy_inner: random
+  navi_color_enemy_outer: random
+  navi_color_npc_inner: random
+  navi_color_npc_outer: random
+  navi_color_prop_inner: random
+  navi_color_prop_outer: random
+  sword_trail_color_inner: random
+  sword_trail_color_outer: random
+  bombchu_trail_color_inner: random
+  bombchu_trail_color_outer: random
+  boomerang_trail_color_inner: random
+  boomerang_trail_color_outer: random
+  heart_color: random
+  magic_color: random
+  a_button_color: random
+  b_button_color: random
+  c_button_color: random
+  start_button_color: random
+
+
+
+
+
+
+Timespinner:
+  death_link: 'true'
+  progression_balancing: '50'
+  accessibility: full
+  downloadable_items: 'true'
+  start_with_meyef: 'false'
+  lore_checks: 'true'
+  damage_rando: allnerfs # Change to Mostlynerfs, then to Balanced, then to MostlyBuffs
+  hp_cap: '200' # Change to 400, then to 600, then to 999
+  level_cap: '99'
+  extra_earrings_xp: '24'
+  boss_healing: 'true'
+  shop_fill: randomized
+  shop_warp_shards: 'true'
+  shop_multiplier: '1'
+  loot_pool: randomized
+  drop_rate_category: fixed
+  fixed_drop_rate: '100'
+  loot_tier_distro: default_weight
+  rising_tides: 'false'
+  traps:
+  - Bee Trap
+  - Chaos Trap
+  - Meteor Sparrow Trap
+  - Neurotoxin Trap
+  - Poison Trap
+  start_inventory: {}
+  start_with_jewelry_box: random # Change to Yes
+  eye_spy: random # Change to No
+  quick_seed: random
+  specific_keycards: random
+  inverted: random
+  gyre_archives: random
+  cantoran: random
+  boss_rando: random # Disable Unscaled, then Disable Scaled
+  show_bestiary: random
+  show_drops: random
+  enter_sandman: random
+  dad_percent: random
+  unchained_keys: random
+  back_to_the_future: random
+  trap_chance: random # Change to 10, then to 0
+
+
+
+
+
+
+
+Super Mario 64:
+  progression_balancing: '0' # Change to 20, then to 40, then to 60, then to 80, then to 100
+  accessibility: full
+  enable_coin_stars: 'false'
+  move_rando_actions:
+  - Triple Jump
+  - Long Jump
+  - Backflip
+  - Side Flip
+  - Wall Kick
+  - Dive
+  - Ground Pound
+  - Kick
+  - Climb
+  - Ledge Grab
+  strict_cap_requirements: 'true'
+  strict_cannon_requirements: 'true'
+  strict_move_requirements: 'true'
+  amount_of_stars: '120'
+  death_link: 'true'
+  start_inventory: {}
+  area_rando: random # Disable Courses and Secrets from being rolled 
+  buddy_checks: random # Change to No
+  exclamation_boxes: random 
+  progressive_keys: random
+  enable_move_rando: false 
+  first_bowser_star_door_cost: random 
+  basement_star_door_cost: random 
+  second_floor_star_door_cost: random 
+  mips1_cost: random 
+  mips2_cost: random 
+  stars_to_finish: random # Change to 50, then to 25
+  completion_type: random # Change to Final Bowser

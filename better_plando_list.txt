@@ -1,0 +1,4133 @@
+hecate.mp3
+Noita
+Wand (Tier 5)
+ranged weapon I-1
+pool
+
+hecate.mp3
+ULTRAKILL
+Revolver - Sharpshooter
+ranged weapon I-2
+pool
+
+Connor
+Manual_Godhome_Eszenn
+Flukenest
+ranged weapon I-3
+pool
+
+Broney
+Super Metroid Map Rando
+Plasma Beam
+ranged weapon I-4
+pool
+
+DragoRogue2
+EarthBound
+Progressive Gun
+ranged weapon I-5
+pool
+
+Jake13Snake
+DOOM 1993
+Plasma gun
+ranged weapon I-6
+pool
+
+Grimore
+Noita
+Wand (Tier 4)
+ranged weapon I-7
+pool
+
+TzufRougelike
+Hollow Knight
+Shaman_Stone
+ranged weapon I-8
+pool
+
+Connor
+Hollow Knight
+Shaman_Stone
+ranged weapon II-1
+pool
+
+hecate.mp3
+Noita
+Wand (Tier 4)
+ranged weapon II-2
+pool
+
+Sylsko
+TUNIC
+Magic Wand
+ranged weapon II-3
+pool
+
+Broney
+Super Metroid Map Rando
+Spazer Beam
+ranged weapon II-4
+pool
+
+rhythm.ET2
+Dome Keeper
+Artillery air gun
+ranged weapon II-5
+pool
+
+Grimore
+Noita
+Wand (Tier 5)
+ranged weapon II-6
+pool
+
+jf-rogue
+Hollow Knight
+Shaman_Stone
+ranged weapon II-7
+pool
+
+hecate.mp3
+ULTRAKILL
+Shotgun - Sawed-On
+ranged weapon III-1
+pool
+
+Sylsko
+TUNIC
+Gun
+ranged weapon III-2
+pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Ranged Weapon
+ranged weapon III-3
+pool
+
+Jake13Snake
+DOOM 1993
+Shotgun
+ranged weapon III-4
+pool
+
+Grimore
+Noita
+Wand (Tier 4)
+ranged weapon III-5
+pool
+
+sheen
+Super Metroid Map Rando
+Spazer
+ranged weapon III-6
+pool
+
+hecate.mp3
+TUNIC
+Gun
+ranged weapon IV-1
+pool
+
+Sylsko
+Ender Lilies
+Last Rites
+ranged weapon IV-2
+pool
+
+Broney
+Super Metroid
+Spazer Beam
+ranged weapon IV-3
+pool
+
+DragoRogue2
+EarthBound
+Progressive Gun
+ranged weapon IV-4
+pool
+
+Grimore
+Noita
+Wand (Tier 6)
+ranged weapon IV-5
+pool
+
+Ravanan
+Super Metroid
+Super Missile
+ranged weapon IV-6
+pool
+
+hecate.mp3
+Noita
+Wand (Tier 4)
+ranged weapon V-1
+pool
+
+hecate.mp3
+ULTRAKILL
+Nailgun - Attractor
+ranged weapon V-2
+pool
+
+MiroRogue
+Hollow Knight
+Shaman_Stone
+ranged weapon V-3
+pool
+
+Jake13Snake
+DOOM 1993
+Chaingun
+ranged weapon V-4
+pool
+
+Ravanan
+Super Metroid
+Spazer
+ranged weapon V-5
+pool
+
+sheen
+Super Metroid Map Rando
+Super
+ranged weapon V-6
+pool
+
+Grimore
+Noita
+Tinker with Wands Everywhere Perk
+ranged weapon V-7
+pool
+
+TzufRougelike
+Super Metroid
+Charge Beam
+progressive I-1
+pool
+
+hecate.mp3
+Noita
+Wand (Tier 6)
+ranged weapon VI-1
+pool
+
+DragoRogue2
+EarthBound
+Progressive Gun
+ranged weapon VI-2
+pool
+
+Fore772
+TUNIC
+Gun
+ranged weapon VI-3
+pool
+
+Grimore
+Noita
+Wand (Tier 5)
+ranged weapon VI-4
+pool
+
+sheen
+Super Metroid Map Rando
+Wave
+ranged weapon VI-5
+pool
+
+MiroRogue
+Hollow Knight
+Spell_Twister
+ranged weapon VI-6
+pool
+
+CrystalOoT
+Ocarina of Time
+Bow
+ranged weapon VII-1
+pool
+
+hecate.mp3
+Noita
+Wand (Tier 5)
+ranged weapon VII-2
+pool
+
+Grimore
+Noita
+Wand (Tier 6)
+ranged weapon VII-3
+pool
+
+sheen
+Super Metroid Map Rando
+Super
+ranged weapon VII-4
+pool
+
+TzufRougelike
+Super Metroid
+Spazer Beam
+progressive I-2
+pool
+
+CrystalOoT
+Ocarina of Time
+Slingshot
+ranged weapon VIII-1
+pool
+
+hecate.mp3
+Noita
+Wand (Tier 6)
+ranged weapon VIII-2
+pool
+
+Broney
+Super Metroid
+Plasma Beam
+ranged weapon VIII-3
+pool
+
+Jake13Snake
+Links Awakening DX
+Boomerang
+ranged weapon VIII-4
+pool
+
+hecate.mp3
+ULTRAKILL
+Rocket Launcher - Firestarter
+fire I-1
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Phoenix
+fire I-2
+pool
+
+Rouginater
+Manual_PeggleDeluxe_Freezinater
+Lord Cinderbottom
+fire II-1
+pool
+
+Caesius
+Ocarina of Time
+Goron Tunic
+fire III-1
+pool
+
+Rouginater
+Manual_PeggleNights_Freezinater
+Lord Cinderbottom
+fire III-2
+pool
+
+hecate.mp3
+ULTRAKILL
+Rocket Launcher - S.R.S. Cannon
+explosion I-1
+pool
+
+Broney
+Super Metroid Map Rando
+Power Bomb
+explosion I-2
+pool
+
+Sylsko
+TUNIC
+Firecracker x5
+explosion II-1
+pool
+
+Rouginater
+Manual_PeggleDeluxe_Freezinater
+Splork
+explosion II-2
+pool
+
+Broney
+Super Metroid
+Power Bomb
+explosion II-3
+pool
+
+TzufRougelike
+Super Metroid
+Power Bomb
+explosion II-4
+pool
+
+Rouginater
+Manual_PeggleNights_Freezinater
+Splork
+explosion III-1
+pool
+
+hecate.mp3
+ULTRAKILL
+Railcannon - Malicious
+explosion III-2
+pool
+
+Broney
+Super Metroid Map Rando
+Power Bomb
+explosion III-3
+pool
+
+Ravanan
+Super Metroid
+Power Bomb
+explosion III-4
+pool
+
+sheen
+Super Metroid Map Rando
+PowerBomb
+explosion III-5
+pool
+
+Jake13Snake
+DOOM 1993
+Rocket launcher
+explosion IV-1
+pool
+
+hecate.mp3
+ULTRAKILL
+Shotgun - Core Eject
+explosion IV-2
+pool
+
+sheen
+Super Metroid Map Rando
+PowerBomb
+explosion IV-3
+pool
+
+superfid
+Secret of Evermore
+Bazooka
+explosion V-1
+pool
+
+Sylsko
+TUNIC
+Firecracker x5
+explosion V-2
+pool
+
+Broney
+Super Metroid
+Power Bomb
+explosion V-3
+pool
+
+TzufRougelike
+Super Metroid
+Power Bomb
+explosion V-4
+pool
+
+Sylsko
+TUNIC
+Hero Relic - HP
+vitality I-1
+pool
+
+hecate.mp3
+Noita
+Extra Max HP
+vitality I-2
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality I-3
+pool
+
+JoyTheBard
+DLCQuest
+Health Bar Pack
+vitality I-4
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality I-5
+pool
+
+Sylsko
+Timespinner
+Max HP
+vitality I-6
+pool
+
+TzufRougelike
+Ocarina of Time
+Heart Container
+vitality II-1
+pool
+
+hecate.mp3
+TUNIC
+HP Offering
+vitality II-2
+pool
+
+jf-rogue
+Hollow Knight
+Lifeblood_Heart
+vitality II-3
+pool
+
+superfid
+A Link to the Past
+Boss Heart Container
+vitality II-4
+pool
+
+Sylsko
+Timespinner
+Max HP
+vitality II-5
+pool
+
+hecate.mp3
+Noita
+Extra Max HP
+vitality III-1
+pool
+
+DiStegRogue
+Ocarina of Time
+Heart Container
+vitality III-2
+pool
+
+RndGuy
+Blasphemous
+Life Upgrade
+vitality III-3
+pool
+
+TzufRougelike
+Ocarina of Time
+Heart Container
+vitality III-4
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality III-5
+pool
+
+MiroRogue
+DLCQuest
+Health Bar Pack
+vitality III-6
+pool
+
+Slipomatic_SM
+Super Metroid
+Energy Tank
+vitality III-7
+pool
+
+Toto
+Hollow Knight
+Full_Mask
+vitality III-8
+non_pool
+
+Connor
+Hollow Knight
+Lifeblood_Heart
+vitality IV-1
+pool
+
+DiStegRogue
+A Link to the Past
+Boss Heart Container
+vitality IV-2
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality IV-3
+pool
+
+Grimore
+Noita
+Extra Max HP
+vitality IV-4
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality IV-5
+pool
+
+Slipomatic_SM
+Super Metroid
+Energy Tank
+vitality IV-6
+pool
+
+Sylsko
+Ender Lilies
+Amulet Gem
+vitality V-1
+pool
+
+Connor
+Manual_Godhome_Eszenn
+Lifeblood Heart
+vitality V-2
+pool
+
+TzufRougelike
+A Link to the Past
+Boss Heart Container
+vitality V-3
+pool
+
+Slipomatic_SM
+Super Metroid
+Energy Tank
+vitality V-4
+pool
+
+Maxor
+A Link to the Past
+Boss Heart Container
+vitality VI-1
+pool
+
+hecate.mp3
+Noita
+Extra Max HP
+vitality VI-2
+pool
+
+RndGuy
+Blasphemous
+Life Upgrade
+vitality VI-3
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality VI-4
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+HP Increase
+vitality VI-5
+pool
+
+MiroRogue
+Hollow Knight
+Lifeblood_Heart
+vitality VI-6
+pool
+
+Rezalex
+A Link to the Past
+Boss Heart Container
+vitality VI-7
+pool
+
+MiroRogue
+Hollow Knight
+Full_Mask
+vitality VI-8
+pool
+
+DiStegRogue
+Ocarina of Time
+Heart Container
+vitality VII-1
+pool
+
+TzufRougelike
+Hollow Knight
+Full_Mask
+vitality VII-2
+pool
+
+TzufRougelike
+Ocarina of Time
+Heart Container
+vitality VII-3
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality VII-4
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality VII-5
+pool
+
+Toto
+Hollow Knight
+Full_Mask
+vitality VIII-1
+non_pool
+
+DiStegRogue
+Ocarina of Time
+Heart Container
+vitality VIII-2
+pool
+
+TzufRougelike
+Super Metroid
+Energy Tank
+vitality VIII-3
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality VIII-4
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality VIII-5
+pool
+
+MiroRogue
+Timespinner
+Max HP
+vitality VIII-6
+pool
+
+Sylsko
+Ender Lilies
+Amulet Gem
+vitality VIII-7
+pool
+
+Rezalex
+A Link to the Past
+Boss Heart Container
+vitality VIII-8
+pool
+
+DiStegRogue
+A Link to the Past
+Boss Heart Container
+vitality IX-1
+pool
+
+RndGuy
+Blasphemous
+Life Upgrade
+vitality IX-2
+pool
+
+TzufRougelike
+Ocarina of Time
+Heart Container
+vitality IX-3
+pool
+
+JoyTheBard
+DLCQuest
+Increased HP Pack
+vitality IX-4
+pool
+
+Sylsko
+Ender Lilies
+Amulet Jewel
+vitality IX-5
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality IX-6
+pool
+
+Caesius
+Timespinner
+Max HP
+vitality IX-7
+pool
+
+hecate.mp3
+TUNIC
+HP Offering
+vitality X-1
+pool
+
+Connor
+Manual_Godhome_Eszenn
+Lifeblood Core
+vitality X-2
+pool
+
+jf-rogue
+Hollow Knight
+Mask_Shard
+vitality X-3
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality X-4
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+HP Increase
+vitality X-5
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality X-6
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality XI-1
+pool
+
+hecate.mp3
+Noita
+Extra Max HP
+vitality XI-2
+pool
+
+sheen
+Super Metroid Map Rando
+ETank
+vitality XI-3
+pool
+
+TzufRougelike
+A Link to the Past
+Boss Heart Container
+vitality XI-4
+pool
+
+jf-rogue
+Timespinner
+Max HP
+vitality XI-5
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality XI-6
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality XII-1
+pool
+
+Connor
+Hollow Knight
+Lifeblood_Core
+vitality XII-2
+pool
+
+jf-rogue
+Hollow Knight
+Mask_Shard
+vitality XII-3
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality XII-4
+pool
+
+Fore772
+TUNIC
+Hero Relic - HP
+vitality XII-5
+pool
+
+MiroRogue
+DLCQuest
+Increased HP Pack
+vitality XII-6
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality XII-7
+pool
+
+Caesius
+Ocarina of Time
+Heart Container
+vitality XIII-1
+pool
+
+DiStegRogue
+A Link to the Past
+Boss Heart Container
+vitality XIII-2
+pool
+
+jf-rogue
+Hollow Knight
+Mask_Shard
+vitality XIII-3
+pool
+
+TzufRougelike
+A Link to the Past
+Boss Heart Container
+vitality XIII-4
+pool
+
+jf-rogue
+Timespinner
+Max HP
+vitality XIII-5
+pool
+
+Caesius
+Ocarina of Time
+Piece of Heart
+vitality XIII-6
+pool
+
+Caesius
+Timespinner
+Max HP
+vitality XIV-1
+pool
+
+Ravanan
+Super Metroid
+Energy Tank
+vitality XIV-2
+pool
+
+sheen
+Super Metroid Map Rando
+ETank
+vitality XIV-3
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality XIV-4
+pool
+
+Grimore
+Noita
+Extra Max HP
+vitality XIV-5
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality XIV-6
+pool
+
+TzufRougelike
+Super Metroid
+Energy Tank
+vitality XV-1
+pool
+
+Jake13Snake
+Links Awakening DX
+Heart Container
+vitality XV-2
+pool
+
+Brynatron
+Hollow Knight
+Fragile_Heart
+vitality XV-3
+pool
+
+Grimore
+Noita
+Extra Max HP
+vitality XV-4
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality XV-5
+pool
+
+Maxor
+A Link to the Past
+Boss Heart Container
+vitality XV-6
+pool
+
+CrystalOoT
+Ocarina of Time
+Heart Container
+vitality XVI-1
+pool
+
+Connor
+Hollow Knight
+Fragile_Heart
+vitality XVI-2
+pool
+
+sheen
+Super Metroid Map Rando
+ETank
+vitality XVI-3
+pool
+
+CrystalOoT
+Ocarina of Time
+Heart Container
+vitality XVI-4
+pool
+
+jf-rogue
+Timespinner
+Max HP
+vitality XVI-5
+pool
+
+superfid
+Pseudoregalia
+Health Piece
+vitality XVI-6
+pool
+
+hecate.mp3
+TUNIC
+Potion Flask
+healing I-1
+pool
+
+hecate.mp3
+TUNIC
+Potion Offering
+healing I-2
+pool
+
+Connor
+Hollow Knight
+Focus
+healing I-3
+pool
+
+Caesius
+Pokemon Emerald
+Super Potion
+healing I-4
+pool
+
+hecate.mp3
+TUNIC
+Potion Offering
+healing II-1
+pool
+
+Caesius
+Pokemon Emerald
+Super Potion
+healing II-2
+pool
+
+Sylsko
+TUNIC
+Hero Relic - POTION
+healing II-3
+pool
+
+jf-rogue
+Rogue Legacy
+Blood Blueprints
+healing II-4
+pool
+
+Connor
+Hollow Knight
+Hiveblood
+healing III-1
+pool
+
+RndGuy
+Hollow Knight
+Hiveblood
+healing III-2
+pool
+
+Brynatron
+Hollow Knight
+Hiveblood
+healing III-3
+pool
+
+jf-rogue
+Rogue Legacy
+Potion Efficiency Up
+healing III-4
+pool
+
+Connor
+Undertale
+ITEM
+healing IV-1
+pool
+
+TzufRougelike
+A Link to the Past
+Bottle (Red Potion)
+healing IV-2
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Second Wind
+healing IV-3
+pool
+
+SunCat
+Pokemon Emerald
+Leftovers
+healing IV-4
+pool
+
+MiroRogue
+Pokemon Emerald
+Full Restore
+healing V-1
+pool
+
+TzufRougelike
+Hollow Knight
+Quick_Focus
+healing V-2
+pool
+
+Sylsko
+Ender Lilies
+Priestess' Wish
+healing V-3
+pool
+
+SunCat
+Pokemon Emerald
+Leftovers
+healing VI-1
+pool
+
+Sylsko
+Ender Lilies
+Priestess' Wish
+healing VII-1
+pool
+
+Caesius
+Pokemon Emerald
+Super Potion
+healing VII-2
+pool
+
+Connor
+Manual_Godhome_Eszenn
+Hiveblood
+healing VII-3
+pool
+
+TzufRougelike
+Ocarina of Time
+Bottle with Red Potion
+healing VII-4
+pool
+
+BennyRogue
+Rogue Legacy
+Vampire Runes
+healing VIII-1
+pool
+
+Sylsko
+Astalon
+Blood Chalice
+healing VIII-2
+pool
+
+MiroRogue
+Hollow Knight
+Hiveblood
+healing VIII-3
+pool
+
+Sylsko
+Ender Lilies
+Priestess' Wish
+healing VIII-4
+pool
+
+Caesius
+Pokemon Emerald
+Super Potion
+healing IX-1
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Second Wind
+healing IX-2
+pool
+
+hecate.mp3
+TUNIC
+Potion Flask
+healing IX-3
+pool
+
+SansEmeraldRL
+Pokemon Emerald
+Leftovers
+healing X-1
+pool
+
+Caesius
+Pokemon Emerald
+Super Potion
+healing X-2
+pool
+
+Fore772
+TUNIC
+Hero Relic - POTION
+healing X-3
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Disable Atmosfear Mod
+fearless I-1
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Disable Spooky Mod
+fearless I-2
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Disable Malice Mod
+fearless II-1
+pool
+
+Jake13Snake
+Adventure
+Right Difficulty Switch
+challenge I-1
+pool
+
+Jake13Snake
+Adventure
+Left Difficulty Switch
+challenge III-1
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Skill Level 3
+challenge V-1
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Disable Fast Monsters
+challenge X-1
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Brighter Gamma
+sight I-1
+pool
+
+Rouginater
+Meritous
+Ethereal Monocle
+sight II-1
+pool
+
+Slipomatic_SM
+Super Metroid
+X-Ray Scope
+sight II-2
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Allow Using Automap
+sight III-1
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Loot & Scoot
+speed I-1
+pool
+
+Jake13Snake
+Adventure
+Slow Yorgle
+speed I-2
+pool
+
+Grimore
+A Hat in Time
+Fast Hatter Badge
+speed I-3
+pool
+
+jf-rogue
+Hollow Knight
+Dashmaster
+speed I-4
+pool
+
+hecate.mp3
+Outer Wilds
+Boost Duration Upgrade
+speed II-1
+pool
+
+Ravanan
+Super Metroid
+Hi-Jump Boots
+speed II-2
+pool
+
+jf-rogue
+Hollow Knight
+Sprintmaster
+speed II-3
+pool
+
+Jake13Snake
+Adventure
+Slow Grundle
+speed II-4
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Quickstep
+speed II-5
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+High Jump
+speed III-1
+pool
+
+RndGuy
+Hollow Knight
+Dashmaster
+speed III-2
+pool
+
+Sylsko
+Astalon
+Icarus Emblem
+speed IV-1
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Quickstep
+speed IV-2
+pool
+
+RndGuy
+Hollow Knight
+Sprintmaster
+speed IV-3
+pool
+
+Toto
+Hollow Knight
+Sprintmaster
+speed IV-4
+pool
+
+hecate.mp3
+Outer Wilds
+Fuel Capacity Upgrade
+speed V-1
+pool
+
+JoyTheBard
+Super Mario 64
+Dive
+speed V-2
+pool
+
+Jake13Snake
+Adventure
+Slow Rhindle
+speed V-3
+pool
+
+JoyTheBard
+Outer Wilds
+Fuel Capacity Upgrade
+speed V-4
+pool
+
+JoyTheBard
+Outer Wilds
+Boost Duration Upgrade
+speed VI-1
+pool
+
+jf-rogue
+Rogue Legacy
+Haste Runes
+speed VI-2
+pool
+
+hecate.mp3
+Outer Wilds
+Boost Duration Upgrade
+speed VI-3
+pool
+
+JoyTheBard
+Outer Wilds
+Fuel Capacity Upgrade
+speed VII-1
+pool
+
+TzufRougelike
+Hollow Knight
+Quick_Slash
+speed VII-2
+pool
+
+JoyTheBard
+Outer Wilds
+Boost Duration Upgrade
+speed VII-3
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Loot & Scoot
+speed VII-4
+pool
+
+hecate.mp3
+Outer Wilds
+Fuel Capacity Upgrade
+speed VII-5
+pool
+
+Connor
+Hollow Knight
+Quick_Slash
+speed VII-6
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Sneak
+stealth I-1
+pool
+
+JoyTheBard
+The Witness
+Puzzle Skip
+stealth I-2
+pool
+
+Sylsko
+TUNIC
+Muffling Bell
+stealth II-1
+pool
+
+Fore772
+TUNIC
+Muffling Bell
+stealth II-2
+pool
+
+JoyTheBard
+The Witness
+Puzzle Skip
+stealth II-3
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Sneak
+stealth IV-1
+pool
+
+hecate.mp3
+TUNIC
+Muffling Bell
+stealth V-1
+pool
+
+JoyTheBard
+The Witness
+Puzzle Skip
+stealth V-2
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Sneak
+stealth VI-1
+pool
+
+Slipomatic_SM
+Super Metroid
+Charge Beam
+progressive II-1
+pool
+
+Slipomatic_SM
+Super Metroid
+Spazer Beam
+progressive II-2
+pool
+
+JoyTheBard
+Outer Wilds
+Oxygen Capacity Upgrade
+breath I-1
+pool
+
+hecate.mp3
+Outer Wilds
+Oxygen Capacity Upgrade
+breath I-2
+pool
+
+JoyTheBard
+Outer Wilds
+Oxygen Capacity Upgrade
+breath II-1
+pool
+
+hecate.mp3
+Outer Wilds
+Oxygen Capacity Upgrade
+breath II-2
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Stability
+dangerous areas III-1
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Stability
+dangerous areas III-2
+pool
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Stability
+dangerous areas IX-1
+pool
+
+jf-rogue
+Muse Dash
+Music Sheet
+macguffins II-1
+pool
+
+jf-rogue
+Muse Dash
+Music Sheet
+macguffins III-1
+pool
+
+jf-rogue
+Muse Dash
+Music Sheet
+macguffins VII-1
+pool
+
+jf-rogue
+Muse Dash
+Music Sheet
+macguffins VII-2
+pool
+
+jf-rogue
+Muse Dash
+Music Sheet
+macguffins VIII-1
+pool
+
+hecate.mp3
+ULTRAKILL
+Revolver - Marksman
+price I-1
+pool
+
+Panda_Rogue
+Minecraft
+4 Diamond Ore
+price I-2
+pool
+
+Panda_Rogue
+Minecraft
+4 Diamond Ore
+price II-1
+pool
+
+Panda_Rogue
+Minecraft
+4 Diamond Ore
+price II-2
+pool
+
+Caesius
+Minecraft
+8 Gold Ore
+price III-1
+pool
+
+Rouginater
+Minecraft
+4 Diamond Ore
+price III-2
+pool
+
+Rouginater
+Minecraft
+4 Diamond Ore
+price IV-1
+pool
+
+Sylsko
+Astalon
+Amulet of Sol
+price VI-1
+pool
+
+MiroRogue
+Minecraft
+4 Diamond Ore
+price VI-2
+pool
+
+Sylsko
+Ender Lilies
+Furious Blight x800
+price VII-1
+pool
+
+ChromaNyan
+Minecraft
+4 Diamond Ore
+price IX-1
+pool
+
+Sylsko
+TUNIC
+Money x255
+price IX-2
+pool
+
+Caesius
+Minecraft
+4 Diamond Ore
+price XI-1
+pool
+
+Rouginater
+Minecraft
+4 Diamond Ore
+price XI-2
+pool
+
+Brynatron
+Hollow Knight
+Fragile_Greed
+price XII-1
+pool
+
+ChromaNyan
+Minecraft
+4 Diamond Ore
+price XIII-1
+pool
+
+Sylsko
+Ender Lilies
+Stagnant Blight x800
+price XIII-2
+pool
+
+CrystalOoT
+Ocarina of Time
+Huge Rupee
+price XV-1
+pool
+
+Sylsko
+TUNIC
+Money x255
+price XVI-1
+pool
+
+Rouginater
+Meritous
+Crystal Gatherer
+price XVI-2
+pool
+
+hecate.mp3
+TUNIC
+DEF Offering
+defense I-1
+pool
+
+TzufRougelike
+A Link to the Past
+Red Mail
+defense I-2
+pool
+
+hecate.mp3
+TUNIC
+Shield
+defense II-1
+pool
+
+BennyRogue
+Rogue Legacy
+Armor Up
+defense II-2
+pool
+
+jf-rogue
+Timespinner
+Eternal Crown
+defense II-3
+pool
+
+DiStegRogue
+Ocarina of Time
+Double Defense
+defense III-1
+pool
+
+TzufRougelike
+Ocarina of Time
+Double Defense
+defense III-2
+pool
+
+Rouginater
+Minecraft
+Progressive Armor
+defense IV-1
+pool
+
+Connor
+Timespinner
+Eternal Coat
+defense IV-2
+pool
+
+Maxor
+A Link to the Past
+Progressive Armor
+defense IV-3
+pool
+
+Caesius
+Ocarina of Time
+Nayrus Love
+defense V-1
+pool
+
+Grimore
+Timespinner
+Eternal Coat
+defense V-2
+pool
+
+Rezalex
+A Link to the Past
+Progressive Mail
+defense VI-1
+pool
+
+TzufRougelike
+Ocarina of Time
+Hylian Shield
+defense VI-2
+pool
+
+Connor
+Undertale
+temy armor
+defense VII-1
+pool
+
+TzufRougelike
+A Link to the Past
+Progressive Shield Upgrade
+defense VII-2
+pool
+
+Fore772
+TUNIC
+Shield
+defense VIII-1
+pool
+
+Sylsko
+TUNIC
+Hero Relic - DEF
+defense VIII-2
+pool
+
+Caesius
+Ocarina of Time
+Double Defense
+defense IX-1
+pool
+
+superfid
+A Link to the Past
+Progressive Mail
+defense IX-2
+pool
+
+SunCat
+Timespinner
+Eternal Crown
+defense IX-3
+pool
+
+Rezalex
+A Link to the Past
+Progressive Mail
+defense X-1
+pool
+
+MiroRogue
+Timespinner
+Eternal Coat
+defense X-2
+pool
+
+DeathclawCavern
+Timespinner
+Eternal Crown
+defense X-3
+pool
+
+CrystalOoT
+Ocarina of Time
+Double Defense
+defense XI-1
+pool
+
+DeathclawCavern
+Timespinner
+Eternal Coat
+defense XI-2
+pool
+
+DeathclawCavern
+Ocarina of Time
+Nayrus Love
+defense XII-1
+pool
+
+MiroRogue
+Timespinner
+Eternal Crown
+defense XII-2
+pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Shield Weapon
+defense XII-3
+pool
+
+superfid
+Timespinner
+Eternal Coat
+defense XIII-1
+pool
+
+DiStegRogue
+A Link to the Past
+Progressive Mail
+defense XIII-2
+pool
+
+Panda_Rogue
+Minecraft
+Progressive Armor
+defense XIII-3
+pool
+
+superfid
+Timespinner
+Eternal Crown
+defense XIV-1
+pool
+
+DiStegRogue
+Ocarina of Time
+Nayrus Love
+defense XIV-2
+pool
+
+hecate.mp3
+TUNIC
+DEF Offering
+defense XIV-3
+pool
+
+Caesius
+Timespinner
+Eternal Coat
+defense XV-1
+pool
+
+TzufRougelike
+A Link to the Past
+Blue Mail
+defense XV-2
+pool
+
+Caesius
+Timespinner
+Eternal Crown
+defense XVI-1
+pool
+
+DiStegRogue
+Ocarina of Time
+Hylian Shield
+defense XVI-2
+pool
+
+TzufRougelike
+A Link to the Past
+Progressive Shield Upgrade
+defense XVI-3
+pool
+
+CrystalOoT
+Ocarina of Time
+Nayrus Love
+defense XVII-1
+pool
+
+MiroRogue
+Minecraft
+Progressive Armor
+defense XVII-2
+pool
+
+Brynatron
+Terraria
+Reward: Cobalt Shield
+defense XVIII-1
+pool
+
+Fore772
+TUNIC
+Hero Relic - DEF
+defense XVIII-2
+pool
+
+Connor
+Timespinner
+Eternal Crown
+defense XIX-1
+pool
+
+SunCat
+Timespinner
+Eternal Coat
+defense XIX-2
+pool
+
+DeathclawCavern
+Ocarina of Time
+Double Defense
+defense XX-1
+pool
+
+Sylsko
+Timespinner
+Eternal Coat
+defense XX-2
+pool
+
+MiroRogue
+A Hat in Time
+No Bonk Badge
+careful movement I-1
+pool
+
+hecate.mp3
+TUNIC
+Bone Card
+careful movement II-1
+pool
+
+Grimore
+A Hat in Time
+No Bonk Badge
+careful movement II-2
+pool
+
+jf-rogue
+A Hat in Time
+No Bonk Badge
+careful movement II-3
+pool
+
+hecate.mp3
+Outer Wilds
+Autopilot
+careful movement III-1
+pool
+
+Fore772
+TUNIC
+Bone Card
+careful movement III-2
+pool
+
+Fore772
+A Hat in Time
+No Bonk Badge
+careful movement III-3
+pool
+
+hecate.mp3
+Outer Wilds
+Velocity Matcher
+careful movement IV-1
+pool
+
+HPfunman
+Kingdom Hearts
+Dodge Roll
+careful movement IV-2
+pool
+
+hecate.mp3
+TUNIC
+ATT Offering
+attack I-1
+pool
+
+Grimore
+Timespinner
+Empire Crown
+attack I-2
+pool
+
+ChromaNyan
+Minecraft
+Sharpness III Book
+attack II-1
+pool
+
+Connor
+Hollow Knight
+Fragile_Strength
+attack II-2
+pool
+
+Fore772
+TUNIC
+Hero Relic - ATT
+attack II-3
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Damage Up
+attack II-4
+pool
+
+Sylsko
+Timespinner
+Empire Crown
+attack III-1
+pool
+
+Toto
+Hollow Knight
+Pale_Ore
+attack III-2
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Chance Up
+attack III-3
+pool
+
+RndGuy
+Hollow Knight
+Fragile_Strength
+attack III-4
+pool
+
+jf-rogue
+Hollow Knight
+Fragile_Strength
+attack III-5
+pool
+
+Sylsko
+TUNIC
+Hero Relic - ATT
+attack IV-1
+pool
+
+MiroRogue
+Hollow Knight
+Fragile_Strength
+attack IV-2
+pool
+
+MiroRogue
+Minecraft
+Sharpness III Book
+attack IV-3
+pool
+
+TzufRougelike
+Hollow Knight
+Fragile_Strength
+attack V-1
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Chance Up
+attack V-2
+pool
+
+BennyRogue
+Rogue Legacy
+Crit Chance Up
+attack VI-1
+pool
+
+BennyRogue
+Rogue Legacy
+Crit Damage Up
+attack VI-2
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Damage Up
+attack VI-3
+pool
+
+hecate.mp3
+TUNIC
+ATT Offering
+attack VI-4
+pool
+
+Caesius
+Minecraft
+Sharpness III Book
+attack VII-1
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Chance Up
+attack VII-2
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Damage Up
+attack VII-3
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Chance Up
+attack VIII-1
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Damage Up
+attack IX-1
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Chance Up
+attack IX-2
+pool
+
+jf-rogue
+Rogue Legacy
+Crit Damage Up
+attack IX-3
+pool
+
+hecate.mp3
+TUNIC
+SP Offering
+stamina I-1
+pool
+
+hecate.mp3
+TUNIC
+SP Offering
+stamina I-2
+pool
+
+Sylsko
+TUNIC
+Hero Relic - SP
+stamina I-3
+pool
+
+Fore772
+TUNIC
+Hero Relic - SP
+stamina I-4
+pool
+
+hecate.mp3
+TUNIC
+MP Offering
+mana I-1
+pool
+
+Maxor
+A Link to the Past
+Magic Upgrade (1/2)
+mana II-1
+pool
+
+Sylsko
+Timespinner
+Max Aura
+mana II-2
+pool
+
+Rezalex
+A Link to the Past
+Magic Upgrade (1/2)
+mana II-3
+pool
+
+Sylsko
+Timespinner
+Max Aura
+mana III-1
+pool
+
+Sylsko
+Timespinner
+Max Aura
+mana III-2
+pool
+
+BennyRogue
+Rogue Legacy
+Siphon Runes
+mana IV-1
+pool
+
+hecate.mp3
+TUNIC
+MP Offering
+mana IV-2
+pool
+
+Sylsko
+TUNIC
+Hero Relic - MP
+mana IV-3
+pool
+
+superfid
+A Link to the Past
+Magic Upgrade (1/2)
+mana V-1
+pool
+
+Grimore
+Timespinner
+Max Aura
+mana V-2
+pool
+
+Grimore
+Timespinner
+Max Aura
+mana V-3
+pool
+
+Grimore
+Timespinner
+Max Aura
+mana VI-1
+pool
+
+MiroRogue
+Timespinner
+Max Aura
+mana VI-2
+pool
+
+Rouginater
+Minecraft
+Shulker Box
+slots I-1
+pool
+
+ChromaNyan
+Minecraft
+Shulker Box
+slots I-2
+pool
+
+Jake13Snake
+DOOM 1993
+Backpack
+slots I-3
+pool
+
+MiroRogue
+Minecraft
+Shulker Box
+slots I-4
+pool
+
+jf-rogue
+Hollow Knight
+Charm_Notch
+slots I-5
+pool
+
+Sylsko
+Ender Lilies
+Chain of Sorcery
+slots I-6
+pool
+
+MiroRogue
+A Hat in Time
+Badge Pin
+slots I-7
+pool
+
+Sylsko
+Ender Lilies
+Chain of Sorcery
+slots I-8
+pool
+
+hecate.mp3
+TUNIC
+Card Slot
+slots II-1
+pool
+
+Panda_Rogue
+Minecraft
+Shulker Box
+slots II-2
+pool
+
+ChromaNyan
+Minecraft
+Shulker Box
+slots II-3
+pool
+
+TzufRougelike
+Hollow Knight
+Charm_Notch
+slots II-4
+pool
+
+BennyRogue
+Rogue Legacy
+Equip Up
+slots II-5
+pool
+
+Sylsko
+Timespinner
+Jewelry Box
+slots III-1
+pool
+
+MiroRogue
+Hollow Knight
+Charm_Notch
+slots III-2
+pool
+
+jf-rogue
+Hollow Knight
+Charm_Notch
+slots III-3
+pool
+
+jf-rogue
+Hollow Knight
+Charm_Notch
+slots IV-1
+pool
+
+Grimore
+A Hat in Time
+Badge Pin
+slots IV-2
+pool
+
+Fore772
+A Hat in Time
+Badge Pin
+slots IV-3
+pool
+
+Sylsko
+Ender Lilies
+Chain of Sorcery
+slots IV-4
+pool
+
+Grimore
+A Hat in Time
+Badge Pin
+slots IV-5
+pool
+
+ChromaNyan
+Minecraft
+16 Porkchops
+food I-1
+pool
+
+Caesius
+Minecraft
+16 Porkchops
+food I-2
+pool
+
+Caesius
+Minecraft
+16 Porkchops
+food I-3
+pool
+
+MiroRogue
+Minecraft
+16 Porkchops
+food I-4
+pool
+
+Caesius
+Pokemon Emerald
+Revive
+second chance I-1
+pool
+
+DeathclawCavern
+Ocarina of Time
+Bottle
+second chance I-2
+pool
+
+MiroRogue
+Pokemon Emerald
+Max Revive
+second chance II-1
+pool
+
+Caesius
+Pokemon Emerald
+Revive
+second chance II-2
+pool
+
+Maxor
+A Link to the Past
+Bottle
+second chance II-3
+pool
+
+Rouginater
+Manual_PeggleNights_Freezinater
+Renfield
+second chance III-1
+pool
+
+superfid
+A Link to the Past
+Bottle
+second chance III-2
+pool
+
+Maxor
+A Link to the Past
+Bug Catching Net
+second chance III-3
+pool
+
+Maxor
+A Link to the Past
+Bottle
+second chance III-4
+pool
+
+Rezalex
+A Link to the Past
+Bug Catching Net
+second chance IV-1
+pool
+
+CrystalOoT
+Ocarina of Time
+Bottle
+second chance IV-2
+pool
+
+jf-rogue
+Rogue Legacy
+Death Defiance
+second chance IV-3
+pool
+
+Rezalex
+A Link to the Past
+Bottle
+second chance IV-4
+pool
+
+DiStegRogue
+A Link to the Past
+Bottle
+second chance V-1
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Second Chance
+second chance V-2
+pool
+
+TzufRougelike
+Super Metroid
+Reserve Tank
+second chance V-3
+pool
+
+Slipomatic_SM
+Super Metroid
+Reserve Tank
+second chance VI-1
+pool
+
+DiStegRogue
+Ocarina of Time
+Bottle with Red Potion
+second chance VI-2
+pool
+
+Rezalex
+A Link to the Past
+Magic Powder
+second chance VI-3
+pool
+
+Rezalex
+A Link to the Past
+Bottle
+second chance VI-4
+pool
+
+Caesius
+Pokemon Emerald
+Revive
+second chance VII-1
+pool
+
+Caesius
+Pokemon Emerald
+Revive
+second chance VII-2
+pool
+
+Caesius
+Pokemon Emerald
+Sacred Ash
+second chance VIII-1
+pool
+
+Caesius
+Pokemon Emerald
+Revive
+second chance VIII-2
+pool
+
+HPfunman
+Kingdom Hearts
+Second Chance
+second chance VIII-3
+pool
+
+Maxor
+A Link to the Past
+Bottle
+second chance VIII-4
+pool
+
+CrystalOoT
+Ocarina of Time
+Bottle
+second chance IX-1
+pool
+
+Rouginater
+Manual_PeggleDeluxe_Freezinater
+Renfield
+second chance IX-2
+pool
+
+Toto
+Slay the Spire
+Card Draw
+choice I-1
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice I-2
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice I-3
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice I-4
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice I-5
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice I-6
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice II-1
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice II-2
+non_pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Free Choice of Map
+choice II-3
+pool
+
+Toto
+Slay the Spire
+Rare Card Draw
+choice II-4
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice III-1
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice III-2
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice III-3
+non_pool
+
+Toto
+Slay the Spire
+Card Draw
+choice III-4
+non_pool
+
+Toto
+Slay the Spire
+Rare Card Draw
+choice III-5
+non_pool
+
+Toto
+Slay the Spire
+Rare Card Draw
+choice IV-1
+non_pool
+
+HPfunman
+Slay the Spire
+Rare Card Draw
+choice IV-2
+pool
+
+HPfunman
+Slay the Spire
+Rare Card Draw
+choice IV-3
+pool
+
+Alex230
+Manual_SingleLevelRoguelike2_Alexander230
+Allow Free Saves and Loads
+rest I-1
+pool
+
+superfid
+DLCQuest
+Checkpoint Pack
+rest I-2
+pool
+
+JoyTheBard
+DLCQuest
+Checkpoint Pack
+rest II-1
+pool
+
+superfid
+DLCQuest
+Pause Menu Pack
+rest II-2
+pool
+
+MiroRogue
+DLCQuest
+Checkpoint Pack
+rest II-3
+pool
+
+hecate.mp3
+ULTRAKILL
+Nailgun - JumpStart
+electricity I-1
+pool
+
+hecate.mp3
+ULTRAKILL
+Railcannon - Electric
+electricity I-2
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Ramuh
+electricity I-3
+pool
+
+Connor
+Manual_Godhome_Eszenn
+Fury of the Fallen
+low HP I-1
+pool
+
+DiStegRogue
+Pokemon Emerald
+Exp. Share
+XP I-1
+pool
+
+Caesius
+Pokemon Emerald
+Rare Candy
+XP I-2
+pool
+
+Sylsko
+Timespinner
+Galaxy Earrings
+XP II-1
+pool
+
+MiroRogue
+Timespinner
+Galaxy Earrings
+XP II-2
+pool
+
+jf-rogue
+Timespinner
+Galaxy Earrings
+XP III-1
+pool
+
+SunCat
+Timespinner
+Galaxy Earrings
+XP III-2
+pool
+
+MiroRogue
+Pokemon Emerald
+Exp. Share
+XP V-1
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+EXP Walker
+XP V-2
+pool
+
+Caesius
+Pokemon Emerald
+Rare Candy
+XP VI-1
+pool
+
+Grimore
+Timespinner
+Galaxy Earrings
+XP VI-2
+pool
+
+superfid
+Timespinner
+Galaxy Earrings
+XP VII-1
+pool
+
+Caesius
+Timespinner
+Galaxy Earrings
+XP VIII-1
+pool
+
+Caesius
+Pokemon Emerald
+Rare Candy
+XP XI-1
+pool
+
+SansEmeraldRL
+Pokemon Emerald
+Exp. Share
+XP XII-1
+pool
+
+Caesius
+Pokemon Emerald
+Rare Candy
+XP XII-2
+pool
+
+Connor
+Timespinner
+Galaxy Earrings
+XP XIII-1
+pool
+
+Caesius
+Pokemon Emerald
+Rare Candy
+XP XIII-2
+pool
+
+DiStegRogue
+Pokemon Red and Blue
+Exp. All
+XP XIV-1
+pool
+
+DiStegRogue
+Ocarina of Time
+Biggoron Sword
+melee weapon I-1
+pool
+
+DragoRogue2
+EarthBound
+Progressive Bat
+melee weapon I-2
+pool
+
+TzufRougelike
+Ocarina of Time
+Biggoron Sword
+melee weapon I-3
+pool
+
+DeathclawCavern
+Timespinner
+Star of Lachiem
+melee weapon II-1
+pool
+
+jf-rogue
+Timespinner
+Star of Lachiem
+melee weapon II-2
+pool
+
+DragoRogue2
+EarthBound
+Progressive Fry Pan
+melee weapon II-3
+pool
+
+DragoRogue2
+EarthBound
+Progressive Bat
+melee weapon III-1
+pool
+
+BennyRogue
+Rogue Legacy
+Sky Blueprints
+melee weapon III-2
+pool
+
+BennyRogue
+Rogue Legacy
+Dragon Blueprints
+melee weapon IV-1
+pool
+
+Jake13Snake
+DOOM 1993
+Chainsaw
+melee weapon IV-2
+pool
+
+DragoRogue2
+EarthBound
+Progressive Fry Pan
+melee weapon IV-3
+pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Polearm Weapon
+melee weapon IV-4
+pool
+
+DeathclawCavern
+Ocarina of Time
+Biggoron Sword
+melee weapon V-1
+pool
+
+superfid
+A Link to the Past
+Progressive Sword
+melee weapon V-2
+pool
+
+JoyTheBard
+Super Mario 64
+Kick
+melee weapon V-3
+pool
+
+DiStegRogue
+A Link to the Past
+Progressive Sword
+melee weapon VI-1
+pool
+
+Caesius
+Ocarina of Time
+Biggoron Sword
+melee weapon VII-1
+pool
+
+DragoRogue2
+EarthBound
+Progressive Fry Pan
+melee weapon VII-2
+pool
+
+Maxor
+A Link to the Past
+Progressive Sword
+melee weapon VII-3
+pool
+
+Rezalex
+A Link to the Past
+Progressive Sword
+melee weapon VII-4
+pool
+
+DiStegRogue
+A Link to the Past
+Progressive Sword
+melee weapon VIII-1
+pool
+
+DragoRogue2
+EarthBound
+Progressive Fry Pan
+melee weapon VIII-2
+pool
+
+Caesius
+Timespinner
+Star of Lachiem
+melee weapon IX-1
+pool
+
+Brynatron
+Hollow Knight
+Nailmaster's_Glory
+melee weapon IX-2
+pool
+
+DragoRogue2
+EarthBound
+Progressive Fry Pan
+melee weapon IX-3
+pool
+
+MiroRogue
+Timespinner
+Star of Lachiem
+melee weapon IX-4
+pool
+
+CrystalOoT
+Ocarina of Time
+Biggoron Sword
+melee weapon X-1
+pool
+
+Brynatron
+Hollow Knight
+Great_Slash
+melee weapon X-2
+pool
+
+TzufRougelike
+Hollow Knight
+Mark_of_Pride
+melee weapon X-3
+pool
+
+Connor
+Hollow Knight
+Mark_of_Pride
+melee weapon X-4
+pool
+
+DragoRogue2
+EarthBound
+Progressive Bat
+melee weapon XI-1
+pool
+
+Maxor
+A Link to the Past
+Progressive Sword
+melee weapon XI-2
+pool
+
+Connor
+Manual_Godhome_Eszenn
+Grubsong
+revenge I-1
+pool
+
+Sylsko
+TUNIC
+Magic Dagger
+ice I-1
+pool
+
+superfid
+Secret of Evermore
+30 Cryo Blast
+ice II-1
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Shiva
+ice II-2
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Ifrit
+beast I-1
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Bahamut
+beast I-2
+pool
+
+DiStegRogue
+A Link to the Past
+Bug Catching Net
+beast I-3
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Odin
+god I-1
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Leviathan
+water I-1
+pool
+
+Caesius
+Ocarina of Time
+Zora Tunic
+water I-2
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Knights of the Round
+army II-1
+pool
+
+Connor
+Manual_SquareMusic_Connor
+Alexander
+robot I-1
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck I-1
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck I-2
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck I-3
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck I-4
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck I-5
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck I-6
+pool
+
+Caesius
+Minecraft
+Looting III Book
+luck II-1
+pool
+
+MiroRogue
+Minecraft
+Looting III Book
+luck II-2
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck II-3
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck II-4
+pool
+
+ChromaNyan
+Minecraft
+Looting III Book
+luck II-5
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck II-6
+pool
+
+DragoRogue2
+Pokemon Red and Blue
+Master Ball
+luck II-7
+pool
+
+Sylsko
+TUNIC
+Dath Stone
+travel I-1
+pool
+
+DeathclawCavern
+Ocarina of Time
+Farores Wind
+travel I-2
+pool
+
+DiStegRogue
+Pokemon Emerald
+HM02 Fly
+travel I-3
+pool
+
+CrystalOoT
+Ocarina of Time
+Farores Wind
+travel II-1
+pool
+
+SunCat
+Pokemon Emerald
+HM02 Fly
+travel II-2
+pool
+
+TzufRougelike
+Ocarina of Time
+Farores Wind
+travel II-3
+pool
+
+Brynatron
+Terraria
+Reward: Rod of Discord
+travel III-1
+pool
+
+DiStegRogue
+Pokemon Red and Blue
+Thunder Badge
+travel III-2
+pool
+
+SansEmeraldRL
+Pokemon Emerald
+HM02 Fly
+travel IV-1
+pool
+
+DiStegRogue
+Pokemon Red and Blue
+HM02 Fly
+travel IV-2
+pool
+
+Toto
+Slay the Spire
+Relic
+utility II-1
+non_pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Ring Artifact
+utility II-2
+pool
+
+Toto
+Slay the Spire
+Relic
+utility III-1
+non_pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Ring Artifact
+utility III-2
+pool
+
+HPfunman
+Slay the Spire
+Boss Relic
+utility III-3
+pool
+
+Rouginater
+Meritous
+Portable Compass
+utility IV-1
+pool
+
+Toto
+Slay the Spire
+Relic
+utility V-1
+non_pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Ring Artifact
+utility V-2
+pool
+
+HPfunman
+Slay the Spire
+Boss Relic
+utility VI-1
+pool
+
+Broney
+Manual_Angband425_Broney
+Progressive Ring Artifact
+utility VI-2
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time I-1
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time I-2
+pool
+
+Sylsko
+Timespinner
+Max Sand
+time I-3
+pool
+
+Caesius
+Timespinner
+Max Sand
+time II-1
+pool
+
+jf-rogue
+Timespinner
+Max Sand
+time II-2
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time II-3
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time II-4
+pool
+
+Caesius
+Timespinner
+Max Sand
+time II-5
+pool
+
+Sylsko
+Timespinner
+Max Sand
+time III-1
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time III-2
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time III-3
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-10s)
+time IV-1
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time IV-2
+pool
+
+jf-rogue
+Timespinner
+Max Sand
+time IV-3
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-10s)
+time IV-4
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time V-1
+pool
+
+Sylsko
+Timespinner
+Max Sand
+time V-2
+pool
+
+jf-rogue
+Timespinner
+Max Sand
+time V-3
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time V-4
+pool
+
+Caesius
+Timespinner
+Max Sand
+time V-5
+pool
+
+Caesius
+Timespinner
+Max Sand
+time VI-1
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-10s)
+time VI-2
+pool
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-5s)
+time VI-3
+pool
+
+jf-rogue
+Timespinner
+Max Sand
+time VI-4
+pool
+
+Rouginater
+Manual_PeggleDeluxe_Freezinater
+Tula
+sun I-1
+pool
+
+Rouginater
+Manual_PeggleNights_Freezinater
+Tula
+sun I-2
+pool
+
+ChromaNyan
+Minecraft
+Infinity Book
+copy I-1
+pool
+
+Rouginater
+Manual_PeggleNights_Freezinater
+Jimmy Lightning
+copy I-2
+pool
+
+MiroRogue
+Minecraft
+Infinity Book
+copy II-1
+pool
+
+Rouginater
+Manual_PeggleDeluxe_Freezinater
+Jimmy Lightning
+copy II-2
+pool
+
+Caesius
+Minecraft
+Infinity Book
+copy III-1
+pool
+
+DeathclawCavern
+Timespinner
+Shattered Orb
+fragment III-1
+pool
+
+superfid
+Timespinner
+Shattered Orb
+fragment III-2
+pool
+
+HPfunman
+Kingdom Hearts
+Cosmic Arts
+uncategorized I-1
+pool
+
+rhythm.ET2
+Dome Keeper
+Repellent delay
+uncategorized I-2
+pool
+
+HPfunman
+Kingdom Hearts
+Progressive Cure
+uncategorized I-3
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Leaf Bracer
+uncategorized II-1
+pool
+
+jf-rogue
+Rogue Legacy
+Slayer Blueprints
+uncategorized II-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Rhythm Mixer
+uncategorized II-3
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Critical Impact
+uncategorized II-4
+pool
+
+superfid
+Pseudoregalia
+Martial Prowess
+uncategorized III-1
+pool
+
+rhythm.ET2
+Manual_RatchetAndClankUYA_Rhythm
+Nano-Pak
+uncategorized III-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Rockbreaker
+uncategorized III-3
+pool
+
+rhythm.ET2
+Dome Keeper
+Artillery mortar
+uncategorized IV-1
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Zack D-Link
+uncategorized IV-2
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Experiment 626 D-Link
+uncategorized IV-3
+pool
+
+jf-rogue
+A Hat in Time
+Yarn
+uncategorized IV-4
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+HP Boost
+uncategorized IV-5
+pool
+
+ChromaNyan
+Manual_SuperCatTales_ChromaNyan
+Single-Use Golden Cat
+uncategorized V-1
+pool
+
+ChromaNyan
+Manual_SuperCatTales_ChromaNyan
+Mr. Cloud
+uncategorized V-2
+pool
+
+superfid
+Pseudoregalia
+Good Graces
+uncategorized V-3
+pool
+
+superfid
+Pseudoregalia
+Indignation
+uncategorized V-4
+pool
+
+rhythm.ET2
+Dome Keeper
+Drill upgrade
+uncategorized V-5
+pool
+
+rhythm.ET2
+Manual_RatchetAndClankUYA_Rhythm
+Charge Boots
+uncategorized V-6
+pool
+
+Jake13Snake
+DOOM 1993
+BFG9000
+uncategorized VI-1
+pool
+
+HPfunman
+Kingdom Hearts
+Progressive Aero
+uncategorized VI-2
+pool
+
+rhythm.ET2
+Dome Keeper
+Artillery mortar
+uncategorized VI-3
+pool
+
+HPfunman
+Kingdom Hearts
+Progressive Aero
+uncategorized VI-4
+pool
+
+jf-rogue
+A Hat in Time
+Yarn
+uncategorized VI-5
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Diamond Dust
+uncategorized VI-6
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+High Jump
+uncategorized VI-7
+pool
+
+jf-rogue
+A Hat in Time
+Yarn
+uncategorized VII-1
+pool
+
+ChromaNyan
+Manual_SuperCatTales_ChromaNyan
+Golden Bat
+uncategorized VII-2
+pool
+
+ChromaNyan
+Manual_SuperCatTales_ChromaNyan
+Ghost
+uncategorized VII-3
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Dark Impulse
+uncategorized VII-4
+pool
+
+rhythm.ET2
+Dome Keeper
+Fruit duration
+uncategorized VIII-1
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Eggman - Laser Blaster
+uncategorized VIII-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Cyclone
+uncategorized VIII-3
+pool
+
+superfid
+Timespinner
+Radiant Orb
+uncategorized IX-1
+pool
+
+rhythm.ET2
+Dome Keeper
+Drill upgrade
+uncategorized IX-2
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Knuckles - Mystic Melody
+uncategorized IX-3
+pool
+
+rhythm.ET2
+Manual_RatchetAndClankUYA_Rhythm
+Aegis Mark V Armor
+uncategorized IX-4
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Eggman - Protective Armor
+uncategorized IX-5
+pool
+
+jf-rogue
+A Hat in Time
+Yarn
+uncategorized X-1
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Tails - Laser Blaster
+uncategorized X-2
+pool
+
+rhythm.ET2
+Dome Keeper
+Jetpack upgrade
+uncategorized X-3
+pool
+
+HPfunman
+Kingdom Hearts
+Leaf Bracer
+uncategorized X-4
+pool
+
+jf-rogue
+A Hat in Time
+Hookshot Badge
+uncategorized XI-1
+pool
+
+HPfunman
+Kingdom Hearts
+Progressive Aero
+uncategorized XI-2
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Once More
+uncategorized XI-3
+pool
+
+rhythm.ET2
+Manual_RatchetAndClankUYA_Rhythm
+Infernox Armor
+uncategorized XI-4
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Firestorm
+uncategorized XI-5
+pool
+
+Brynatron
+Terraria
+Reward: Black Belt
+uncategorized XII-1
+pool
+
+rhythm.ET2
+Dome Keeper
+Repellent overcharge
+uncategorized XII-2
+pool
+
+SunCat
+Timespinner
+Chaos Horn
+uncategorized XII-3
+pool
+
+superfid
+Pseudoregalia
+Good Graces
+uncategorized XII-4
+pool
+
+ChromaNyan
+Manual_SuperCatTales_ChromaNyan
+Single-Use Golden Cat
+uncategorized XII-5
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+HP Boost
+uncategorized XII-6
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Shadow - Mystic Melody
+uncategorized XII-7
+pool
+
+Brynatron
+Terraria
+Reward: Lava Charm
+uncategorized XIII-1
+pool
+
+jf-rogue
+Rogue Legacy
+Vault Runes
+uncategorized XIII-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Spellweaver
+uncategorized XIII-3
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Shadow - Air Shoes
+uncategorized XIII-4
+pool
+
+jf-rogue
+Timespinner
+Princess Dress
+uncategorized XIV-1
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Sonic - Mystic Melody
+uncategorized XIV-2
+pool
+
+rhythm.ET2
+Dome Keeper
+Fruit duration
+uncategorized XIV-3
+pool
+
+SunCat
+Timespinner
+Chaos Horn
+uncategorized XIV-4
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Rouge - Treasure Scope
+uncategorized XIV-5
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Peter Pan D-Link
+uncategorized XV-1
+pool
+
+rhythm.ET2
+Dome Keeper
+Drill upgrade
+uncategorized XV-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Frozen Fortune
+uncategorized XV-3
+pool
+
+rhythm.ET2
+Manual_RatchetAndClankUYA_Rhythm
+Gadgetron PDU
+uncategorized XV-4
+pool
+
+jf-rogue
+A Hat in Time
+Yarn
+uncategorized XVI-1
+pool
+
+rhythm.ET2
+Dome Keeper
+Drill upgrade
+uncategorized XVI-2
+pool
+
+superfid
+DLCQuest
+Night Map Pack
+uncategorized XVI-3
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Ghost Drive
+uncategorized XVI-4
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Bladecharge
+uncategorized XVI-5
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Wingblade
+uncategorized XVII-1
+pool
+
+DeathclawCavern
+Timespinner
+Radiant Orb
+uncategorized XVII-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Doubleflight
+uncategorized XVII-3
+pool
+
+rhythm.ET2
+Dome Keeper
+Repellent delay
+uncategorized XVIII-1
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+HP Boost
+uncategorized XVIII-2
+pool
+
+MiroRogue
+Pokemon Emerald
+Max Ether
+uncategorized XVIII-3
+pool
+
+rhythm.ET2
+Dome Keeper
+Jetpack upgrade
+uncategorized XIX-1
+pool
+
+sheen
+Kingdom Hearts Birth by Sleep
+Pete D-Link
+uncategorized XIX-2
+pool
+
+jf-rogue
+A Hat in Time
+Yarn
+uncategorized XIX-3
+pool
+
+SunCat
+Timespinner
+Silence Ring
+uncategorized XIX-4
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+HP Boost
+uncategorized XIX-5
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Fever Pitch
+uncategorized XIX-6
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Rouge - Mystic Melody
+uncategorized XIX-7
+pool
+
+TzufRougelike
+A Link to the Past
+Bug Net
+uncategorized XX-1
+pool
+
+rhythm.ET2
+Sonic Adventure DX
+Eggman - Jet Engine
+uncategorized XX-2
+pool
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Sky Climber
+uncategorized XX-3
+pool

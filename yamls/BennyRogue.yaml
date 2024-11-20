@@ -1,0 +1,89 @@
+name: BennyRogue
+game: 
+  The Witness: 3
+  Rogue Legacy: 3
+
+The Witness:
+  puzzle_randomization: none
+  victory_condition:
+    elevator: 8 # change to 3
+    challenge: 0
+    mountain_box_short: 1 # change to 5
+    mountain_box_long: 6 # change to 4
+    panel_hunt: 5 # change to 3
+  mountain_lasers: random-range-7-11 # change to random-low
+  challenge_lasers: random-range-1-4 # change to random-high
+  panel_hunt_total: random-high # change to random-low
+  panel_hunt_required_percentage: random-high # change to random-low
+  panel_hunt_postgame: disable_challenge_lasers_locations
+  panel_hunt_discourage_same_area_factor: random # change to random-low
+  disable_non_randomized_puzzles: 'false'
+  shuffle_discarded_panels:
+    'true': 6
+    'false': 2 
+  shuffle_vault_boxes: 
+    'true': 6 # decrease to 2
+    'false': 2 # increase to 7
+  shuffle_EPs: 'off'
+  EP_difficulty: normal 
+  shuffle_postgame: 'false' 
+  shuffle_symbols: 'true'
+  shuffle_doors: doors 
+  door_groupings: regional
+  shuffle_boat: 'true'
+  shuffle_lasers: anywhere
+  obelisk_keys: 'false'
+  trap_percentage: random-high # change to random-low
+
+  trap_weights:
+    Bonk: 0
+    Power Surge: 2
+    Slowness: 6
+
+  puzzle_skip_amount: random-low # change to random-high
+  hint_amount: random-low # change to random-high
+  vague_hints: stable 
+  area_hint_percentage: random-range-20-40 # change to random-range-40-60, then random-range-60-80
+  laser_hints: 'false'
+  early_caves: 'off'
+  elevators_come_to_you: 'false'
+  death_link: 'true'
+  death_link_amnesty: 1 # Change to 2, 3, 4, then 5
+  shuffle_dog:
+    puzzle_skip: 1 # increase to 6
+    random_item: 10 
+
+Rogue Legacy:
+  starting_gender: random
+  starting_class: random
+
+  available_classes:
+    ['Barbarian', 'Lich', 'Dragon', 'Knave', 'Miner', 'Spellthief', 'Knight', 'Mage', 'Traitor', 'Shinobi']
+
+  new_game_plus: normal
+  fairy_chests_per_zone: random-low 
+  chests_per_zone: random # change to random-low
+  vendors: normal # change to early
+  architect: anywhere # change to early
+  architect_fee: random-low
+
+  disable_charon:
+    'false': 9 # change to 7
+    'true': 1 # change to 5
+
+  gold_gain_multiplier:
+    normal: 3
+    double: 3
+    quadruple: 1 # change to 3, then to 4
+
+  number_of_children: random-high
+  free_diary_on_generation: 'true'
+  health_pool: random-range-10-15
+  mana_pool: random-range-10-15
+  attack_pool: random-range-10-15
+  magic_damage_pool: random-range-10-15
+  armor_pool: random-range-7-10
+  equip_pool: random-range-7-10
+  crit_chance_pool: random-range-3-5
+  crit_damage_pool: random-range-3-5
+  death_link: 'true'

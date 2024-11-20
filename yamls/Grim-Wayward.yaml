@@ -1,0 +1,335 @@
+name: Grimore
+game: 
+   A Hat in Time: 2
+   Minecraft: 2
+   Noita: 2
+   Sonic Adventure DX: 2
+   Timespinner: 2
+description: In the wet, in the dark, you may one day find the divine.
+A Hat in Time: # YAML Edits: 12
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'true'
+  TrapChance: '25' # Item: Reduce by 5, until value hits 0.
+  BabyTrapWeight: '40'
+  LaserTrapWeight: '10' # Item: reduce to 5, then 0.
+  EndGoal:
+    finale: 20
+    rush_hour: 15
+    seal_the_deal: 75 # Item: Reduce this to 20, then 10, then 2
+  trig_removeDeadlyDWBonuses: no # Item: set to yes
+  LogicDifficulty: normal
+  ShuffleStorybookPages: 'true'
+  ShuffleActContracts: 'true'
+  ShuffleSubconPaintings: 'true'
+  NoPaintingSkips: 'true'
+  ActRandomizer: insanity
+  HighestChapterCost: '20'
+  ChapterCostIncrement: '4'
+  ChapterCostMinDifference: '4'
+  FinalChapterMinCost: '20'
+  FinalChapterMaxCost: '30'
+  TimePieceBalancePercent: '35'
+  UmbrellaLogic: 'true'
+  StartWithCompassBadge: 'true'
+  CompassBadgeMode: closest
+  MaxExtraTimePieces: '16'
+  HatItems: 'true'
+  EnableDLC1: 'true'
+  Tasksanity: 'false'
+  TasksanityTaskStep: '1'
+  TasksanityCheckCount: '18'
+  ExcludeTour: 'false'
+  ShipShapeCustomTaskGoal: '0'
+  EnableDLC2: 'true'
+  NoTicketSkips: 'false'
+  DWShuffle: random
+  DWTimePieceRequirement: random-range-5-20
+  DWShuffleCountMin: '20'
+  DWShuffleCountMax: '38'
+  DWEnableBonus: random
+  DWAutoCompleteBonuses: 'true'
+  DWExcludeAnnoyingContracts: 'false'
+  DWExcludeAnnoyingBonuses: 'false'
+  DWExcludeCandles: 'false'
+  ShuffleAlpineZiplines: random
+  MinPonCost: random-range-10-400
+  MaxPonCost: random-range-400-800
+  BadgeSellerMinItems: random
+  BadgeSellerMaxItems: random
+  FinaleShuffle: random
+  StartingChapter: random
+  LowestChapterCost: random
+  BaseballBat: random
+  MetroMinPonCost: random-range-10-400
+  MetroMaxPonCost: random-range-400-800
+  NyakuzaThugMinShopItems: random
+  NyakuzaThugMaxShopItems: random
+  EnableDeathWish: 'true'
+  exclude_locations:
+  - Seal the Deal - All Clear
+  - Seal the Deal - Main Objective
+Minecraft: # Note: Done. YAML Edits: 12
+  progression_balancing: '50'
+  accessibility: full
+  advancement_goal: '80' # Item: Reduce to 60/40/30
+  egg_shards_required: '20' # Item: Reduce to 15, then 10.
+  egg_shards_available: '20'
+  required_bosses: ender_dragon
+  shuffle_structures: 'true'
+  structure_compasses: 'false' # Item: Set to true.
+  bee_traps: '100' # Item: Reduce to 80/60/40/20/0
+  send_defeated_mobs: 'true' # Item: set to false
+  death_link: 'true'
+Noita: # Note: Finalised. YAML Edits: 5. 
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'true'
+  bad_effects:
+    'false': 10
+    'true': 2
+  victory_condition:
+    greed_ending: 15
+    pure_ending: 25
+  path_option:
+    main_path: 10
+    side_path: 25
+    main_world: 70 # Item: Reduce to 25/10/5
+  hidden_chests: random-range-2-4
+  pedestal_checks: random-range-4-8
+  orbs_as_checks:
+    no_orbs: 5
+    main_path: 15
+    side_path: 10
+  bosses_as_checks:
+    no_bosses: 5 # Item: increase to 20
+    main_path: 25
+    side_path: 10
+  extra_orbs: random-low # Item: Change to random-high. No effect on Greed Ending.
+  shop_price:
+    full_price: 10 # Item: Reduce to 0
+    75_percent_off: 2
+    50_percent_off: 2
+    25_percent_off: 2
+Sonic Adventure DX: # Note: Finalised. Edit count: 16.
+  progression_balancing: '50'
+  accessibility: full
+  death_link: 'true'
+  goal: levels
+  logic_level: normal_logic
+  random_starting_location: 'true'
+  random_starting_location_per_character: 'true'
+  guaranteed_level: 'false'
+  entrance_randomizer: random
+  ring_link: random
+  casinopolis_ring_link: 'false'
+  hard_ring_link: 'false'
+  ring_loss: # Item: Switch to 'classic', then 'modern'
+    one_hit_k_o: 1
+    classic: 0
+    modern: 0
+  playable_sonic: random
+  playable_tails: random
+  playable_knuckles: random
+  playable_amy: random
+  playable_gamma: random
+  playable_big: random
+  sonic_action_stage_missions:
+    c: 1
+    c_b: 1
+    c_b_a: 1
+  tails_action_stage_missions:
+    c: 1
+    c_b: 1
+    c_b_a: 1
+  knuckles_action_stage_missions:
+    c: 1
+    c_b: 1
+    c_b_a: 1
+  amy_action_stage_missions:
+    c: 1
+    c_b: 1
+    c_b_a: 1
+  gamma_action_stage_missions: 
+    c: 1
+    c_b: 1
+    c_b_a: 1
+  big_action_stage_missions: c
+  randomized_sonic_upgrades: 'true'
+  randomized_tails_upgrades: 'true'
+  randomized_knuckles_upgrades: 'true'
+  randomized_amy_upgrades: 'true'
+  randomized_big_upgrades: 'true'
+  randomized_gamma_upgrades: 'true'
+  boss_checks: random
+  unify_chaos4: 'true'
+  unify_chaos6: random
+  unify_egg_hornet: 'true'
+  field_emblems_checks: 'true'
+  mission_mode_checks: random
+  auto_start_missions: random
+  mission_blacklist:
+    '49': 1
+    '53': 1
+    '54': 1
+    '58': 1
+  sub_level_checks: random
+  sub_level_checks_hard: random
+  sky_chase_checks: 'false'
+  sky_chase_checks_hard: 'false'
+  life_sanity: random
+  pinball_life_capsules: 'false'
+  sonic_life_sanity: random
+  tails_life_sanity: random
+  knuckles_life_sanity: random
+  amy_life_sanity: random
+  big_life_sanity: random
+  gamma_life_sanity: random
+  junk_fill_percentage: '50'
+  trap_fill_percentage: '100' # Item: Reduce by 10 until it hits zero (10)
+  ice_trap_weight: medium
+  spring_trap_weight: none
+  police_trap_weight: none
+  buyon_trap_weight: medium
+  reverse_trap_weight: medium
+  gravity_trap_weight: medium
+  reverse_trap_duration: 0 # Item: set to 10 (0 is 'til death/level change)
+  traps_and_filler_on_adventure_fields: 'true' # Item: set to false
+  traps_and_filler_on_boss_fights: 'true' # Item: set to false
+  traps_and_filler_on_perfect_chaos_fight: 'true' # Item: set to false 
+  trig_forcechar: # Insurance policy.
+    sonic: 25
+    tails: 25
+    knuckles: 25
+    amy: 25
+    gamma: 25
+Timespinner: # Edit count: 13
+  death_link: 'true'
+  progression_balancing: '50'
+  accessibility: full
+  start_with_jewelry_box: 'true'
+  downloadable_items: 'true'
+  eye_spy: random
+  start_with_meyef: random
+  specific_keycards:
+    'true': 25
+    'false': 10
+  inverted: random
+  gyre_archives:
+    'false': 25
+    'true': 15
+  lore_checks: 'true'
+  boss_rando: 'scaled'
+  damage_rando: # Item: Switch to (mostlynerfs/balanced/mostlybuffs/allbuffs) (4)
+    allnerfs: 1
+    mostlynerfs: 0
+    balanced: 0
+    mostlybuffs: 0
+    allbuffs: 0
+  hp_cap: '50' # Item: Increase HP cap to 100/200/999. (3)
+  level_cap: '99'
+  extra_earrings_xp: '0'
+  boss_healing: # Item: Set to true (1)
+    'false': 25
+  shop_fill:
+    default: 25
+    randomized: 25
+    empty: 75 # Item: Set to 25/5/0
+  shop_warp_shards: 'false' # Item: Set to true
+  shop_multiplier:
+    '0': 1 # Item: Set chance to 20
+    '1': 40
+    random-high: 250 # Item: Set to 0.
+  loot_pool: vanilla
+  drop_rate_category: tiered
+  fixed_drop_rate: '5'
+  loot_tier_distro: default_weight
+  enter_sandman: random
+  dad_percent:
+    'false': 25
+    'true': 15
+  rising_tides:
+    random: 25
+  unchained_keys:
+    'false': 25
+    'true': 10
+  back_to_the_future: random
+  trap_chance: '0'
+triggers:
+  - option_category: A Hat in Time
+    option_name: EndGoal
+    option_result: seal_the_deal
+    options: 
+      A Hat in Time:
+        DWTimePieceRequirement: random-range-15-35
+  - option_category: A Hat in Time
+    option_name: EndGoal
+    option_result: finale
+    options: 
+      A Hat in Time:
+        ExcludeTour: 'true'
+  - option_category: A Hat in Time
+    option_name: DWEnableBonus
+    option_result: 'true'
+    options: 
+      A Hat in Time:
+        DWExcludeCandles: 'true'
+  - option_category: Sonic Adventure DX
+    option_name: trig_forcechar
+    option_result: sonic
+    options:
+      Sonic Adventure DX:
+        playable_sonic: 'true'
+        sonic_action_stage_missions:
+          c_b_a: 1
+  - option_category: Sonic Adventure DX
+    option_name: trig_forcechar
+    option_result: tails
+    options:
+      Sonic Adventure DX:
+        playable_tails: 'true'
+        tails_action_stage_missions:
+          c_b_a: 1
+  - option_category: Sonic Adventure DX
+    option_name: trig_forcechar
+    option_result: knuckles
+    options:
+      Sonic Adventure DX:
+        playable_knuckles: 'true'
+        knuckles_action_stage_missions:
+          c_b_a: 1
+  - option_category: Sonic Adventure DX
+    option_name: trig_forcechar
+    option_result: amy
+    options:
+      Sonic Adventure DX:
+        playable_amy: 'true'
+        amy_action_stage_missions:
+          c_b_a: 1
+  - option_category: Sonic Adventure DX
+    option_name: trig_forcechar
+    option_result: gamma
+    options:
+      Sonic Adventure DX:
+        playable_gamma: 'true'
+        gamma_action_stage_missions:
+          c_b_a: 1
+  - option_category: Noita
+    option_name: victory_condition
+    option_result: greed_ending
+    options:
+      Noita:
+        extra_orbs: '0'
+  - option_category: A Hat in Time
+    option_name: trig_removeDeadlyDWBonuses
+    option_result: yes
+    options: 
+      A Hat in Time:
+        exclude_locations:
+        - Boss Rush - All Clear
+        - Cruisin' for a Bruisin' - All Clear
+        - Encore! Encore! - All Clear
+        - Killing Two Birds - All Clear
+        - 10 Seconds until Self-Destruct - All Clear
+        - Seal the Deal - All Clear
+        - Seal the Deal - Main Objective

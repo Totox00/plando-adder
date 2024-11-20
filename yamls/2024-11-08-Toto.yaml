@@ -1,0 +1,351 @@
+name: Toto
+game:
+  Slay the Spire: 10
+  Sentinels of the Multiverse: 1
+  Dark Souls III: 2
+  Hollow Knight: 2
+  Timespinner: 5
+requires:
+  version: 0.5.1
+Slay the Spire:
+  progression_balancing: 0
+  accessibility: minimal
+  character: THE_PACKMASTER
+  ascension: 20 # 20 -> 19 -> 16 -> 12 -> 9 -> 5 -> 1
+  final_act:
+    false: 1
+    true: 4 # 4 -> 1 -> 0
+  death_link: 10
+Sentinels of the Multiverse:
+  progression_balancing: 0
+  accessibility: minimal
+  enabled_sets:
+    - Infernal Relics
+    - The Final Wasteland
+    - Benchmark
+    - Vengeance
+    - Villains of the Multiverse
+    - Chokepoint
+    - Oblivaeon
+    - Wager Master
+    - Miss Information
+    - Rook City
+    - The Celestial Tribunal
+    - Omnitron IV
+    - Ambuscade
+    - Unity
+    - The Scholar
+    - Stuntman
+    - Guise
+    - The Void Guard
+    - Silver Gulch 1883
+    - Wrath of the Cosmos
+    - Shattered Timelines
+    - The Cauldron
+    - Cauldron Promos
+  exclude_from_pool:
+    - Legacy # No change -> Remove this and the 3 below
+    - America's Greatest Legacy
+    - America's Newest Legacy
+    - Freedom Five Legacy
+    - "Ra: Setting Sun" # No change -> Remove this
+    - Argent Adept # No change -> Remove this and the 3 below
+    - Dark Conductor Argent Adept
+    - Prime Wardens Argent Adept
+    - Xtreme Prime Wardens Argent Adept
+    - "Parse: Fugue State" # No change -> Remove this
+    - The Scholar # No change -> Remove this and the 1 below
+    - The Scholar of the Infinite
+    - Benchmark # No change -> Remove this and the 1 below
+    - "Benchmark Supply & Demand"
+    - Terminus # No change -> Remove this and the 2 below
+    - Ministry of Strategic Science Terminus
+    - Terminus 2199
+    - Freedom Six Tachyon # No change -> Remove this
+    - Cypher # No change -> Remove this and the 2 below
+    - First Response Cypher
+    - Cypher Swarming Protocol
+    - Starlight # No change -> Remove this and the 3 below
+    - Starlight Genesis
+    - Nightlore Council Starlight
+    - Starlight Area-51
+    - The Stranger # No change -> Remove this and the 4 below
+    - The Runecarved Stranger
+    - The Stranger 1929
+    - The Stranger Wasteland Ronin
+    - The Stranger in the Corn
+    - Urban Warfare Expatriette # No change -> Remove this and the 2 below
+    - Siege Breaker Bunker
+    - Nitro Boost Absolute Zero
+  filler_weights:
+    - name: HeroHp
+      weight: 5
+      variant: &D
+        neg # neg -> pos
+      specificity: 1
+      max: 10
+    - name: StartHandsize
+      weight: 2
+      variant: neg # neg -> both [Also change the comment below]
+      specificity: 0 # 0 -> 1
+      max: 3
+    - name: HeroDamageDealt
+      weight: 1
+      variant: neg
+      specificity: &C
+        0 # 0 -> 1 [X. Also change the 3 other comments marked X]
+      max: 2
+    - name: HeroDamageDealt
+      weight: &A
+        0 # 0 -> 2 [X. Also change the 3 other comments marked X]
+      variant: pos
+      specificity: *C
+      max: 3
+    - name: HeroDamageTaken
+      weight: 2
+      variant: neg
+      specificity: *C
+      max: 3
+    - name: HeroDamageTaken
+      weight: *A
+      variant: pos
+      specificity: *C
+      max: 4
+    - name: HeroPower
+      weight: &B
+        1 # 1 -> 0
+      variant: neg
+      specificity: 1
+      max: 1
+    - name: HeroCardDraw
+      weight: *B
+      variant: neg
+      specificity: 1
+      max: 1
+    - name: VillainHp
+      weight: 5
+      variant: *D
+    - name: VillainDamageTaken
+      weight: 1
+      variant: &E
+        neg # neg -> pos [X. Also change the 3 other comments marked X]
+      max: 2
+      typed: &F
+        false # false -> true [X. Also change the 3 other comments marked X]
+    - name: VillainDamageDealt
+      weight: 2
+      variant: *E
+      max: 3
+      typed: *F
+    - name: VillainCardPlays
+      weight: 1 # 1 -> 0 [Also change the comment below]
+      variant: neg
+      max: 1
+    - name: VillainStartCardPlays
+      weight: 3
+      variant: neg
+      max: 3 # 3 -> 1
+    - name: Scion
+      weight: 0
+      min: 10 # 10 -> 20 [Also change the comment below]
+  required_scions: 50 # 50 -> 40
+  scions_are_relative: false
+  location_density:
+    environment: 2
+    variant: 2
+    villain:
+      advanced: 2
+      challenge: 2
+      normal: 2
+      ultimate: 1
+  starting_items: # 2/5/2 -> 4/10/4
+    environments: 2
+    heroes: 5
+    villains: 2
+  death_link:
+    individual: 4 # 4 -> 1
+    team: 2
+Dark Souls III:
+  progression_balancing: 0
+  accessibility: minimal
+  death_link: true
+  enable_dlc: true
+  auto_equip: &equip true # true -> false
+  lock_equip: *equip
+  no_equip_load: false # false -> true
+  no_weapon_requirements: false # false -> true
+  no_spell_requirements: false # false -> true
+  randomize_infusion: true
+  randomize_infusion_percentage: 50
+  randomize_weapon_level: all
+  randomize_weapon_level_percentage: 100
+  min_levels_in_5: 0 # 0 -> 1
+  max_levels_in_5: 0 # 0 -> 3 -> 5
+  min_levels_in_10: 0 # 0 -> 1
+  max_levels_in_10: 0 # 0 -> 5 -> 10
+  simple_early_bosses: false # false -> true
+  reduce_harmless_enemies: true # true -> false
+  random_enemy_preset:
+    RemoveSource: Ancient Wyvern; Ancient Wyvern Mob; Bridge Darkeater Midir; Darkeater Midir; King of the Storm
+    Boss:
+      - Weight: 100
+        Pool: default
+    Miniboss:
+      - Weight: 80
+        Pool: default
+      - Weight: 20 # 20 -> 0
+        Pool: Bosses
+    Basic:
+      - Weight: 60
+        Pool: default
+      - Weight: 5 # 5 -> 0
+        Pool: Minibosses
+      - Weight: 2 # 2 -> 0
+        Pool: Bosses
+      - Weight: 10 # 10 -> 0
+        Pool: Black Knight; Cathedral Knight; Red-Eyed Lothric Knight; Millwood Knight; Ringed Knight; Pontiff Knight; Silver Knight; Winged Knight
+      - Weight: 10 # 10 -> 0
+        Pool: Darkwraith; Grave Warden; Lycanthrope
+      - Weight: 6 # 6 -> 0
+        Pool: Jailer
+      - Weight: 2 # 2 -> 0
+        Pool: Angel Pilgrim; Fire Witch; Judicator
+      - Weight: 5 # 5 -> 0
+        Pool: Monstrosity of Sin; Pus of Man
+  exclude_locations:
+    - Small Crystal Lizards
+    - "SL: White Hair Talisman - ruins main lower, in lava"
+    - "SL: Sacred Flame - ruins basement, in lava"
+    - "SL: Toxic Mist - ruins main lower, in lava"
+  excluded_location_behavior: allow_useful
+  missable_location_behavior: allow_useful
+Hollow Knight:
+  progression_balancing: 0
+  accessibility: minimal
+  RandomizeFocus: true # true -> false
+  RandomizeSwim: true
+  RandomizeGeoChests: true
+  RandomizeJunkPitChests: true
+  RandomizeWhisperingRoots: true
+  RandomizeBossEssence: true
+  RandomizeGrubs: true
+  RandomizeMimics: true
+  RandomizeMaps: true
+  RandomizeLifebloodCocoons: true
+  RandomizeGrimmkinFlames: true
+  RandomizeJournalEntries: true
+  RandomizeNail: true # true -> false
+  RandomizeGeoRocks: true
+  RandomizeBossGeo: true
+  RandomizeSoulTotems: true
+  RandomizeLoreTablets: true
+  RandomizeElevatorPass: true
+  RemoveSpellUpgrades: true # true -> false
+  Goal: # 1/3/6/10 -> 2/6/8/4 -> 3/7/7/3 -> 4/8/6/2 -> 10/6/3/1
+    hollowknight: 1
+    siblings: 3
+    radiance: 6
+    godhome: 10
+  WhitePalace: include
+  ExtraPlatforms: false # false -> true
+  DeathLink: true
+  DeathLinkShade: shadeless
+  MaximumGrubPrice: 46
+  MaximumEssencePrice: 2800
+  MaximumCharmPrice: 40
+  RandomCharmCosts: 200 # 200 -> 180 -> 160 -> 140 -> 120 -> 100 -> 80
+  # PlandoCharmCosts: {"Sprintmaster": 0} # [Uncomment when the "Sprintmaster" item is bought]
+  MaximumEggPrice: 20
+  EggShopSlots: 16
+  SlyShopSlots: 16
+  SlyKeyShopSlots: 16
+  IseldaShopSlots: 16
+  SalubraShopSlots: 16
+  SalubraCharmShopSlots: 16
+  LegEaterShopSlots: 16
+  GrubfatherRewardSlots: 16
+  SeerRewardSlots: 16
+  SplitCrystalHeart: true
+  SplitMothwingCloak: true
+  SplitMantisClaw: true
+  CostSanity: on
+  CostSanityHybridChance: 100 # 100 -> 50 -> 25
+  CostSanityGeoWeight: 4
+Timespinner:
+  death_link: true
+  progression_balancing: 0
+  accessibility: minimal
+  start_with_jewelry_box: true
+  eye_spy: true
+  quick_seed:
+    false: 4 # 4 -> 1
+    true: 1
+  specific_keycards: true
+  inverted: random
+  gyre_archives: true
+  cantoran: true
+  lore_checks: true
+  boss_rando: scaled
+  damage_rando: # 10/6/3/1/0 -> 6/7/4/3/0 -> 3/5/7/3/2 -> 2/3/7/5/3 -> 0/3/4/7/6 -> 0/1/3/6/10
+    allnerfs: 10
+    mostlynerfs: 6
+    balanced: 3
+    mostlybuffs: 1
+    allbuffs: 0
+  hp_cap: 75 # 75 -> 125 -> 200 -> 350 -> 600 -> 999
+  level_cap: 10 # 10 -> 20 -> 50 -> 99
+  boss_healing: random
+  shop_fill: randomized
+  shop_multiplier: 2 # 2 -> 1
+  loot_pool: randomized
+  show_bestiary: true
+  show_drops: true
+  enter_sandman: true
+  dad_percent:
+    false: 4 # 4 -> 1
+    true: 1
+  rising_tides: random
+  rising_tides_overrides:
+    AncientPyramidShaft:
+      Dry: 67
+      Flooded: 33
+    CastleBasement:
+      Dry: 66
+      Flooded: 17
+      FloodedWithSavePointAvailable: 17
+    CastleCourtyard:
+      Dry: 67
+      Flooded: 33
+    CastleMoat:
+      Dry: 67
+      Flooded: 33
+    Lab:
+      Dry: 67
+      Flooded: 33
+    LakeDesolation:
+      Dry: 67
+      Flooded: 33
+    LakeSerene:
+      Dry: 33
+      Flooded: 67
+    LakeSereneBridge:
+      Dry: 67
+      Flooded: 33
+    Maw:
+      Dry: 67
+      Flooded: 33
+    Sandman:
+      Dry: 67
+      Flooded: 33
+    Xarion:
+      Dry: 67
+      Flooded: 33
+  unchained_keys: true
+  back_to_the_future: true
+  trap_chance: 90 # 90 -> 70 -> 50 -> 30 -> 10
+  traps:
+    - Meteor Sparrow Trap
+    - Poison Trap
+    - Chaos Trap
+    - Neurotoxin Trap
+    - Bee Trap

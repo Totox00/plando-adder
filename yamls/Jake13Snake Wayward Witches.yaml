@@ -1,0 +1,104 @@
+name: Jake13Snake
+game: 
+  Adventure: 3
+  DOOM 1993: 3
+  Links Awakening DX: 3
+description: Jake13Snake game for Wayward Witches async
+Adventure:
+  progression_balancing: 50
+  accessibility: minimal
+  dragon_slay_check: true
+  death_link: true
+  bat_logic: can_break
+  freeincarnate_max: 0 # Change to 17
+  dragon_rando_type: random
+  yorgle_speed: 9 # Change to 2
+  yorgle_min_speed: 8 # Change to 1
+  grundle_speed: 9 # Change to 2
+  grundle_min_speed: 8 # Change to 1
+  rhindle_speed: 9 # Change to 2
+  rhindle_min_speed: 8 # Change to 1
+  difficulty_switch_a: hard_with_unlock_item
+  difficulty_switch_b: hard_with_unlock_item
+  start_castle: random
+
+
+DOOM 1993:
+  progression_balancing: 50
+  accessibility: minimal
+  goal: complete_boss_levels
+  difficulty: nightmare # Change to hard, then medium, then easy, then baby
+  random_monsters: random_chaotic
+  random_pickups: random_balanced
+  random_music: shuffle_game
+  flip_levels: randomly_flipped
+  allow_death_logic: 'true' # Change to 'false'
+  pro: 'true' # Change to 'false'
+  start_with_computer_area_maps: 'false'
+  death_link: 'true'
+  reset_level_on_death: 'true'
+  episode1:
+    'true': 10
+    'false': 20
+  episode2:
+    'true': 10
+    'false': 20
+  episode3:
+    'true': 10
+    'false': 20
+  episode4: 'false'
+  triggers:
+    - option_category: DOOM 1993
+      option_name: episode1
+      option_result: 'true'
+      options:
+        DOOM 1993:
+          episode2: 'false'
+          episode3: 'false'
+    - option_category: DOOM 1993
+      option_name: episode2
+      option_result: 'true'
+      options:
+        DOOM 1993:
+          episode1: 'false'
+          episode3: 'false'
+
+
+Links Awakening DX:
+  progression_balancing: 50
+  accessibility: minimal
+  logic: hard
+  stealing_in_logic: true
+  goal: random
+  instrument_count: random
+  shuffle_nightmare_keys: random
+  shuffle_small_keys: random
+  shuffle_maps: random
+  shuffle_compasses: random
+  shuffle_stone_beaks: random
+  shuffle_instruments: random
+  tradequest: 'true'
+  rooster: 'false' # Change to 'true'
+  trendy_game: hardest # Change to easy
+  hard_mode: ohko # Change to none
+  tarins_gift: any_item # Change to bush_breaker
+  overworld: normal # Change to open_mabe
+  in_game_hints: 'false' # Change to 'true'
+  death_link: 'true'
+  stabilize_item_pool: 'true'
+  nag_messages: 'false'
+  boots_controls: bracelet
+  experimental_dungeon_shuffle:
+    'false': 30
+    'true': 20
+  experimental_entrance_shuffle:
+    none: 40
+    simple: 10
+  link_palette: random
+  gfxmod: 'Link'
+  palette: random
+  text_shuffle: 'false'
+  music: random
+  music_change_condition: random
+  warps: improved_additional
+  ap_title_screen: random

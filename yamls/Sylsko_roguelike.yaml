@@ -1,0 +1,143 @@
+﻿name: Sylsko
+description: 
+
+game: 
+  Celeste 64: 1
+  Timespinner: 1
+  TUNIC: 1
+  Astalon: 1
+  Ender Lilies: 1
+
+Celeste 64:
+  # Game Options
+  progression_balancing: normal
+  accessibility: full
+  death_link: true
+  death_link_amnesty: 5 #change to 10, then to 20, then to 30
+  logic_difficulty: standard
+  move_shuffle: true
+  total_strawberries: 40 #change to 30, then to 20
+  strawberries_required_percentage: 100 #change to 90, then to 75, then to 60
+  friendsanity: true
+  signsanity: true
+  carsanity: true
+  badeline_chaser_source: random
+  badeline_chaser_frequency: 2 #change to 5, then to 8, then to 0
+  badeline_chaser_speed: 10 #change to 8, then to 5, then to 2
+  # exclude_locations:
+  #   - Badeline Cassette Strawberry
+  
+Timespinner:
+  death_link: true
+  progression_balancing: normal
+  accessibility: full
+  start_with_jewelry_box: false
+  downloadable_items: random
+  eye_spy: random
+  start_with_meyef: random
+  quick_seed: false #change to true
+  specific_keycards: true
+  inverted: random
+  gyre_archives: random
+  cantoran: random
+  lore_checks: random
+  boss_rando: unscaled #change to scaled, then to off
+  EnemyRando: unscaled #change to scaled, then to off
+  damage_rando: mostlynerfs #change to balanced, then to mostlybuffs
+  hp_cap: 999
+  level_cap: 99
+  extra_earrings_xp: random
+  boss_healing: true
+  shop_fill: random
+  shop_warp_shards: random
+  shop_multiplier: random
+  loot_pool: random
+  drop_rate_category: random
+  fixed_drop_rate: random
+  loot_tier_distro: random
+  show_bestiary: random
+  show_drops: random
+  enter_sandman: random
+  dad_percent: random
+  rising_tides: random
+  unchained_keys: true
+  back_to_the_future: random
+  trap_chance: 10
+  
+TUNIC:
+  # Game Options
+  progression_balancing: normal
+  accessibility: full
+  sword_progression: true
+  start_with_sword: false #change to true
+  keys_behind_bosses: true #change to false
+  ability_shuffling: random
+  shuffle_ladders: true
+  entrance_rando: no
+  fool_traps: random
+  hexagon_quest: random
+  hexagon_goal: random
+  extra_hexagon_percentage: random
+  laurels_location: anywhere
+  lanternless: false
+  maskless: false
+  laurels_zips: false
+  ice_grappling: off
+  ladder_storage: off
+  ladder_storage_without_items: false
+  # exclude_locations:
+  #   - Rooted Ziggurat Lower - Hexagon Blue
+
+Astalon:
+  progression_balancing: normal
+  accessibility: items
+  difficulty: easy
+  goal: random
+  additional_eyes_required: random
+  extra_eyes: random
+  randomize_characters: solo
+  randomize_key_items: 'true'
+  randomize_health_pickups: 'random'
+  randomize_attack_pickups: 'random'
+  randomize_white_keys: 'true'
+  randomize_blue_keys: 'true'
+  randomize_red_keys: 'true'
+  randomize_shop: 'random'
+  randomize_elevator: 'random'
+  randomize_switches: 'false'
+  randomize_candles: 'random'
+  skip_cutscenes: 'true'
+  start_with_qol: 'false' #change to true
+  start_with_ascendant_key: 'false' #change to true
+  start_with_bell: 'false' #change to true
+  apex_elevator: included
+  cost_multiplier: double #change to normal, then to half, then to zero
+  fast_blood_chalice: 'false' #change to true
+  campfire_warp: 'true'
+  open_early_doors: 'false' #change to true
+  cheap_kyuli_ray: 'true'
+  death_link: 'true'
+  always_restore_candles: 'false' #change to true
+  scale_character_stats: 'false' #change to true
+
+Ender Lilies:
+  progression_balancing: normal
+  accessibility: items
+  starting_spirit: #set any_sub_spirit to 0
+    any_main_spirit: 50
+    any_sub_spirit: 50
+  starting_location: random
+  item_pool_priority: useful
+  goal: ending_c #change to ending_b, then to ending_a
+  early_maneuver: random
+  shuffle_slots: 'true'
+  minibosses_chapter: 'true' #change to false
+  ng_plus: 'false'
+  shuffle_upgrades: 'random'
+  force_ancient_souls: 'random'
+  shuffle_bgm: 'false'
+  start_chapter: 5 #change to 3, then to 1
+  max_chapter: 10 #change to 8, then to 5
+  stone_tablets_placement: any
+  add_unused_items: 'true'
+  entrance_randomizer: 'false'

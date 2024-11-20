@@ -1,0 +1,1008 @@
+name: rhythm.ET2
+description: ["Rhythms YAML for the Sequel to Endless Towers"]
+game:
+  Manual_RatchetAndClankUYA_Rhythm: 7
+  Dome Keeper: 6
+  Mindustry: 5
+  Sonic Adventure DX: 6
+  Sonic Adventure 2 Battle: 5
+  Kingdom Hearts Birth by Sleep: 6
+  
+triggers:
+  - option_category: null
+    option_name: game
+    option_result: Sonic Adventure 2 Battle
+    options:
+      null:
+        name: rhythm.SA2B
+  - option_category: null
+    option_name: game
+    option_result: Manual_RatchetAndClankUYA_Rhythm
+    options:
+      null:
+        name: rhythm.ClankUYA
+  - option_category: null
+    option_name: game
+    option_result: Dome Keeper
+    options:
+      null:
+        name: rhythm.Tsuki
+  - option_category: null
+    option_name: game
+    option_result: Sonic Adventure DX
+    options:
+      null:
+        name: rhythm.SADX
+    # Mindustry slot names: rhythmTerakomari and rhythm.Belius
+    # KHBBS slot names: rhythm.Ventus and rhythm.Terra and rhythm.Aqua
+Dome Keeper:
+  # Game Options
+  progression_balancing: 0
+  accessibility: locations
+  keeper: random # Upgrade: engineer
+    # What Keeper do you wish to play with.
+  dome:
+    # What Dome do you wish to play with.
+    laser: 3 # Upgrade: Disabled
+    sword: 3 # Upgrade: Disabled
+    artillery: 5
+    tesla: 3 # Upgrade: Disabled
+
+  dome_gadget:
+    # What Dome gadget do you wish to play with.
+    shield: 2 # Upgrade: Disabled
+    orchard: 2
+    repellent: 3
+
+  map_size:
+    # What map size do you wish to play with.
+    small: 7
+    medium: 5
+    large: 3
+    huge: 1
+
+  difficulty:
+    # What difficulty do you wish to play with.
+    normal: 1
+    hard: 1
+    brutal: 1
+    youaskedforit: 1
+
+  death_link: true
+  drill_upgrades: 10
+    # The amount of drill upgrades (when playing engineer) in the item pool.
+    # It is not recommended to go lower than 6~7 on large/huge maps.
+  kinetic_spheres: 10
+    # The amount of kinetic spheres upgrades (when playing assessor) in the item pool.
+    # It is not recommended to go lower than 6~7 on large/huge maps.
+  colored_layers: true
+    # Locks color layers with an item for progression.
+  sphere_lifetime: 15
+    # The amount of sphere lifetime upgrades (when playing assessor) in the item pool.
+  extra_cobalt: random
+    # The amount of extra cobalt added in the item pool as filler items.
+  mining_everything:
+    # You can only claim victory if you mined every single tile of the map
+    'false': 1
+    'true': 9 # Upgrade: Disabled
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    # I see these anyway when I load the game... It's not an info advantage, just sharing the info with the lobby.
+    ["Upgrade Iron 1", "Upgrade Iron 2", "Upgrade Iron 3", "Upgrade Iron 4", "Upgrade Water 1", "Upgrade Water 2", "Upgrade Water 3", "Upgrade Water 4", "Upgrade Iron and Water 1", "Upgrade Iron and Water 2", "Upgrade Iron and Water 3", "Upgrade Iron and Water 4"]
+Mindustry:
+  # Game Options
+  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  accessibility: locations
+  tutorial_skip: true
+    # Remove the need to complete the tutorial and unlock tutorial related tech. Grant a free launch for every selected planet.
+  campaign_choice:
+    # Select Serpulo, Erekir or both for the randomized campaign.
+    serpulo_only: 1
+    erekir_only: 1
+    all_planets: 0
+  # Slot name by planets
+  triggers:
+    - option_category: Mindustry
+      option_name: campaign_choice
+      option_result: serpulo_only
+      options:
+        null:
+          name: rhythm.Belius
+    - option_category: Mindustry
+      option_name: campaign_choice
+      option_result: erekir_only
+      options:
+        null:
+          name: rhythmTerakomari
+  disable_invasions: true
+  faster_production: true
+  death_link: true
+  death_link_mode: death_link_unit # Upgrade x2: change to death_link_core then to death_link_core_russian_roulette
+    # Select the death link mode.
+  military_level_tracking: true
+    # Ensure the player has enough military power to clear sectors. If turned off, the logic will consider that the player can clear every sector once they have the minimal requirement to land on that sector.
+  randomize_core_units_weapon: false
+    # Will randomize core units weapon. Erekir core unit will be made vulnerable and be given an ability instead.
+  logistic_distribution: early_logistics # Upgrade x2: change to local_early_logistics then starter_logistics
+    # Change how logistics research are distributed.
+  make_early_roadblocks_local: false # Upgrade: true
+    # Make items that could block the player early on local.
+  amount_of_resources_required: random-range-100-9999
+    # The amount of resources required to complete the 'Every resources collection' goal.
+  core_russian_roulette_chambers: 6
+    # The number of chambers for the Core Russian roulette option. If you select X amount of chambers, you will have 1 in a X chance of having your cores destroyed
+  start_hints: ["Conduit", "Liquid Junction", "Liquid Router", "Bridge Conduit", "Junction", "Router", "Bridge Conveyor", "Power Node", "Duct Router", "Duct Bridge", "Reinforced Conduit", "Reinforced Liquid Junction", "Reinforced Bridge Conduit", "Reinforced Liquid Router"]
+    # Start hinting the early logistics stuff.
+Sonic Adventure DX:
+  # Game Options
+  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  accessibility: locations
+  death_link: true
+  # General Options
+  goal:
+    levels: 1
+    levels_and_emerald_hunt: 1 # Upgrade: Disabled
+    missions: 1
+    missions_and_emerald_hunt: 1 # Upgrade: Disabled
+  logic_level: hard_logic
+  levels_percentage: random # Upgrade: random-low
+  mission_percentage: random # Upgrade: random-low
+  random_starting_location: true
+  random_starting_location_per_character: true
+  guaranteed_level: false # Upgrade: true
+  entrance_randomizer: true
+  level_entrance_plando: {}
+    # Plando for level entrance. Only works if Entrance Randomizer is enabled.
+    # The level name should be Capitalized with no spaces.
+    # For example, {'Emerald Coast': 'Final Egg'} will place Final Egg behind the Emerald Coast entrance and randomize the rest.
+  send_death_link_chance: random
+  receive_death_link_chance: 100
+  ring_link: true
+  casinopolis_ring_link: true
+  hard_ring_link: true
+  ring_loss: classic
+  # Characters Options
+  playable_sonic: random
+  playable_tails: true
+  playable_knuckles: random
+  playable_amy: random
+  playable_big: random
+  playable_gamma: false
+  # Stage Options
+  sonic_action_stage_missions:
+    # Choose what action stage missions will be a location check for Sonic.
+    none: 1
+    c_b_a: 1
+  tails_action_stage_missions:
+    # Choose what action stage missions will be a location check for Tails.
+    none: 1
+    c_b_a: 1
+  knuckles_action_stage_missions:
+    # Choose what action stage missions will be a location check for Knuckles.
+    none: 1
+    c_b_a: 1
+  amy_action_stage_missions:
+    # Choose what action stage missions will be a location check for Amy.
+    none: 1
+    c_b_a: 1
+  big_action_stage_missions:
+    # Choose what action stage missions will be a location check for Big.
+    none: 1
+    c: 1
+  gamma_action_stage_missions: none
+  # Upgrade Options
+  randomized_sonic_upgrades: random
+    # Determines whether Sonic's upgrades are randomized and sent to the item pool.
+  randomized_tails_upgrades: random
+    # Determines whether Tails' upgrades are randomized and sent to the item pool.
+  randomized_knuckles_upgrades: random
+    # Determines whether Knuckles' upgrades are randomized and sent to the item pool.
+  randomized_amy_upgrades: random
+    # Determines whether Amy's upgrades are randomized and sent to the item pool.
+  randomized_big_upgrades: random
+    # Determines whether Big's upgrades are randomized and sent to the item pool.
+  randomized_gamma_upgrades: false
+  # Bosses Options
+  boss_checks: random
+    # Determines whether beating a boss grants a check (15 Locations).
+  unify_chaos4: true # Determines whether the Chaos 4 fight counts as a single location or three (Sonic, Tails, and Knuckles).
+  unify_chaos6: random # Determines whether the Chaos 6 fight counts as a single location or three (Sonic, Big, and Knuckles).
+  unify_egg_hornet: random # Determines whether the Egg Hornet fight counts as a single location or two (Sonic, Tails).
+  # Extra locations
+  field_emblems_checks: true # Determines whether collecting field emblems grants checks (12 Locations).
+  mission_mode_checks: true # Determines whether completing missions grants checks (60 Locations).
+  auto_start_missions: true
+  mission_blacklist: ['53', '54', '49', '58', '41', '40', '38']
+  sub_level_checks: random # Determines whether beating Twinkle Circuit and Sand Hill grants checks (2 Locations).
+  sub_level_checks_hard: random # Determines whether beating the harder (points-based) Twinkle Circuit and Sand Hill missions grants checks (2 Locations).
+  sky_chase_checks: false
+  sky_chase_checks_hard: false
+  life_sanity: random # Determines whether collecting life capsules grants checks (102 Locations).
+  pinball_life_capsules: false # Determines whether pinball's life capsules grant checks (2 Locations).
+  # Only have life_sanity if I need to enter the stages.
+  triggers:
+    - option_category: Sonic Adventure DX
+      option_name: sonic_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          sonic_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: tails_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          tails_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: knuckles_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          knuckles_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: amy_action_stage_missions
+      option_result: c_b_a
+      options:
+        Sonic Adventure DX:
+          amy_life_sanity: true
+    - option_category: Sonic Adventure DX
+      option_name: big_action_stage_missions
+      option_result: c
+      options:
+        Sonic Adventure DX:
+          big_life_sanity: true
+  sonic_life_sanity: false
+  tails_life_sanity: false
+  knuckles_life_sanity: false
+  amy_life_sanity: false
+  big_life_sanity: false
+  gamma_life_sanity: false
+  # Junk Options
+  junk_fill_percentage: 100
+  trap_fill_percentage: 99
+  ice_trap_weight: none
+  spring_trap_weight: high
+  police_trap_weight: none
+  buyon_trap_weight: none
+  reverse_trap_weight: none
+  gravity_trap_weight: low
+  reverse_trap_duration: 1
+  traps_and_filler_on_adventure_fields: true
+  traps_and_filler_on_boss_fights: false
+  traps_and_filler_on_perfect_chaos_fight: true
+  # Item & Location Options
+  start_inventory:
+    Crystal Ring: 1 # Sonic QOL
+    Rhythm Badge: 1 # Tails QOL
+    Jet Anklet: 1 # Tails QOL
+    Fighting Gloves: 1 # Knuckles QOL
+    Long Hammer: 1 # Amy QOL
+    Warrior Feather: 1 # Amy QOL
+    Power Rod: 1 # Big QOL
+  local_items: ["Train", "Boat", "Raft", "Playable Characters"]
+  exclude_locations:
+    - Sky Chase Act 1 (Sub-Level - Mission B)
+    - Sky Chase Act 1 (Sub-Level - Mission A)
+    - Sky Chase Act 2 (Sub-Level - Mission B)
+    - Sky Chase Act 2 (Sub-Level - Mission A)
+    - Sand Hill (Sub-Level - Mission A)
+    - Chaos 4 Boss Fight
+    - Lost World (Sonic - Mission A)
+    - Lost World (Sonic - Mission B)
+    - Lost World (Sonic - Life Capsule 1)
+    - Lost World (Sonic - Life Capsule 2)
+Manual_RatchetAndClankUYA_Rhythm:
+  progression_balancing: 0 # Upgrade: Increase by 5, 10, 15, 20, 25 (for total of 75 at max)
+  accessibility: locations
+  start_inventory: {Map-O-Matic: 1}
+  death_link: true
+  start_hints: ["Refractor"]
+  priority_locations: ["TITANIUMBOLTS", "PLANETS"]
+Sonic Adventure 2 Battle:
+  progression_balancing: random-range-0-10
+  goal:
+    chaos_emerald_hunt: 15
+    finalhazard_chaos_emerald_hunt: 10
+    boss_rush_chaos_emerald_hunt: 5 # Upgrade: Disabled
+  mission_shuffle: 'true'
+  boss_rush_shuffle:
+    chaos: 25
+    singularity: 25
+  keysanity: true
+  whistlesanity: none
+  beetlesanity: true
+  omosanity: 'false'
+  animalsanity: 'false'
+  kart_race_checks: none
+  logic_difficulty: standard
+  required_rank: e
+  required_cannons_core_missions: first
+  emblem_percentage_for_cannons_core: 0
+  number_of_level_gates: # Upgrade: Always 0
+    0: 9
+    1: 7
+    2: 5
+    3: 3
+    4: 1
+  level_gate_distribution: random
+  level_gate_costs: 
+    low: 6
+    medium: 3
+    high: 1
+  max_emblem_cap: 1000
+  chao_race_difficulty: none
+  chao_karate_difficulty: none
+  chao_stadium_checks: all
+  chao_stats: '0'
+  chao_stats_frequency: '5'
+  chao_stats_stamina: 'false'
+  chao_stats_hidden: 'false'
+  chao_animal_parts: 'false'
+  chao_kindergarten: none
+  black_market_slots: 64
+  black_market_unlock_costs: high #Upgrade: medium for first upgrade, low for second upgrade
+  black_market_price_multiplier: 0
+  shuffle_starting_chao_eggs: true
+  chao_entrance_randomization: false
+  junk_fill_percentage: 100
+  trap_fill_percentage: 100
+  omochao_trap_weight: random
+  timestop_trap_weight: random
+  confusion_trap_weight: random #Upgrade: none
+  tiny_trap_weight: random
+  gravity_trap_weight: random
+  exposition_trap_weight: random
+  ice_trap_weight: random
+  slow_trap_weight: random
+  cutscene_trap_weight: high
+  reverse_trap_weight: random #Upgrade: none
+  pong_trap_weight: random #Upgrade: none
+  minigame_trap_difficulty: random
+  sadx_music: both
+  music_shuffle: full
+  voice_shuffle: 
+    none: 6
+    shuffled: 1
+    rude: 1
+    chao: 1
+    singularity: 1
+  narrator:
+    eggman: 25
+    tails: 25
+  ring_loss: ohko #Upgrade: classic
+  speed_mission_count: random-range-middle-1-3
+  speed_mission_2: 'false'
+  speed_mission_3: 'true'
+  speed_mission_4: 'false'
+  speed_mission_5: 'true'
+  mech_mission_count: random-range-low-1-3
+  mech_mission_2: 'false'
+  mech_mission_3: 'true'
+  mech_mission_4: 'true'
+  mech_mission_5: 'true'
+  hunt_mission_count: random-range-middle-2-4
+  hunt_mission_2: 'false'
+  hunt_mission_3: 'true'
+  hunt_mission_4: 'true'
+  hunt_mission_5: 'true'
+  kart_mission_count: '1'
+  kart_mission_2: 'true'
+  kart_mission_3: 'false'
+  kart_mission_4: 'false'
+  kart_mission_5: 'false'
+  cannons_core_mission_count: random-low
+  cannons_core_mission_2: 'false'
+  cannons_core_mission_3: 'true'
+  cannons_core_mission_4: 'false'
+  cannons_core_mission_5: 'true'
+  ring_link: 'true'
+  death_link: 'true'
+  non_local_items:
+    - Traps
+  exclude_locations:
+    #- Cannon's Core - 1
+    #- Cannon's Core - 3
+    #- Cannon's Core - 4
+    #- Cannon's Core - 5
+    #- Cannon's Core - Chao Key 1
+    #- Cannon's Core - Chao Key 2
+    #- Cannon's Core - Chao Key 3
+    #- Cannon's Core - Gold Beetle
+    - Cosmic Wall - 1
+    - Cosmic Wall - 3
+    - Cosmic Wall - 4
+    - Cosmic Wall - 5
+    - Cosmic Wall - Chao Key 1
+    - Cosmic Wall - Chao Key 2
+    - Cosmic Wall - Chao Key 3
+    - Cosmic Wall - Gold Beetle
+    - Cosmic Wall - Upgrade
+    #- Death Chamber - 1
+    #- Death Chamber - 3
+    #- Death Chamber - 4
+    #- Death Chamber - 5
+    #- Death Chamber - Chao Key 1
+    #- Death Chamber - Chao Key 2
+    #- Death Chamber - Chao Key 3
+    #- Death Chamber - Gold Beetle
+    #- Death Chamber - Upgrade
+    - Egg Quarters - 1
+    - Egg Quarters - 3
+    - Egg Quarters - 4
+    - Egg Quarters - 5
+    - Egg Quarters - Chao Key 1
+    - Egg Quarters - Chao Key 2
+    - Egg Quarters - Chao Key 3
+    - Egg Quarters - Gold Beetle
+    #- Egg Quarters - Upgrade
+    # - Eternal Engine - 1
+    # - Eternal Engine - Chao Key 1
+    # - Eternal Engine - Chao Key 2
+    # - Eternal Engine - Chao Key 3
+    # - Eternal Engine - Gold Beetle
+    - Eternal Engine - Upgrade
+    # - Hidden Base - 1
+    # - Hidden Base - Chao Key 1
+    # - Hidden Base - Chao Key 2
+    # - Hidden Base - Gold Beetle
+    - Hidden Base - Upgrade
+    - Iron Gate - 1
+    - Iron Gate - 3
+    - Iron Gate - 4
+    - Iron Gate - 5
+    - Iron Gate - Chao Key 1
+    - Iron Gate - Chao Key 2
+    - Iron Gate - Chao Key 3
+    - Iron Gate - Gold Beetle
+    - Iron Gate - Upgrade
+    - Lost Colony - 1
+    - Lost Colony - 3
+    - Lost Colony - 4
+    - Lost Colony - 5
+    - Lost Colony - Chao Key 1
+    - Lost Colony - Chao Key 2
+    - Lost Colony - Chao Key 3
+    - Lost Colony - Gold Beetle
+    - Lost Colony - Upgrade
+    # - Mission Street - 1
+    # - Mission Street - Chao Key 1
+    # - Mission Street - Chao Key 2
+    # - Mission Street - Chao Key 3
+    # - Mission Street - Gold Beetle
+    - Mission Street - Upgrade
+    # - Prison Lane - 1
+    # - Prison Lane - Chao Key 1
+    # - Prison Lane - Chao Key 2
+    # - Prison Lane - Chao Key 3
+    # - Prison Lane - Gold Beetle
+    - Prison Lane - Upgrade
+    - Sand Ocean - 1
+    - Sand Ocean - 3
+    - Sand Ocean - 4
+    - Sand Ocean - 5
+    - Sand Ocean - Chao Key 1
+    - Sand Ocean - Chao Key 2
+    - Sand Ocean - Chao Key 3
+    - Sand Ocean - Gold Beetle
+    - Sand Ocean - Upgrade
+    - Weapons Bed - 1
+    - Weapons Bed - 3
+    - Weapons Bed - 4
+    - Weapons Bed - 5
+    - Weapons Bed - Chao Key 1
+    - Weapons Bed - Chao Key 2
+    - Weapons Bed - Chao Key 3
+    - Weapons Bed - Upgrade
+  start_hints:
+    #- Chaos Emeralds
+    #- Shadow - Mystic Melody
+    #- Sonic - Mystic Melody
+    #- Sonic - Light Shoes
+    #- Sonic - Flame Ring
+    #- Knuckles - Shovel Claws
+    #- Rouge - Pick Nails
+    #- Sonic - Bounce Bracelet
+    #- Shadow - Air Shoes
+    - What Maria Wanted
+  local_items:
+    - Chaos Emeralds # No longer needed because Plando takes care of it. But I don't think it'll throw a fit.
+    - Sonic - Light Shoes
+    - Sonic - Flame Ring
+    #- Sonic - Bounce Bracelet
+    - Knuckles - Shovel Claws
+    #- Knuckles - Mystic Melody
+    - Rouge - Pick Nails
+    #- Rouge - Iron Boots
+    #- Shadow - Air Shoes
+    #- Tails - Booster
+    #- Eggman - Jet Engine
+  plando_items: # Plando is required so I am making use of it. It must be inside the game's settings.
+    - item: Blue Chaos Emerald # Ensure I play Cannon's Core.
+      location: Cannon's Core - Gold Beetle
+    - item: White Chaos Emerald # Upgrade: Swap White Chaos Emerald plando block to commented out plando block below.
+      location: Black Market - 64
+    # - items: # Let's take the Chaos Emeralds...
+        # White Chaos Emerald: 1 # Later to be given to Eggman.
+      # locations: # ...and put them somewhere else! - Patrick.
+        # - Aquatic Mine - 1
+        # - Aquatic Mine - 3
+        # - Aquatic Mine - 4
+        # - Aquatic Mine - 5
+        # - Aquatic Mine - Chao Key 1
+        # - Aquatic Mine - Chao Key 2
+        # - Aquatic Mine - Chao Key 3
+        # - Aquatic Mine - Gold Beetle
+        # - Aquatic Mine - Upgrade
+        # - Cannon's Core - 1
+        # - Cannon's Core - 3
+        # - Cannon's Core - 4
+        # - Cannon's Core - 5
+        # - Cannon's Core - Gold Beetle
+        # - City Escape - 1
+        # - City Escape - 3
+        # - City Escape - 4
+        # - City Escape - 5
+        # - City Escape - Chao Key 1
+        # - City Escape - Chao Key 2
+        # - City Escape - Chao Key 3
+        # - City Escape - Gold Beetle
+        # - City Escape - Upgrade
+        # - Crazy Gadget - 1
+        # - Crazy Gadget - 3
+        # - Crazy Gadget - 4
+        # - Crazy Gadget - 5
+        # - Crazy Gadget - Gold Beetle
+        # - Crazy Gadget - Chao Key 3
+        # - Crazy Gadget - Chao Key 2
+        # - Crazy Gadget - Chao Key 1
+        # - Crazy Gadget - Upgrade
+        # - Death Chamber - 1
+        # - Death Chamber - 3
+        # - Death Chamber - 4
+        # - Death Chamber - 5
+        # - Death Chamber - Chao Key 1
+        # - Death Chamber - Chao Key 2
+        # - Death Chamber - Chao Key 3
+        # - Death Chamber - Gold Beetle
+        # - Death Chamber - Upgrade
+        # - Dry Lagoon - 1
+        # - Dry Lagoon - 3
+        # - Dry Lagoon - 4
+        # - Dry Lagoon - 5
+        # - Dry Lagoon - Chao Key 1
+        # - Dry Lagoon - Chao Key 2
+        # - Dry Lagoon - Chao Key 3
+        # - Dry Lagoon - Gold Beetle
+        # - Dry Lagoon - Upgrade
+        # - Egg Quarters - 1
+        # - Egg Quarters - 3
+        # - Egg Quarters - 4
+        # - Egg Quarters - 5
+        # - Egg Quarters - Chao Key 1
+        # - Egg Quarters - Chao Key 2
+        # - Egg Quarters - Chao Key 3
+        # - Egg Quarters - Gold Beetle
+        # - Egg Quarters - Upgrade
+        # - Final Chase - 1
+        # - Final Chase - 3
+        # - Final Chase - 4
+        # - Final Chase - 5
+        # - Final Chase - Chao Key 1
+        # - Final Chase - Chao Key 2
+        # - Final Chase - Chao Key 3
+        # - Final Chase - Gold Beetle
+        # - Final Chase - Upgrade
+        # - Final Rush - 1
+        # - Final Rush - 3
+        # - Final Rush - 4
+        # - Final Rush - 5
+        # - Final Rush - Chao Key 1
+        # - Final Rush - Chao Key 2
+        # - Final Rush - Chao Key 3
+        # - Final Rush - Gold Beetle
+        # - Final Rush - Upgrade
+        # - Green Forest - 1
+        # - Green Forest - 3
+        # - Green Forest - 4
+        # - Green Forest - 5
+        # - Green Forest - Chao Key 1
+        # - Green Forest - Chao Key 2
+        # - Green Forest - Chao Key 3
+        # - Green Forest - Gold Beetle
+        # - Green Forest - Upgrade
+        # - Mad Space - 1
+        # - Mad Space - 3
+        # - Mad Space - 4
+        # - Mad Space - 5
+        # - Mad Space - Chao Key 1
+        # - Mad Space - Chao Key 2
+        # - Mad Space - Chao Key 3
+        # - Mad Space - Gold Beetle
+        # - Mad Space - Upgrade
+        # - Metal Harbor - 1
+        # - Metal Harbor - 3
+        # - Metal Harbor - 4
+        # - Metal Harbor - 5
+        # - Metal Harbor - Chao Key 1
+        # - Metal Harbor - Chao Key 2
+        # - Metal Harbor - Chao Key 3
+        # - Metal Harbor - Gold Beetle
+        # - Metal Harbor - Upgrade
+        # - Meteor Herd - 1
+        # - Meteor Herd - 3
+        # - Meteor Herd - 4
+        # - Meteor Herd - 5
+        # - Meteor Herd - Chao Key 1
+        # - Meteor Herd - Chao Key 2
+        # - Meteor Herd - Chao Key 3
+        # - Meteor Herd - Gold Beetle
+        # - Meteor Herd - Upgrade
+        # - Pumpkin Hill - 1
+        # - Pumpkin Hill - 3
+        # - Pumpkin Hill - 4
+        # - Pumpkin Hill - 5
+        # - Pumpkin Hill - Chao Key 1
+        # - Pumpkin Hill - Chao Key 2
+        # - Pumpkin Hill - Chao Key 3
+        # - Pumpkin Hill - Upgrade
+        # - Pyramid Cave - 1
+        # - Pyramid Cave - 3
+        # - Pyramid Cave - 4
+        # - Pyramid Cave - 5
+        # - Pyramid Cave - Chao Key 1
+        # - Pyramid Cave - Chao Key 2
+        # - Pyramid Cave - Chao Key 3
+        # - Pyramid Cave - Gold Beetle
+        # - Pyramid Cave - Upgrade
+        # - Radical Highway - 1
+        # - Radical Highway - 3
+        # - Radical Highway - 4
+        # - Radical Highway - 5
+        # - Radical Highway - Chao Key 2
+        # - Radical Highway - Chao Key 1
+        # - Radical Highway - Chao Key 3
+        # - Radical Highway - Gold Beetle
+        # - Radical Highway - Upgrade
+        # - Route 101 - 1
+        # - Route 101 - 2
+        # - Route 101 - 5
+        # - Route 280 - 1
+        # - Route 280 - 2
+        # - Route 280 - 5
+        # - Security Hall - 1
+        # - Security Hall - 3
+        # - Security Hall - 4
+        # - Security Hall - 5
+        # - Security Hall - Chao Key 1
+        # - Security Hall - Chao Key 2
+        # - Security Hall - Chao Key 3
+        # - Security Hall - Gold Beetle
+        # - Security Hall - Upgrade
+        # - Sky Rail - 1
+        # - Sky Rail - 3
+        # - Sky Rail - 4
+        # - Sky Rail - 5
+        # - Sky Rail - Chao Key 1
+        # - Sky Rail - Chao Key 2
+        # - Sky Rail - Chao Key 3
+        # - Sky Rail - Gold Beetle
+        # - Sky Rail - Upgrade
+        # - White Jungle - 1
+        # - White Jungle - 3
+        # - White Jungle - 4
+        # - White Jungle - 5
+        # - White Jungle - Chao Key 1
+        # - White Jungle - Chao Key 2
+        # - White Jungle - Chao Key 3
+        # - White Jungle - Gold Beetle
+        # - White Jungle - Upgrade
+        # - Wild Canyon - 1
+        # - Wild Canyon - 3
+        # - Wild Canyon - 4
+        # - Wild Canyon - 5
+        # - Wild Canyon - Chao Key 1
+        # - Wild Canyon - Chao Key 2
+        # - Wild Canyon - Chao Key 3
+        # - Wild Canyon - Gold Beetle
+        # - Wild Canyon - Upgrade
+      # world: false # Keep them in my world.
+      # force: true # Gen fails if this doesn't succeed.
+    - items: # Tails gets an emerald.
+        Cyan Chaos Emerald: 1
+      locations: # Therefore, we put it into his stages*. (*A few commented out due to broken locations thanks to a mod I play with.)
+        - Eternal Engine - 1
+        - Eternal Engine - Chao Key 1
+        - Eternal Engine - Chao Key 2
+        - Eternal Engine - Chao Key 3
+        - Eternal Engine - Gold Beetle
+        #- Eternal Engine - Upgrade
+        - Hidden Base - 1
+        - Hidden Base - Chao Key 1
+        - Hidden Base - Chao Key 2
+        - Hidden Base - Gold Beetle
+        #- Hidden Base - Upgrade
+        - Mission Street - 1
+        - Mission Street - Chao Key 1
+        - Mission Street - Chao Key 2
+        - Mission Street - Chao Key 3
+        - Mission Street - Gold Beetle
+        #- Mission Street - Upgrade
+        - Prison Lane - 1
+        - Prison Lane - Chao Key 1
+        - Prison Lane - Chao Key 2
+        - Prison Lane - Chao Key 3
+        - Prison Lane - Gold Beetle
+        - Prison Lane - Upgrade
+      world: false # Keep them in my world.
+      force: true # Gen fails if this doesn't succeed.
+    - items: # Rouge canonically gets the Red, Purple, and Light Blue Chaos Emeralds. Purple best matches her colors.
+        Purple Chaos Emerald: 1
+      locations: # Therefore, we place it into her stages.
+        - Dry Lagoon - 1
+        - Dry Lagoon - 3
+        - Dry Lagoon - 4
+        - Dry Lagoon - 5
+        - Dry Lagoon - Chao Key 1
+        - Dry Lagoon - Chao Key 2
+        - Dry Lagoon - Chao Key 3
+        - Dry Lagoon - Gold Beetle
+        - Dry Lagoon - Upgrade
+        - Egg Quarters - 1
+        - Egg Quarters - 3
+        - Egg Quarters - 4
+        - Egg Quarters - 5
+        - Egg Quarters - Chao Key 1
+        - Egg Quarters - Chao Key 2
+        - Egg Quarters - Chao Key 3
+        - Egg Quarters - Gold Beetle
+        - Egg Quarters - Upgrade
+        - Mad Space - 1
+        - Mad Space - 3
+        - Mad Space - 4
+        - Mad Space - 5
+        - Mad Space - Chao Key 1
+        - Mad Space - Chao Key 2
+        - Mad Space - Chao Key 3
+        - Mad Space - Gold Beetle
+        - Mad Space - Upgrade
+        - Route 280 - 1
+        - Route 280 - 2
+        - Route 280 - 5
+        - Security Hall - 1
+        - Security Hall - 3
+        - Security Hall - 4
+        - Security Hall - 5
+        - Security Hall - Chao Key 1
+        - Security Hall - Chao Key 2
+        - Security Hall - Chao Key 3
+        - Security Hall - Gold Beetle
+        - Security Hall - Upgrade
+      world: false # Keep them in my world.
+      force: true # Gen fails if this doesn't succeed.
+    - items: # Knuckles canonically gets the none of the Chaos Emeralds. Red best matches his colors.
+        Red Chaos Emerald: 1
+      locations: # Therefore, we place it into his stages.
+        - Aquatic Mine - 1
+        - Aquatic Mine - 3
+        - Aquatic Mine - 4
+        - Aquatic Mine - 5
+        - Aquatic Mine - Chao Key 1
+        - Aquatic Mine - Chao Key 2
+        - Aquatic Mine - Chao Key 3
+        - Aquatic Mine - Gold Beetle
+        - Aquatic Mine - Upgrade
+        - Death Chamber - 1
+        - Death Chamber - 3
+        - Death Chamber - 4
+        - Death Chamber - 5
+        - Death Chamber - Chao Key 1
+        - Death Chamber - Chao Key 2
+        - Death Chamber - Chao Key 3
+        - Death Chamber - Gold Beetle
+        - Death Chamber - Upgrade
+        - Meteor Herd - 1
+        - Meteor Herd - 3
+        - Meteor Herd - 4
+        - Meteor Herd - 5
+        - Meteor Herd - Chao Key 1
+        - Meteor Herd - Chao Key 2
+        - Meteor Herd - Chao Key 3
+        - Meteor Herd - Gold Beetle
+        - Meteor Herd - Upgrade
+        - Pumpkin Hill - 1
+        - Pumpkin Hill - 3
+        - Pumpkin Hill - 4
+        - Pumpkin Hill - 5
+        - Pumpkin Hill - Chao Key 1
+        - Pumpkin Hill - Chao Key 2
+        - Pumpkin Hill - Chao Key 3
+        - Pumpkin Hill - Upgrade
+        - Wild Canyon - 1
+        - Wild Canyon - 3
+        - Wild Canyon - 4
+        - Wild Canyon - 5
+        - Wild Canyon - Chao Key 1
+        - Wild Canyon - Chao Key 2
+        - Wild Canyon - Chao Key 3
+        - Wild Canyon - Gold Beetle
+        - Wild Canyon - Upgrade
+      world: false # Keep them in my world.
+      force: true # Gen fails if this doesn't succeed.
+    - items: # Shadow canonically has the Green Chaos Emerald.
+        Green Chaos Emerald: 1
+      locations: # Therefore, we place it into his stages.
+        - Final Chase - 1
+        - Final Chase - 3
+        - Final Chase - 4
+        - Final Chase - 5
+        - Final Chase - Chao Key 1
+        - Final Chase - Chao Key 2
+        - Final Chase - Chao Key 3
+        - Final Chase - Gold Beetle
+        - Final Chase - Upgrade
+        - Radical Highway - 1
+        - Radical Highway - 3
+        - Radical Highway - 4
+        - Radical Highway - 5
+        - Radical Highway - Chao Key 2
+        - Radical Highway - Chao Key 1
+        - Radical Highway - Chao Key 3
+        - Radical Highway - Gold Beetle
+        - Radical Highway - Upgrade
+        - Sky Rail - 1
+        - Sky Rail - 3
+        - Sky Rail - 4
+        - Sky Rail - 5
+        - Sky Rail - Chao Key 1
+        - Sky Rail - Chao Key 2
+        - Sky Rail - Chao Key 3
+        - Sky Rail - Gold Beetle
+        - Sky Rail - Upgrade
+        - White Jungle - 1
+        - White Jungle - 3
+        - White Jungle - 4
+        - White Jungle - 5
+        - White Jungle - Chao Key 1
+        - White Jungle - Chao Key 2
+        - White Jungle - Chao Key 3
+        - White Jungle - Gold Beetle
+        - White Jungle - Upgrade
+      world: false # Keep them in my world.
+      force: true # Gen fails if this doesn't succeed.
+    - items: # Sonic canonically has the Yellow Chaos Emerald.
+        Yellow Chaos Emerald: 1
+      locations: # Therefore, we place it into his stages.
+        - City Escape - 1
+        - City Escape - 3
+        - City Escape - 4
+        - City Escape - 5
+        - City Escape - Chao Key 1
+        - City Escape - Chao Key 2
+        - City Escape - Chao Key 3
+        - City Escape - Gold Beetle
+        - City Escape - Upgrade
+        - Crazy Gadget - 1
+        - Crazy Gadget - 3
+        - Crazy Gadget - 4
+        - Crazy Gadget - 5
+        - Crazy Gadget - Gold Beetle
+        - Crazy Gadget - Chao Key 3
+        - Crazy Gadget - Chao Key 2
+        - Crazy Gadget - Chao Key 1
+        - Crazy Gadget - Upgrade
+        - Final Rush - 1
+        - Final Rush - 3
+        - Final Rush - 4
+        - Final Rush - 5
+        - Final Rush - Chao Key 1
+        - Final Rush - Chao Key 2
+        - Final Rush - Chao Key 3
+        - Final Rush - Gold Beetle
+        - Final Rush - Upgrade
+        - Green Forest - 1
+        - Green Forest - 3
+        - Green Forest - 4
+        - Green Forest - 5
+        - Green Forest - Chao Key 1
+        - Green Forest - Chao Key 2
+        - Green Forest - Chao Key 3
+        - Green Forest - Gold Beetle
+        - Green Forest - Upgrade
+        - Metal Harbor - 1
+        - Metal Harbor - 3
+        - Metal Harbor - 4
+        - Metal Harbor - 5
+        - Metal Harbor - Chao Key 1
+        - Metal Harbor - Chao Key 2
+        - Metal Harbor - Chao Key 3
+        - Metal Harbor - Gold Beetle
+        - Metal Harbor - Upgrade
+        - Pyramid Cave - 1
+        - Pyramid Cave - 3
+        - Pyramid Cave - 4
+        - Pyramid Cave - 5
+        - Pyramid Cave - Chao Key 1
+        - Pyramid Cave - Chao Key 2
+        - Pyramid Cave - Chao Key 3
+        - Pyramid Cave - Gold Beetle
+        - Pyramid Cave - Upgrade
+      world: false # Keep them in my world.
+      force: true # Gen fails if this doesn't succeed.
+  #start_inventory: {Knuckles - Hammer Gloves: 1}
+    #Sonic - Light Shoes: 1
+    #Sonic - Flame Ring: 1
+    #Sonic - Bounce Bracelet: 1
+    #Shadow - Air Shoes: 1
+  start_location_hints:
+    - Boss Rush - 16
+    - Green Hill
+    - Green Hill - Chao Key 1
+  priority_locations:
+    - Aquatic Mine - Upgrade
+    - City Escape - Upgrade
+    - Crazy Gadget - Upgrade
+    - Death Chamber - Upgrade
+    - Dry Lagoon - Upgrade
+    - Egg Quarters - Upgrade
+    - Final Chase - Upgrade
+    - Final Rush - Upgrade
+    - Green Forest - Upgrade
+    - Mad Space - Upgrade
+    - Metal Harbor - Upgrade
+    - Meteor Herd - Upgrade
+    - Pumpkin Hill - Upgrade
+    - Pyramid Cave - Upgrade
+    - Radical Highway - Upgrade
+    - Security Hall - Upgrade
+    - Sky Rail - Upgrade
+    - White Jungle - Upgrade
+    - Wild Canyon - Upgrade
+Kingdom Hearts Birth by Sleep:
+  triggers:
+    - option_category: Kingdom Hearts Birth by Sleep
+      option_name: character
+      option_result: ventus
+      options:
+        null:
+          name: rhythm.Ventus
+    - option_category: Kingdom Hearts Birth by Sleep
+      option_name: character
+      option_result: aqua
+      options:
+        null:
+          name: rhythm.Aqua
+    - option_category: Kingdom Hearts Birth by Sleep
+      option_name: character
+      option_result: terra
+      options:
+        null:
+          name: rhythm.Terra
+  # Game Options
+  progression_balancing: 0
+  accessibility: locations
+  character:
+    # Determines the expected player character.
+    # 0: Ventus
+    # 1: Aqua
+    # 2: Terra
+    ventus: 1 # equivalent to 0
+    aqua: 1 # equivalent to 1
+    terra: 1 # equivalent to 2
+  starting_worlds: 0
+  exp_multiplier: 10x
+  final_terra_xehanort_ii: true
+    # Determines if Aqua will need to defeat Final Terra Xehanort II to complete her seed.
+  mirage_arena: random # Upgrade: false
+  command_board: random # Upgrade: false
+  super_bosses:
+    # Determines if Super Boss locations should be included.
+    'false': 3
+    'true': 1
+  max_hp_increases: 9
+  randomize_keyblade_stats: random
+  keyblade_min_str: 2
+  keyblade_max_str: 10
+  keyblade_min_mgc: -2
+  keyblade_max_mgc: 10
+  realm_of_darkness_early: false

@@ -1,0 +1,759 @@
+name: hecate.mp3
+game: 
+  Noita: 3
+  Outer Wilds: 3
+  Manual_DeckedOut2_mp3: 3
+  ULTRAKILL: 3
+  TUNIC: 3
+description: empathy.mp3 game for Wayward Witches async
+Noita:
+  progression_balancing: '50'
+  death_link: 'true'
+  bad_effects: 
+    'true': 10 # change to 2
+    'false': 2 # change to 10
+  victory_condition: 
+    greed_ending: 1
+    pure_ending: 7
+    peaceful_ending: 5 # reduce peaceful_ending to 1
+  path_option: 
+    main_path: 1
+    side_path: 7
+    main_world: 5 # reduce main_world to 1
+  hidden_chests: random-range-2-4
+  pedestal_checks: random-range-4-8
+  orbs_as_checks:
+    no_orbs: 1 # increase no_orbs to 4
+    main_path: 3
+    side_path: 10
+    main_world: 5 # reduce main_world to 1
+  bosses_as_checks:
+    no_bosses: 1 # increase no_bosses to 4
+    main_path: 3
+    side_path: 10
+    all_bosses: 5 # reduce all_bosses to 1
+  extra_orbs: random-low # change to random-high
+  shop_price: 
+    full_price: 10 # reduce full_price to 0
+    75_percent_off: 5
+    50_percent_off: 2
+    25_percent_off: 1
+  plando_items:
+    - item: "Wand (Tier 5)"
+      location: ranged weapon I-1
+      world: The Cauldron
+      force: true
+    - item: "Wand (Tier 4)"
+      location: ranged weapon II-2
+      world: The Cauldron
+      force: true
+    - item: "Wand (Tier 4)"
+      location: ranged weapon V-1
+      world: The Cauldron
+      force: true
+    - item: "Wand (Tier 6)"
+      location: ranged weapon VI-1
+      world: The Cauldron
+      force: true
+    - item: "Wand (Tier 5)"
+      location: ranged weapon VII-2
+      world: The Cauldron
+      force: true
+    - item: "Wand (Tier 6)"
+      location: ranged weapon VIII-2
+      world: The Cauldron
+      force: true
+    - item: "Extra Max HP"
+      location: vitality I-2
+      world: The Cauldron
+      force: true
+    - item: "Extra Max HP"
+      location: vitality III-1
+      world: The Cauldron
+      force: true
+    - item: "Extra Max HP"
+      location: vitality VI-2
+      world: The Cauldron
+      force: true
+    - item: "Extra Max HP"
+      location: vitality XI-2
+      world: The Cauldron
+      force: true
+    - items: 
+        "Gold (200)": 20
+        "Potion": 16
+        "Powder Pouch": 13
+      locations:
+        - speed II-1
+        - speed V-1
+        - speed VI-3
+        - speed VII-5
+        - breath I-2
+        - breath II-2
+        - careful movement III-1
+        - careful movement IV-1
+        - healing IV-3
+        - healing IX-2
+        - speed I-1
+        - speed II-5
+        - speed IV-2
+        - speed VII-4
+        - stealth I-1
+        - stealth IV-1
+        - stealth VI-1
+        - dangerous areas III-1
+        - dangerous areas III-2
+        - dangerous areas IX-1
+        - ranged weapon I-2
+        - ranged weapon III-1
+        - ranged weapon V-2
+        - fire I-1
+        - explosion I-1
+        - explosion III-2
+        - explosion IV-2
+        - price I-1
+        - electricity I-1
+        - electricity I-2
+        - ranged weapon IV-1
+        - vitality II-2
+        - vitality X-1
+        - healing I-1
+        - healing I-2
+        - healing II-1
+        - healing IX-3
+        - stealth V-1
+        - defense I-1
+        - defense II-1
+        - defense XIV-3
+        - careful movement II-1
+        - attack I-1
+        - attack VI-4
+        - stamina I-1
+        - stamina I-2
+        - mana I-1
+        - mana IV-2
+        - slots II-1
+      world: The Cauldron
+      force: true
+
+
+Outer Wilds:
+  progression_balancing: normal
+  goal:
+    song_of_five: 1
+    song_of_the_nomai: 2
+    song_of_the_stranger: 2
+    song_of_six: 4
+    song_of_seven: 12 # reduce to 7, then to 2
+    echoes_of_the_eye: 2
+  spawn:
+    hourglass_twins: 3
+    timber_hearth: 1
+    brittle_hollow: 3
+    giants_deep: 3
+    stranger: 6
+  early_key_item:
+    translator: 3
+    nomai_warp_codes: 3
+    launch_codes: 1
+    stranger_light_modulator: 0
+  triggers:
+    - option_category: Outer Wilds
+      option_name: spawn
+      option_result: stranger
+      options:
+        Outer Wilds:
+          early_key_item: stranger_light_modulator
+  enable_eote_dlc: 'true'
+  dlc_only: 'false'
+  randomize_coordinates: 'true'
+  randomize_orbits: 'true'
+  randomize_rotations: 'true'
+  randomize_warp_platforms: 'true'
+  randomize_dark_bramble_layout:
+    'false': 1
+    'true': 20 # reduce to 11, then to 2
+    hub_start: 8
+  trap_chance: random-range-60-80 # reduce this to random-range-40-60, then to random-range-20-40, then to random-range-0-20
+  trap_type_weights:
+    Audio Trap: 0
+    Nap Trap: 3
+    Ship Damage Trap: 1
+  death_link: default
+  logsanity:
+    'false': 2
+    'true': 1
+  split_translator:
+    'false': 2
+    'true': 1
+  enable_hn1_mod: 'false'
+  enable_outsider_mod: 'false'
+  enable_ac_mod: 'false'
+  enable_hn2_mod: 'false'
+  enable_fq_mod: 'false'
+  plando_items:
+    - item: "Boost Duration Upgrade"
+      location: speed II-1
+      world: The Cauldron
+      force: true
+    - item: "Fuel Capacity Upgrade"
+      location: speed V-1
+      world: The Cauldron
+      force: true
+    - item: "Boost Duration Upgrade"
+      location: speed VI-3
+      world: The Cauldron
+      force: true
+    - item: "Fuel Capacity Upgrade"
+      location: speed VII-5
+      world: The Cauldron
+      force: true
+    - item: "Oxygen Capacity Upgrade"
+      location: breath I-2
+      world: The Cauldron
+      force: true
+    - item: "Oxygen Capacity Upgrade"
+      location: breath II-2
+      world: The Cauldron
+      force: true
+    - item: "Autopilot"
+      location: careful movement III-1
+      world: The Cauldron
+      force: true
+    - item: "Velocity Matcher"
+      location: careful movement IV-1
+      world: The Cauldron
+      force: true
+    - items: 
+        "Marshmallow": 17
+        "Jetpack Fuel Refill": 17
+        "Oxygen Refill": 17
+      locations: 
+        - ranged weapon I-1
+        - ranged weapon II-2
+        - ranged weapon V-1
+        - ranged weapon VI-1
+        - ranged weapon VII-2
+        - ranged weapon VIII-2
+        - vitality I-2
+        - vitality III-1
+        - vitality VI-2
+        - vitality XI-2
+        - healing IV-3
+        - healing IX-2
+        - speed I-1
+        - speed II-5
+        - speed IV-2
+        - speed VII-4
+        - stealth I-1
+        - stealth IV-1
+        - stealth VI-1
+        - dangerous areas III-1
+        - dangerous areas III-2
+        - dangerous areas IX-1
+        - ranged weapon I-2
+        - ranged weapon III-1
+        - ranged weapon V-2
+        - fire I-1
+        - explosion I-1
+        - explosion III-2
+        - explosion IV-2
+        - price I-1
+        - electricity I-1
+        - electricity I-2
+        - ranged weapon IV-1
+        - vitality II-2
+        - vitality X-1
+        - healing I-1
+        - healing I-2
+        - healing II-1
+        - healing IX-3
+        - stealth V-1
+        - defense I-1
+        - defense II-1
+        - defense XIV-3
+        - careful movement II-1
+        - attack I-1
+        - attack VI-4
+        - stamina I-1
+        - stamina I-2
+        - mana I-1
+        - mana IV-2
+        - slots II-1
+      world: The Cauldron
+      force: true
+
+Manual_DeckedOut2_mp3:
+  progression_balancing: 50
+  goal:
+    enter the hideout: 32 # reduce to 1
+    craft all legendary cards: 32 # reduce to 1
+    complete a 30 ember run: 1
+    complete a 40 ember run: 2
+    complete a 50 ember run: 4
+    complete a 60 ember run: 8
+    complete a 70 ember run: 16
+    acquire 27 unique cards: 4
+    acquire 23 unique artifakes: 4
+    complete a 70 ember and 16 crown run: 8
+    complete a deepfrost difficulty run: 4
+    blow up the gateway with the bomb: 8
+  filler_traps: random-high # change to random, then to random-low
+  death_link: 'true'
+  frost_ember_locations: 'true'
+  coin_crown_locations: 'true'
+  artifake_locations: 'true'
+  unique_card_locations: 'true'
+  difficulty_objective_locations: 'true'
+  area_objective_locations: 'true'
+  various_ground_item_locations: 'true'
+  legendary_part_locations: 'true' # change to 'false'
+  various_area_locations: 'true'
+  common_card_location_count: 0
+  uncommon_card_location_count: 0
+  rare_card_location_count: 0
+  legendary_card_location_count: 6 # reduce to 0
+  crown_shop_location_count: 0
+  victory_tome_location_count: 6
+  crown_victory:
+    crown: 1
+    victory: 1
+  triggers:
+    - option_category: Manual_DeckedOut2_mp3
+      option_name: crown_victory
+      option_result: crown
+      options:
+        Manual_DeckedOut2_mp3:
+          crown_shop_location_count: 6
+          victory_tome_location_count: 0
+  # change the next 3 options to random-high
+  tactical_approach_count: random-low
+  pork_chop_power_count: random-low
+  dungeon_lackey_count: random-low
+  # change the next 3 options to random-high
+  pay_to_win_count: random-low
+  tailor_for_success_count: random-low
+  last_stand_count: random-low
+  # change the next 3 options to random-high
+  revelation_count: random-low
+  aquata_breather_count: random-low
+  eureka_count: random-low
+  # change the next 4 options to random-high
+  caves_of_carnage_key_count: random-low
+  black_mines_key_count: random-low
+  flooded_depths_key_count: random-low
+  burning_dark_key_count: random-low
+  plando_items:
+    - item: "Second Wind"
+      location: healing IV-3
+      world: The Cauldron
+      force: true
+    - item: "Second Wind"
+      location: healing IX-2
+      world: The Cauldron
+      force: true
+    - item: "Loot & Scoot"
+      location: speed I-1
+      world: The Cauldron
+      force: true
+    - item: "Quickstep"
+      location: speed II-5
+      world: The Cauldron
+      force: true
+    - item: "Quickstep"
+      location: speed IV-2
+      world: The Cauldron
+      force: true
+    - item: "Loot & Scoot"
+      location: speed VII-4
+      world: The Cauldron
+      force: true
+    - item: "Sneak"
+      location: stealth I-1
+      world: The Cauldron
+      force: true
+    - item: "Sneak"
+      location: stealth IV-1
+      world: The Cauldron
+      force: true
+    - item: "Sneak"
+      location: stealth VI-1
+      world: The Cauldron
+      force: true
+    - item: "Stability"
+      location: dangerous areas III-1
+      world: The Cauldron
+      force: true
+    - item: "Stability"
+      location: dangerous areas III-2
+      world: The Cauldron
+      force: true
+    - item: "Stability"
+      location: dangerous areas IX-1
+      world: The Cauldron
+      force: true
+    - items: 
+        "Moment of Clarity": 47
+      locations: 
+        - ranged weapon I-1
+        - ranged weapon II-2
+        - ranged weapon V-1
+        - ranged weapon VI-1
+        - ranged weapon VII-2
+        - ranged weapon VIII-2
+        - vitality I-2
+        - vitality III-1
+        - vitality VI-2
+        - vitality XI-2
+        - speed II-1
+        - speed V-1
+        - speed VI-3
+        - speed VII-5
+        - breath I-2
+        - breath II-2
+        - careful movement III-1
+        - careful movement IV-1
+        - ranged weapon I-2
+        - ranged weapon III-1
+        - ranged weapon V-2
+        - fire I-1
+        - explosion I-1
+        - explosion III-2
+        - explosion IV-2
+        - price I-1
+        - electricity I-1
+        - electricity I-2
+        - ranged weapon IV-1
+        - vitality II-2
+        - vitality X-1
+        - healing I-1
+        - healing I-2
+        - healing II-1
+        - healing IX-3
+        - stealth V-1
+        - defense I-1
+        - defense II-1
+        - defense XIV-3
+        - careful movement II-1
+        - attack I-1
+        - attack VI-4
+        - stamina I-1
+        - stamina I-2
+        - mana I-1
+        - mana IV-2
+        - slots II-1
+      world: The Cauldron
+      force: true
+
+ULTRAKILL:
+  goal: 
+    "1_4": 5
+    "2_4": 5
+    "3_2": 5
+    "4_4": 5
+    "5_4": 5
+    "6_2": 5
+    "7_4": 5
+    "P_1": 10 # reduce to 1
+    "P_2": 10 # reduce to 1
+  goal_requirement: random-high # change to random-low
+  include_secret_mission_completion: random
+  unlock_type: random
+  trap_percent: random-high # change to random-low
+  boss_rewards: 
+    disabled: 3
+    standard: 7 # reduce to 2
+    extended: 11 # reduce to 1
+  challenge_rewards:
+    'true': 10
+    'false': 25 # reduce to 2
+  p_rank_rewards: 
+    'true': 10
+    'false': 25 # reduce to 2
+  hank_rewards: random
+  randomize_clash_mode: false
+  fish_rewards: random
+  cleaning_rewards: false
+  chess_reward: random
+  rocket_race_reward: random
+  starting_weapon: 
+    any_weapon: 5
+    any_weapon_or_arm: 15 # reduce to 1
+  randomize_secondary_fire: random
+  start_with_arm: random
+  starting_stamina: random-high
+  starting_walljumps: random-high
+  start_with_slide: 
+    'true': 3
+    'false': 1
+  start_with_slam:
+    'true': 3
+    'false': 1
+  revolver_form: random
+  shotgun_form: random
+  nailgun_form: random
+  randomize_skulls: random
+  randomize_limbo_switches: random
+  randomize_violence_switches: random
+  point_multiplier: random-range-3-7
+  ui_color_randomizer: random
+  gun_color_randomizer: random
+  music_randomizer: random
+  cybergrind_hints: true
+  death_link: true
+  progression_balancing: 50
+  plando_items:
+    - item: "Revolver - Sharpshooter"
+      location: ranged weapon I-2
+      world: The Cauldron
+      force: true
+    - item: "Shotgun - Sawed-On"
+      location: ranged weapon III-1
+      world: The Cauldron
+      force: true
+    - item: "Nailgun - Attractor"
+      location: ranged weapon V-2
+      world: The Cauldron
+      force: true
+    - item: "Rocket Launcher - Firestarter"
+      location: fire I-1
+      world: The Cauldron
+      force: true
+    - item: "Rocket Launcher - S.R.S. Cannon"
+      location: explosion I-1
+      world: The Cauldron
+      force: true
+    - item: "Railcannon - Malicious"
+      location: explosion III-2
+      world: The Cauldron
+      force: true
+    - item: "Shotgun - Core Eject"
+      location: explosion IV-2
+      world: The Cauldron
+      force: true
+    - item: "Revolver - Marksman"
+      location: price I-1
+      world: The Cauldron
+      force: true
+    - item: "Nailgun - JumpStart"
+      location: electricity I-1
+      world: The Cauldron
+      force: true
+    - item: "Railcannon - Electric"
+      location: electricity I-2
+      world: The Cauldron
+      force: true
+    - items: 
+        "Overheal": 8
+        "Infinite Stamina": 8
+        "Air Jump": 8
+        "Dual Wield": 8
+        "+10,000P": 15
+      locations: 
+        - ranged weapon I-1
+        - ranged weapon II-2
+        - ranged weapon V-1
+        - ranged weapon VI-1
+        - ranged weapon VII-2
+        - ranged weapon VIII-2
+        - vitality I-2
+        - vitality III-1
+        - vitality VI-2
+        - vitality XI-2
+        - speed II-1
+        - speed V-1
+        - speed VI-3
+        - speed VII-5
+        - breath I-2
+        - breath II-2
+        - careful movement III-1
+        - careful movement IV-1
+        - healing IV-3
+        - healing IX-2
+        - speed I-1
+        - speed II-5
+        - speed IV-2
+        - speed VII-4
+        - stealth I-1
+        - stealth IV-1
+        - stealth VI-1
+        - dangerous areas III-1
+        - dangerous areas III-2
+        - dangerous areas IX-1
+        - ranged weapon IV-1
+        - vitality II-2
+        - vitality X-1
+        - healing I-1
+        - healing I-2
+        - healing II-1
+        - healing IX-3
+        - stealth V-1
+        - defense I-1
+        - defense II-1
+        - defense XIV-3
+        - careful movement II-1
+        - attack I-1
+        - attack VI-4
+        - stamina I-1
+        - stamina I-2
+        - mana I-1
+        - mana IV-2
+        - slots II-1
+      world: The Cauldron
+      force: true
+
+
+TUNIC:
+  progression_balancing: '50'
+  sword_progression: 'true'
+  start_with_sword: 'false'
+  ability_shuffling: 'true'
+  laurels_location: anywhere
+  non_local_items:
+  - Gold Questagon
+  start_inventory:
+    Money x200: 10
+  start_inventory_from_pool: {}
+  keys_behind_bosses: random
+  shuffle_ladders: random
+  entrance_rando: random
+  fixed_shop: random
+  fool_traps:
+    off: 2
+    normal: 4
+    double: 8
+    onslaught: 16 # change to 0
+  hexagon_quest: random
+  hexagon_goal: random
+  extra_hexagon_percentage: random  
+  lanternless: 'false'
+  maskless: 'false'
+  laurels_zips: 'false'
+  ice_grappling: 'off'
+  ladder_storage: 'off'
+  ladder_storage_without_items: 'false'
+  plando_items:
+    - item: "Gun"
+      location: ranged weapon IV-1
+      world: The Cauldron
+      force: true
+    - item: "HP Offering"
+      location: vitality II-2
+      world: The Cauldron
+      force: true
+    - item: "HP Offering"
+      location: vitality X-1
+      world: The Cauldron
+      force: true
+    - item: "Potion Flask"
+      location: healing I-1
+      world: The Cauldron
+      force: true
+    - item: "Potion Offering"
+      location: healing I-2
+      world: The Cauldron
+      force: true
+    - item: "Potion Offering"
+      location: healing II-1
+      world: The Cauldron
+      force: true
+    - item: "Potion Flask"
+      location: healing IX-3
+      world: The Cauldron
+      force: true
+    - item: "Muffling Bell"
+      location: stealth V-1
+      world: The Cauldron
+      force: true
+    - item: "DEF Offering"
+      location: defense I-1
+      world: The Cauldron
+      force: true
+    - item: "Shield"
+      location: defense II-1
+      world: The Cauldron
+      force: true
+    - item: "DEF Offering"
+      location: defense XIV-3
+      world: The Cauldron
+      force: true
+    - item: "Bone Card"
+      location: careful movement II-1
+      world: The Cauldron
+      force: true
+    - item: "ATT Offering"
+      location: attack I-1
+      world: The Cauldron
+      force: true
+    - item: "ATT Offering"
+      location: attack VI-4
+      world: The Cauldron
+      force: true
+    - item: "SP Offering"
+      location: stamina I-1
+      world: The Cauldron
+      force: true
+    - item: "SP Offering"
+      location: stamina I-2
+      world: The Cauldron
+      force: true
+    - item: "MP Offering"
+      location: mana I-1
+      world: The Cauldron
+      force: true
+    - item: "MP Offering"
+      location: mana IV-2
+      world: The Cauldron
+      force: true
+    - item: "Card Slot"
+      location: slots II-1
+      world: The Cauldron
+      force: true
+    - items: 
+        "Money x32": 10
+        "HP Berry x2": 10
+        "Lure": 10
+        "MP Berry x2": 10
+      locations: 
+        - ranged weapon I-1
+        - ranged weapon II-2
+        - ranged weapon V-1
+        - ranged weapon VI-1
+        - ranged weapon VII-2
+        - ranged weapon VIII-2
+        - vitality I-2
+        - vitality III-1
+        - vitality VI-2
+        - vitality XI-2
+        - speed II-1
+        - speed V-1
+        - speed VI-3
+        - speed VII-5
+        - breath I-2
+        - breath II-2
+        - careful movement III-1
+        - careful movement IV-1
+        - healing IV-3
+        - healing IX-2
+        - speed I-1
+        - speed II-5
+        - speed IV-2
+        - speed VII-4
+        - stealth I-1
+        - stealth IV-1
+        - stealth VI-1
+        - dangerous areas III-1
+        - dangerous areas III-2
+        - dangerous areas IX-1
+        - ranged weapon I-2
+        - ranged weapon III-1
+        - ranged weapon V-2
+        - fire I-1
+        - explosion I-1
+        - explosion III-2
+        - explosion IV-2
+        - price I-1
+        - electricity I-1
+        - electricity I-2
+      world: The Cauldron
+      force: true

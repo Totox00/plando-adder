@@ -1,0 +1,582 @@
+hecate.mp3
+Noita
+Gold (200)
+Potion
+Powder Pouch
+
+hecate.mp3
+Outer Wilds
+Marshmallow
+Jetpack Fuel Refill
+Oxygen Refill
+
+hecate.mp3
+Manual_DeckedOut2_mp3
+Moment of Clarity
+
+hecate.mp3
+ULTRAKILL
+Overheal
+Infinite Stamina
+Air Jump
+Dual Wield
++10,000P
+
+hecate.mp3
+TUNIC
+Money x32
+HP Berry x2
+Lure
+MP Berry x2
+
+Connor
+Manual_Godhome_Eszenn
+The Urge to Keep Fighting
+
+Connor
+Manual_SquareMusic_Connor
+Hi-Potion
+
+Connor
+Timespinner
+Berry Pick-Mi-Up
+
+Connor
+Undertale
+Temmie Flakes
+100G
+
+Connor
+Hollow Knight
+Geo_Rock-Default
+
+ChromaNyan
+Minecraft
+Rotten Flesh
+50 XP
+32 Arrows
+4 Emeralds
+
+ChromaNyan
+Manual_SuperCatTales_ChromaNyan
+Rusted Bell
+
+DiStegRogue
+Pokemon Red and Blue
+Poke Ball
+Great Ball
+
+DiStegRogue
+Pokemon Emerald
+Poke Ball
+Great Ball
+
+DiStegRogue
+Ocarina of Time
+Bombs (5)
+Recovery Heart
+Rupee (1)
+
+DiStegRogue
+A Link to the Past
+Rupees (20)
+Bombs (10)
+
+Sylsko
+Celeste 64
+Raspberry
+
+Sylsko
+Timespinner
+Berry Pick-Mi-Up
+Ether
+
+Sylsko
+TUNIC
+HP Berry
+MP Berry
+
+Sylsko
+Astalon
+200 Orbs
+
+Sylsko
+Ender Lilies
+Lily's Note
+
+Caesius
+Ocarina of Time
+Bombs (5)
+Deku Nuts (5)
+Rupees (20)
+
+Caesius
+Timespinner
+Berry Pick-Mi-Up
+Mind Refresh
+Sand Vial
+
+Caesius
+Manual_MarbleBlastUltra_KitLemonfoot
+Time Travel (-3s)
+
+Caesius
+Pokemon Emerald
+Great Ball
+Super Repel
+
+Caesius
+Minecraft
+50 XP
+32 Arrows
+4 Emeralds
+
+Rouginater
+Minecraft
+50 XP
+32 Arrows
+4 Emeralds
+
+Rouginater
+Meritous
+Crystals x500
+
+Rouginater
+VVVVVV
+Trinket 13
+Trinket 14
+Trinket 15
+Trinket 16
+Trinket 17
+Trinket 18
+Trinket 19
+Trinket 20
+
+Rouginater
+Manual_PeggleDeluxe_Freezinater
+Broken Peg
+
+Rouginater
+Manual_PeggleNights_Freezinater
+Broken Peg
+
+Toto
+Slay the Spire
+Card Draw
+Relic
+
+Toto
+Sentinels of the Multiverse
+Hero Toughness 1
+Hero Fragility 1
+Villain Fragility 1
+Villain Toughness 1
+
+Toto
+Dark Souls III
+Fading Soul
+Soul of a Deserted Corpse
+Large Soul of a Deserted Corpse
+Soul of an Unknown Traveler
+
+Toto
+Hollow Knight
+Geo_Rock-Default
+
+Toto
+Timespinner
+Potion
+Ether
+Sand Vial
+Berry Pick-Mi-Up
+
+BennyRogue
+The Witness
+Speed Boost
+
+BennyRogue
+Rogue Legacy
+1000 Gold
+
+Broney
+Super Metroid
+Missile
+
+Broney
+Super Metroid Map Rando
+Missile
+
+Broney
+Manual_Angband425_Broney
+Scroll of Acquirement
+
+DragoRogue2
+EarthBound
+Teddy Bear
+Repel Superwich
+Big Bottle Rocket
+
+DragoRogue2
+Factorio
+progressive-physical-projectile-damage
+progressive-follower-robot-count
+progressive-worker-robots-speed
+
+DragoRogue2
+Pokemon Red and Blue
+Super Repel
+Full Restore
+Full Heal
+Ultra Ball
+
+superfid
+DLCQuest
+Loading Screen
+Parallax Pack
+Particles Pack
+Removed Ads Pack
+Sexy Outfits Pack
+Top Hat Pack
+
+superfid
+Timespinner
+Empress Cake
+Royal Casserole
+
+superfid
+A Link to the Past
+Rupees (50)
+Bombs (10)
+Arrows (10)
+
+superfid
+Celeste 64
+Raspberry
+
+superfid
+Pseudoregalia
+Clear Mind
+Pilgrimage
+Empathy
+Professionalism
+Aerial Finesse
+
+superfid
+Secret of Evermore
+500 Moniez
+Ingredients
+4 Dry Ice
+3 Meteorite
+Mud Pepper
+
+MiroRogue
+A Hat in Time
+25 Pons
+
+MiroRogue
+DLCQuest
+Animation Pack
+Audio Pack
+Sexy Outfits Pack
+Parallax Pack
+Top Hat Pack
+Pet Pack
+
+MiroRogue
+Pokemon Emerald
+Great Ball
+Super Repel
+Super Potion
+Revive
+Ether
+
+MiroRogue
+Hollow Knight
+Geo_Rock-Default
+
+MiroRogue
+Minecraft
+50 XP
+32 Arrows
+4 Emeralds
+8 Gold Ore
+
+MiroRogue
+Timespinner
+Berry Pick-Mi-Up
+Antidote
+Potion
+Sand Vial
+Ether
+
+DeathclawCavern
+Celeste 64
+Raspberry
+
+DeathclawCavern
+Ocarina of Time
+Rupees (50)
+
+DeathclawCavern
+Timespinner
+Rotten Tail
+
+DeathclawCavern
+Super Mario 64
+1Up Mushroom
+
+HPfunman
+Kingdom Hearts
+Elixir
+
+HPfunman
+Slay the Spire
+Card Draw
+
+Brynatron
+Hollow Knight
+Geo_Rock-Default
+
+Brynatron
+Terraria
+Reward: Coins
+
+Brynatron
+Stardew Valley
+Joja Cola
+
+Grimore
+A Hat in Time
+25 Pons
+
+Grimore
+Noita
+Gold (200)
+Potion
+Powder Pouch
+
+Grimore
+Timespinner
+Berry Pick-Mi-Up
+Ether
+
+Grimore
+Minecraft
+Rotten Flesh
+50 XP
+32 Arrows
+4 Emeralds
+
+Grimore
+Sonic Adventure DX
+10 Rings
+
+TzufRougelike
+Hollow Knight
+Geo_Rock-Default
+
+TzufRougelike
+Super Metroid
+Missile
+
+TzufRougelike
+Ocarina Of Time
+Arrows (5)
+Bombs (5)
+Rupee (1)
+Rupees (5)
+
+TzufRougelike
+A Link to the Past
+Rupee (1)
+Rupee (5)
+
+jf-rogue
+Rogue Legacy
+1000 Gold
+3000 Gold
+5000 Gold
+
+jf-rogue
+Timespinner
+Lachiemi Sun
+Spaghetti
+Berry Pick-Mi-Up
+
+jf-rogue
+A Hat in Time
+25 Pons
+
+jf-rogue
+Hollow Knight
+Soul_Refill
+
+jf-rogue
+Muse Dash
+Extra Life
+Great To Perfect (10 Pack)
+Miss To Great (5 Pack)
+
+JoyTheBard
+DLCQuest
+Animation Pack
+Audio Pack
+Parallax Pack
+Particles Pack
+Sexy Outfits Pack
+Top Hat Pack
+
+JoyTheBard
+Outer Wilds
+Marshmallow
+Jetpack Fuel Refill
+Oxygen Refill
+
+JoyTheBard
+Super Mario 64
+1Up Mushroom
+
+JoyTheBard
+The Witness
+Speed Boost
+
+sheen
+Kingdom Hearts Birth by Sleep
+Magic Haste
+Attack Haste
+
+sheen
+Factorio
+progressive-physical-projectile-damage
+progressive-research-speed
+
+sheen
+Super Metroid Map Rando
+Missile
+
+SunCat
+Timespinner
+Mind Refresh
+Sand Vial
+Antidote
+
+SunCat
+Celeste 64
+Raspberry
+
+SunCat
+Risk of Rain 2
+Item Scrap, White
+
+SunCat
+Muse Dash
+Extra Life
+Great to Perfect (10 Pack)
+Miss to Great (5 Pack)
+
+SunCat
+VVVVVV
+Trinket 13
+Trinket 14
+Trinket 15
+Trinket 16
+Trinket 17
+Trinket 18
+Trinket 19
+Trinket 20
+
+SunCat
+Pokemon Emerald
+Rare Candy
+
+Jake13Snake
+Adventure
+Freeincarnate
+nothing
+
+Jake13Snake
+DOOM 1993
+Medikit
+Armor
+Box of bullets
+Box of shotgun shells
+Box of rockets
+Energy cell pack
+Partial invisibility
+
+Jake13Snake
+Links Awakening DX
+20 Rupees
+
+RogueFore772
+A Hat in Time
+25 Pons
+
+RogueFore772
+TUNIC
+HP Berry x2
+Lure
+MP Berry x2
+
+RogueFore772
+Muse Dash
+Extra Life
+Great to Perfect (10 Pack)
+Miss to Great (5 Pack)
+
+RogueFore772
+VVVVVV
+Trinket 13
+Trinket 14
+Trinket 15
+Trinket 16
+Trinket 17
+Trinket 18
+Trinket 19
+Trinket 20
+
+RndGuy
+Celeste 64
+Raspberry
+
+RndGuy
+Blasphemous
+Tears of Atonement (250)
+
+RndGuy
+Muse Dash
+Extra Life
+Great To Perfect (10 Pack)
+Miss To Great (5 Pack)
+
+RndGuy
+Hollow Knight
+Geo_Rock-Default
+
+RndGuy
+The Witness
+Speed Boost
+
+rhythm.ET2
+Manual_RatchetAndClankUYA_Rhythm
+Look, plumber's crack!
+
+rhythm.ET2
+Dome Keeper
+Extra cobalt
+
+rhythm.ET2
+Mindustry
+A fistful of nothing...
+
+rhythm.ET2
+Sonic Adventure DX
+10 Rings
+
+rhythm.ET2
+Sonic Adventure 2 Battle
+Dragon
+
+rhythm.ET2
+Kingdom Hearts Birth by Sleep
+Megalixir

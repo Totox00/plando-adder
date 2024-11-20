@@ -1,0 +1,199 @@
+name: Brynatron
+description: Brynatron's file for the Roguelike Async
+
+game:
+    Hollow Knight: 1
+    Terraria: 1
+    Stardew Valley: 1
+requires:
+  version: 0.5.1
+  
+Hollow Knight:
+# 12 UPGRADES
+  progression_balancing: 0
+  accessibility: full
+
+  RandomizeDreamers: true
+  RandomizeSkills: true
+  RandomizeFocus: true
+  RandomizeSwim: true
+  RandomizeCharms: true
+  RandomizeKeys: true
+  RandomizeMaskShards: true
+  RandomizeVesselFragments: true
+  RandomizeCharmNotches: true
+  RandomizePaleOre: true
+  RandomizeGeoChests: true
+  RandomizeJunkPitChests: true
+  RandomizeRancidEggs: true
+  RandomizeRelics: true
+  RandomizeWhisperingRoots: true
+  RandomizeBossEssence: true
+  RandomizeGrubs: true
+  RandomizeMimics: true
+  RandomizeMaps: true
+  RandomizeStags: true
+  RandomizeLifebloodCocoons: true
+  RandomizeGrimmkinFlames: true
+  RandomizeJournalEntries: true
+  RandomizeNail: true
+  RandomizeGeoRocks: true
+  RandomizeBossGeo: true
+  RandomizeSoulTotems: true
+  RandomizeLoreTablets: true
+  RandomizeElevatorPass: true
+  
+  PreciseMovement: true
+  ProficientCombat: true
+  BackgroundObjectPogos: false
+  EnemyPogos: true
+  ObscureSkips: true
+  ShadeSkips: false
+  InfectionSkips: true 
+  FireballSkips: false
+  SpikeTunnels: false
+  AcidSkips: false
+  DamageBoosts: false
+  DangerousSkips: false
+  DarkRooms: true # Can be upgraded to false
+  ComplexSkips: true # Can be upgraded to false
+  DifficultSkips: true # Can be upgraded to false
+  RemoveSpellUpgrades: false
+
+  Goal: 
+    grub_hunt: 1
+    radiance: 1
+  GrubHuntGoal: &grub 46 # Can be upgraded to 41, then 36, then 31
+  WhitePalace: include
+  ExtraPlatforms: include
+  AddUnshuffledLocations: true
+  StartingGeo: random-low # Can be upgraded to random-middle then random-high
+
+  DeathLink: true
+  DeathLinkShade: Shade
+  DeathLinkBreaksFragileCharms: true
+
+  MinimumGeoPrice: random-low
+  MaximumGeoPrice: random-high # Can be upgraded to random-middle
+  MinimumGrubPrice: 1
+  MaximumGrubPrice: *grub
+  MinimumEssencePrice: random-low
+  MaximumEssencePrice: random-high # Can be upgraded to random-middle
+  MinimumCharmPrice: random-low
+  MaximumCharmPrice: random-high # Can be upgraded to random-middle
+  RandomCharmCosts: 100 # Can be upgraded to 80, then 70
+  MinimumEggPrice: 1
+  MaximumEggPrice: random-high
+  EggShopSlots: random-high
+  SlyShopSlots: random-middle
+  SlyKeyShopSlots: random-high
+  IseldaShopSlots: random-low
+  SalubraShopSlots: random-middle
+  SalubraCharmShopSlots: random-middle
+  LegEaterShopSlots: random-low
+  GrubfatherRewardSlots: random
+  SeerRewardSlots: random-middle
+  ExtraShopSlots: random-low
+  
+  SplitCrystalHeart: true
+  SplitMothwingCloak: true
+  SplitMantisClaw: true
+  
+  local_items:
+    [Grub, Mimic_Grub]
+ 
+Terraria:
+# 10 UPGRADES
+  progression_balancing: 0
+  accessibility: full
+  calamity: false
+  getfixedboi: false
+
+  goal: zenith
+
+  early_achievements: true
+  normal_achievements: true
+  grindy_achievements: false
+  fishing_achievements: false
+
+  fill_extra_checks_with: coins #  Can be upgraded to useful_items
+  death_link: true
+  exclude_locations:
+    [] # Can be upgraded to include: Real Estate Agent, Funkytown, Gelatin World Tour, Lucky Break, It Can Talk?!, Dead Men Tell No Tales, Watch Your Step!, The Great Slime Mitosis, And Good Riddance!
+
+Stardew Valley:
+# 12 UPGRADES
+  goal:
+    community_center: 1
+    cryptic_note: 1
+    master_angler: 1
+    greatest_walnut_hunter: 1
+    protector_of_the_valley: 1
+
+  farm_type: random
+  bundle_randomization: remixed_anywhere # Can be upgraded to remixed
+  bundle_price: expensive # Can be upgraded to normal, then cheap
+  entrance_randomization: disabled
+  exclude_ginger_island: false
+
+  season_randomization: randomized
+  cropsanity: enabled
+  backpack_progression: progressive # Can be upgraded to early_progressive
+  tool_progression: progressive_cheap # Can be upgraded to progrssive_very_cheap
+  skill_progression: progressive_with_masteries
+  building_progression: progressive_cheap # Can be upgraded to progressive_very_cheap
+  elevator_progression: progressive_from_previous_floor
+  festival_locations: hard
+  arcade_machine_locations: disabled
+  special_order_locations: board_qi_short # Can be upgraded to board_qi_very_short
+  quest_locations: random-low
+ 
+  fishsanity: randomized
+  museumsanity: milestones
+  monstersanity: split_goals
+  shipsanity: none
+  cooksanity:
+    all: 3
+    queen_of_sauce: 1
+    none: 1
+  chefsanity:
+    all: 3
+    random: 1
+    none: 1
+  craftsanity:
+    all: 4      
+    none: 1
+  friendsanity: all
+  friendsanity_heart_size: random-middle # Can be upgraded to random-high
+  booksanity:
+    all: 3
+    power_skill: 1
+    none: 1
+  walnutsanity:
+    ['Puzzles', 'Bushes', 'Dig Spots', 'Repeatables']
+
+  quick_start: true
+  starting_money: random-middle # Can be upgraded to random-high
+  profit_margin: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
+  experience_multiplier: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
+  friendship_multiplier: random-range-low-100-400 # Can be upgraded to random-range-middle-100-400
+  debris_multiplier:
+    vanilla: 8
+    half: 4
+    quarter: 2
+    none: 1
+
+  movement_buff_number: random-low
+  enabled_filler_buffs:
+    ['Bite Rate', 'Defense', 'Luck', 'Damage', 'Immunity', 'Health', 'Energy', 'Fish Trap', 'Fishing Bar Size']
+  trap_items: hard # Can be upgraded to medium, then easy, then no_traps
+  multiple_day_sleep_enabled: true
+  multiple_day_sleep_cost: free
+
+  progression_balancing: 0
+  accessibility: full
+  gifting: false
+  death_link: true
+ 
+  local_items:
+    ['Golden Walnut']

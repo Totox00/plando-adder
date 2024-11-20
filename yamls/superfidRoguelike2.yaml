@@ -1,0 +1,413 @@
+﻿name: superfid{NUMBER}
+description: Roguelike Async 2
+requires:
+  plando:
+    items, texts
+game: 
+  DLCQuest: 1
+  Timespinner: 1
+  A Link to the Past: 1
+  Celeste 64: 1
+  Pseudoregalia: 1
+  Secret of Evermore: 1
+# Number of upgrades: 7
+DLCQuest:
+  progression_balancing: 40 # Upgrade by 10, six times
+  coinsanity: coin
+  campaign: both
+  item_shuffle:
+    disabled: 1
+    shuffled: 3
+  coinbundlequantity: random-range-low-5-50
+  permanent_coins: false # Upgrade to true
+  ending_choice: true
+  double_jump_glitch: none
+  time_is_money: required
+  death_link: true
+  exclude_locations:
+  - Not Exactly Noble # Unavoidable death for a single check
+  plando_items: # Makes sure to make temporary spikes scout-/avoidable
+    - items:
+        Temporary Spike: true
+      locations:
+        - Animation Pack
+        - Armor for your Horse Pack
+        - Audio Pack
+        - Canadian Dialog Pack
+        - Checkpoint Pack
+        - Cut Content Pack
+        - DLC NPC Pack
+        - Day One Patch Pack
+        - Death of Comedy Pack
+        - Finish the Fight Pack
+        - Gun Pack
+        - Harmless Plants Pack
+        - Health Bar Pack
+        - High Definition Next Gen Pack
+        - Increased HP Pack
+        - Incredibly Important Pack
+        - Map Pack
+        - Movement Pack
+        - Name Change Pack
+        - Night Map Pack
+        - Parallax Pack
+        - Particles Pack
+        - Pause Menu Pack
+        - Psychological Warfare Pack
+        - Remove Ads Pack
+        - Season Pass
+        - Sexy Outfits Pack
+        - The Zombie Pack
+        - Time is Money Pack
+        - Top Hat Pack
+        - Wall Jump Pack
+      world: false
+      from_pool: true
+      force: true
+# Number of upgrades: 13
+Timespinner:
+  death_link: true
+  start_with_jewelry_box: false # Upgrade to true
+  downloadable_items: random
+  eye_spy: random
+  start_with_meyef: random
+  quick_seed: random
+  specific_keycards: random
+  inverted: random
+  gyre_archives: random
+  cantoran: random
+  lore_checks: random
+  boss_rando: random # Upgrade to 50/50 between 'off' and scaled
+  damage_rando: mostlynerfs # Upgrade to balanced, then mostlybuffs
+  hp_cap: random # Upgrade to random-range-250-999, then random-range-500-999, then 999
+  level_cap: 99
+  extra_earrings_xp: random # Upgrade to random-range-12-24, then 24
+  boss_healing: true
+  shop_fill: randomized
+  shop_warp_shards: true
+  shop_multiplier: random-range-1-5 # Upgrade to 0
+  loot_pool: randomized
+  drop_rate_category: fixed
+  fixed_drop_rate: random # Upgrade to 100
+  loot_tier_distro: full_random
+  show_bestiary: true
+  show_drops: true
+  enter_sandman: random
+  dad_percent: # Upgrade to a 50/50 chance
+    'false': 9
+    'true': 1
+  rising_tides: true
+  unchained_keys: random
+  back_to_the_future: true
+  trap_chance: 90 # Upgrade to random-range-0-90
+  traps:
+    ['Meteor Sparrow Trap', 'Poison Trap', 'Chaos Trap', 'Neurotoxin Trap', 'Bee Trap']
+# Number of upgrades: 15
+A Link to the Past:
+# Trigger block adding mercenary mode (1 Triforce piece needed to goal put on a random boss
+  triggers:
+  - option_name: goal
+    option_result: mercenary
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        goal: triforce_hunt
+        triforce_pieces_mode: available
+        triforce_pieces_available: 1
+        triforce_pieces_required: 1
+        mercenary_boss_location:
+          eastern_palace: 1
+          desert_palace: 1
+          tower_of_hera: 1
+          palace_of_darkness: 1
+          ice_palace: 1
+          swamp_palace: 1
+          misery_mire: 1
+          thieves_town: 1
+          skull_woods: 1
+          turtle_rock: 1
+  - option_name: mercenary_boss_location
+    option_result: eastern_palace
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Eastern Palace - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour quarry slumbers behind sentinels of stone."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: desert_palace
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Desert Palace - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour prey lurks amidst the shifting sands."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: tower_of_hera
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Tower of Hera - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour mark sits at the pinnacle of the realm."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: palace_of_darkness
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Palace of Darkness - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYou must kill the one upon the pitch black throne."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: swamp_palace
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Swamp Palace - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour target is in need of a plumber."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: skull_woods
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Skull Woods - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour nemesis lies within the skull of a long dead beast."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: thieves_town
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Thieves' Town - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour mark schemes within a den of evil."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: ice_palace
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Ice Palace - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour enemy sleeps beneath the frozen depths."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: misery_mire
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Misery Mire - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour target watches from a viscid lair."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+  - option_name: mercenary_boss_location
+    option_result: turtle_rock
+    option_category: A Link to the Past
+    options:
+      A Link to the Past:
+        plando_items:
+          - item:
+              Triforce Piece: 1
+            location: Turtle Rock - Boss
+            world: false
+        plando_texts:
+          - text: "hey @\nYour quarry rests within a beast of stone."
+            at: kakariko_tavern_fisherman
+          - text: "A hit has been put out on one of Ganon's generals."
+            at: sign_ganon
+### END Mercenary mode trigger block ###
+  goal: 
+    ganon: 1
+    crystals: 1
+    bosses: 1
+    ganon_pedestal: 1
+    triforce_hunt: 1
+    ganon_triforce_hunt: 1
+# # Upgrade to the following selection (1/2)
+    # ganon: 1
+    # crystals: 1
+    # pedestal: 1
+    # ganon_pedestal: 1
+    # triforce_hunt: 1
+    # ganon_triforce_hunt: 1
+    # mercenary: 1
+# # Upgrade to the following selection (2/2)
+    # crystals: 1
+    # pedestal: 1
+    # ganon_pedestal: 1
+    # triforce_hunt: 1
+    # ganon_triforce_hunt: 1
+    # mercenary: 3
+  mode:
+    open: 1
+    inverted: 1
+  glitches_required: no_glitches
+  dark_room_logic: lamp
+  open_pyramid: goal
+  crystals_needed_for_gt: random # Upgrade to random-range-0-4; also do the same for crystals_needed_for_ganon
+  crystals_needed_for_ganon: random # See above
+  triforce_pieces_mode: extra
+  triforce_pieces_required: random
+  triforce_pieces_extra: random
+  entrance_shuffle: vanilla
+  big_key_shuffle: any_world
+  small_key_shuffle: random # Upgrade to start_with
+  key_drop_shuffle: true
+  compass_shuffle: any_world
+  map_shuffle: any_world
+  restrict_dungeon_item_on_boss: false
+  item_pool: expert # Upgrade to hard, then easy
+  item_functionality: hard # Upgrade to easy
+  enemy_health: hard # Upgrade to default, then easy
+  enemy_damage: default
+  progressive: on
+  swordless: random # Upgrade to false
+  dungeon_counters: on
+  retro_bow: random
+  retro_caves: random
+  hints: on
+  scams: random
+  boss_shuffle: full
+  pot_shuffle: false
+  enemy_shuffle: random # Upgrade to false
+  killable_thieves: true
+  bush_shuffle: random
+  shop_item_slots: random
+  randomize_shop_inventories: random
+  shuffle_shop_inventories: random
+  include_witch_hut: false
+  randomize_shop_prices: random
+  randomize_cost_types: random
+  shop_price_modifier: random # Upgrade to random-range-0-200, then 0
+  shuffle_capacity_upgrades: random
+  bombless_start: random # Upgrade to false
+  shuffle_prizes: random
+  tile_shuffle: random
+  misery_mire_medallion: random
+  turtle_rock_medallion: random
+  glitch_boots: true
+  beemizer_total_chance: random # Upgrade to 0
+  beemizer_trap_chance: 60
+  death_link: true
+  allow_collect: true
+  heartbeep: quarter
+  triforcehud: normal
+# Number of upgrades: 10
+Celeste 64:
+  death_link: true
+  death_link_amnesty: 5 # Upgrade to 10, then 15, then 20, then 30
+  logic_difficulty: random # Upgrade to standard
+  move_shuffle: true
+  total_strawberries: random-range-20-46 # Upgrade to random
+  strawberries_required_percentage: 100 #Upgrade to random, then random-range-0-50
+  friendsanity: random
+  signsanity: random
+  carsanity: random
+  badeline_chaser_source: locations
+  badeline_chaser_frequency: random-range-1-10 # Upgrade to random-range-5-10, then 0
+  badeline_chaser_speed: random
+# Number of upgrades: 3
+Pseudoregalia:
+  logic_level: # Remove expert from choices, then change to normal guaranteed
+    normal: 50
+    hard: 50
+    expert: 50
+  obscure_logic: random # Upgrade to false
+  progressive_breaker: random
+  progressive_slide: random
+  split_sun_greaves: random
+  death_link: true
+# Number of upgrades: 18
+Secret of Evermore:
+  difficulty: random # Upgrade to exclude hard
+  energy_core: random
+  required_fragments: random # Upgrade to random-range-1-50, then random-range-1-25. Do the same for available_fragments
+  available_fragments: random # See above
+  money_modifier: random-range-50-150 # Upgrade to random-range-100-300, then random-range-300-1000, then random-range-1000-2500
+  exp_modifier: random-range-50-150 # Upgrade to random-range-100-300, then random-range-300-1000, then random-range-1000-2500
+  sequence_breaks: off # Upgrade to on
+  out_of_bounds: off # Upgrade to on
+  fix_cheats: true # Upgrade to false
+  fix_infinite_ammo: true # Upgrade to false
+  fix_atlas_glitch: true # Upgrade to false
+  fix_wings_glitch: true # Upgrade to false
+  shorter_dialogs: true
+  short_boss_rush: false # Upgrade to true
+  ingredienizer: random
+  sniffamizer: random
+  sniff_ingredients: random_ingredients
+  callbeadamizer: random
+  musicmizer: random
+  doggomizer: 
+    'off': 50
+    'on': 50
+    full: 50
+  turdo_mode: random # Upgrade to false
+  death_link: true
+  trap_count: random-range-0-90 # Upgrade to 0
+  trap_chance_quake: 20
+  trap_chance_poison: 20
+  trap_chance_confound: 20
+  trap_chance_hud: 20
+  trap_chance_ohko: 20

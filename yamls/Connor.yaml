@@ -1,0 +1,175 @@
+﻿name: Connor
+
+game: 
+  Manual_Godhome_Eszenn: 1
+  Manual_SquareMusic_Connor: 1
+  Timespinner: 2
+  Undertale: 2
+  Hollow Knight: 2
+Manual_Godhome_Eszenn:
+  progression_balancing:
+    0: 50
+  victory_condition:
+    pantheon_5: 1 #Start with pantheon 5, change to boss_rush
+  number_of_bosses:
+    random-range-30-40: 50 #Start with random-range-30-40, lower to random-range-20-30
+  exclude_p5:
+    'false': 50 #Start false change to true
+  death_link:
+    'true': 10
+  include_bindings:
+    'true': 50 #start true change to false
+  include_radiant_difficulty:
+    'true': 50 #start true change to false
+Manual_SquareMusic_Connor:
+  progression_balancing:
+    0: 1 # Start at 0 then change to 15 then change to 30 then change to 50
+  filler_traps:
+    random-high: 1 #Start at random-high then change to 50 then change to 25 then change to 0
+  death_link:
+    'true': 10
+Timespinner:
+  death_link: 'true'
+  progression_balancing: '0'
+  accessibility: full
+  start_with_jewelry_box: 'false'
+  downloadable_items: 'true'
+  eye_spy: 'true'
+  start_with_meyef: 'false'
+  quick_seed: 'true'
+  specific_keycards: 'true'
+  inverted: 'false'
+  gyre_archives: 'true'
+  cantoran: 'true'
+  lore_checks: 'true'
+  boss_rando: unscaled # change to scaled
+  damage_rando: mostlynerfs #change to mostlybuffs
+  hp_cap: '999'
+  level_cap: '99'
+  extra_earrings_xp: '0' #Change to 12 then 24
+  boss_healing: 'true'
+  shop_fill: randomized
+  shop_warp_shards: 'true'
+  shop_multiplier: '1'
+  loot_pool: vanilla
+  drop_rate_category: tiered
+  fixed_drop_rate: '5'
+  loot_tier_distro: default_weight
+  show_bestiary: 'true'
+  show_drops: 'true'
+  enter_sandman: 'true'
+  dad_percent: 'false' #Change to True
+  rising_tides: 'true'
+  unchained_keys: 'true'
+  back_to_the_future: 'false'
+  trap_chance: '100' #lower to 75 then 50 then 25
+  traps:
+  - Bee Trap
+  - Chaos Trap
+  - Meteor Sparrow Trap
+  - Neurotoxin Trap
+  - Poison Trap
+Undertale:
+  progression_balancing: '0' #change to 20 then to 40
+  accessibility: full
+  route_required: pacifist
+  starting_area: core #change to random then to snowdin then to ruins
+  key_hunt: 'true'
+  key_pieces: '10' #lower to 7 then to 5
+  rando_love: 'false'
+  rando_stats: 'false'
+  temy_include: 'true'
+  no_equips: 'false'
+  only_flakes: 'false'
+  prog_armor: 'true' #change to false
+  prog_weapons: 'true'
+  rando_item_button: 'true' 
+Hollow Knight:
+  progression_balancing: '0'
+  accessibility: minimal
+  RandomizeFocus: 'true'
+  PreciseMovement: 'false'
+  ProficientCombat: 'false'
+  BackgroundObjectPogos: 'false'
+  EnemyPogos: 'false'
+  ObscureSkips: 'false'
+  ShadeSkips: 'false'
+  InfectionSkips: 'false'
+  FireballSkips: 'false'
+  SpikeTunnels: 'false'
+  AcidSkips: 'false'
+  DamageBoosts: 'false'
+  DangerousSkips: 'false'
+  DarkRooms: 'false'
+  ComplexSkips: 'false'
+  DifficultSkips: 'false'
+  StartLocation: king's_pass
+  Goal: godhome_flower #change to godhome then to radiance then to siblings then to any
+  WhitePalace: include
+  ExtraPlatforms: 'true'
+  AddUnshuffledLocations: 'false'
+  DeathLink: 'true'
+  DeathLinkShade: shade
+  DeathLinkBreaksFragileCharms: 'true'
+  RandomCharmCosts: '100'
+  RandomizeDreamers: random
+  RandomizeSkills: random
+  RandomizeSwim: random
+  RandomizeCharms: random
+  RandomizeKeys: random
+  RandomizeMaskShards: random
+  RandomizeVesselFragments: random
+  RandomizeCharmNotches: random
+  RandomizePaleOre: random
+  RandomizeGeoChests: random
+  RandomizeJunkPitChests: random
+  RandomizeRancidEggs: random
+  RandomizeRelics: random
+  RandomizeWhisperingRoots: random
+  RandomizeBossEssence: random
+  RandomizeGrubs: random
+  RandomizeMimics: random
+  RandomizeMaps: random
+  RandomizeStags: random
+  RandomizeLifebloodCocoons: random
+  RandomizeGrimmkinFlames: random
+  RandomizeJournalEntries: random
+  RandomizeNail: random #Change to false
+  RandomizeGeoRocks: random
+  RandomizeBossGeo: random
+  RandomizeSoulTotems: random
+  RandomizeLoreTablets: random
+  RandomizeElevatorPass: random
+  RemoveSpellUpgrades: random
+  GrubHuntGoal: random
+  StartingGeo: random
+  MinimumGeoPrice: random
+  MaximumGeoPrice: random
+  MinimumGrubPrice: random
+  MaximumGrubPrice: random
+  MinimumEssencePrice: random
+  MaximumEssencePrice: random
+  MinimumCharmPrice: random
+  MaximumCharmPrice: random
+  MinimumEggPrice: random
+  MaximumEggPrice: random
+  EggShopSlots: random
+  SlyShopSlots: random
+  SlyKeyShopSlots: random
+  IseldaShopSlots: random
+  SalubraShopSlots: random
+  SalubraCharmShopSlots: random
+  LegEaterShopSlots: random
+  GrubfatherRewardSlots: random
+  SeerRewardSlots: random
+  ExtraShopSlots: random
+  SplitCrystalHeart: random
+  SplitMothwingCloak: random
+  SplitMantisClaw: random
+  CostSanity: random
+  CostSanityHybridChance: random
+  CostSanityEggWeight: random
+  CostSanityGrubWeight: random
+  CostSanityEssenceWeight: random
+  CostSanityCharmWeight: random
+  CostSanityGeoWeight: random

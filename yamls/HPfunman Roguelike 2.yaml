@@ -1,0 +1,126 @@
+﻿name: HPfunman
+game: 
+  Kingdom Hearts: 1
+  Slay the Spire: 1
+
+Kingdom Hearts:
+  progression_balancing:
+    disabled: 50 
+  accessibility:
+    items: 50
+  start_inventory:
+    Max AP Increase: 25
+  exclude_locations:
+    - 100 Acre Wood Pooh's House Owl Cheer
+  goal:
+    sephiroth: 0
+    unknown: 0
+    postcards: 0
+    final_ansem: 0
+    puppies: 50 # change to postcards
+    final_rest: 0
+  end_of_the_world_unlock:
+    item: 50
+    reports: 0
+  final_rest_door:
+    reports: 0
+    puppies: 50
+    postcards: 0
+    superbosses: 0
+  required_reports_eotw:
+    4: 50
+  required_reports_door:
+    4: 50
+  reports_in_pool:
+    4: 50
+  required_postcards:
+    10: 50 # change to 5
+  required_puppies:
+    '99': 50
+  super_bosses:
+    false: 50
+    true: 0
+  atlantica:
+    false: 0
+    true: 50 # change to false
+  hundred_acre_wood:
+    false: 0
+    true: 50 # change to false
+  cups:
+    false: 0
+    true: 50 # change to false
+  puppies:
+    full: 0
+    triplets: 0
+    individual: 50 # change to triplets
+  keyblades_unlock_chests:
+    'false': 0
+    'true': 50
+  interact_in_battle:
+    'false': 50
+    'true': 0
+  exp_multiplier:
+    2x: 50 # change to 4x, then 8x
+    4x: 0 
+    8x: 0 
+  advanced_logic:
+    'false': 0
+    'true': 50
+  extra_shared_abilities:
+    'false': 50
+    'true': 0 # change to true
+  exp_zero_in_pool:
+    'false': 50
+    'true': 0
+  vanilla_emblem_pieces:
+    'false': 50
+    'true': 0
+  junk_in_missable_locations:
+    'false': 0
+    'true': 50
+  donald_death_link:
+    'false': 50
+    'true': 0
+  goofy_death_link:
+    'false': 50
+    'true': 0
+  randomize_keyblade_stats:
+    'false': 0
+    'true': 50
+  bad_starting_weapons:
+    'false': 50
+    'true': 0
+  keyblade_max_str:
+    14: 50
+  keyblade_min_str:
+    3: 50 # change min_str to 14
+  keyblade_max_mp:
+    3: 50 # change max_mp to 5
+  keyblade_min_mp:
+    0: 50 # change min_mp to 3
+  level_checks:
+    50: 50
+  force_stats_on_levels:
+    none: 50
+  strength_increase:
+    0: 50
+  defense_increase:
+    0: 50
+  hp_increase:
+    0: 50
+  ap_increase:
+    0: 50
+  mp_increase:
+    0: 50
+  accessory_slot_increase:
+    6: 50
+  item_slot_increase:
+    0: 50
+
+Slay the Spire:
+  progression_balancing: 20 # change to 50, then 80
+  accessibility: items
+  character: spire_take_the_wheel # change to random, then ironclad
+  ascension: 20 # change to 18, then 16, then 14, then 12, then 10 (aka 5 "lower ascension by 2" unlocks available)
+  final_act: 'true' # change to false
+  death_link: 100 # change to 50, then 25, then 10

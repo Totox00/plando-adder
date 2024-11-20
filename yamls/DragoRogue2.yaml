@@ -1,0 +1,274 @@
+﻿
+name: DragoRogue2
+game: 
+  EarthBound: 1
+  Factorio: 1
+  Pokemon Red and Blue: 1
+
+EarthBound:
+  progression_balancing: 0
+  accessibility: minimal
+  giygas_required: true
+  sanctuaries_required: 6  # Reduce this to 5, then to 4
+  skip_prayer_sequences: true
+  random_start_location: true
+  alternate_sanctuary_goal: true
+  magicant_mode: psi_location
+  monkey_caves_mode:  #Change this to solved
+    hunt: 50
+    solved: 0
+  shuffle_teleports: anywhere
+  character_shuffle: anywhere
+  psi_shuffle: basic
+  allow_flash_as_favorite_thing: false
+  experience_modifier: 120 #Change this to 200 then to 280
+  starting_money: random
+  easy_deaths: true
+  progressive_weapons: true
+  progressive_armor: true
+  auto_scale_party_members: true
+  remote_items: true
+  random_flavors: true
+  random_battle_backgrounds: true
+  presents_match_contents: true
+  prefixed_items: true
+  randomize_franklinbadge_protection: false
+  shuffle_enemy_drops: true
+  common_filler_weight: 6
+  uncommon_filler_weight: 2
+  rare_filler_weight: 2  #Change this to 10
+  death_link: true
+  death_link_mode: mortal_mercy
+
+Factorio:
+  # Game Options
+  progression_balancing: 0
+  accessibility: minimal
+  max_science_pack:  # Change to utility_science_pack, then production_science_pack, then chemical_science_pack
+    automation_science_pack: 0
+    logistic_science_pack: 0
+    military_science_pack: 0
+    chemical_science_pack: 0
+    production_science_pack: 0
+    utility_science_pack: 0
+    space_science_pack: 50
+  goal: rocket
+  tech_tree_layout: random
+  min_tech_cost: 500  #Change to 300 then 100 then 1
+  max_tech_cost: random
+  tech_cost_distribution: even
+  tech_cost_mix: random-high
+  ramping_tech_costs: false
+  silo:
+    randomize_recipe: 1
+    spawn: 2
+  satellite: randomize_recipe
+  free_samples:  #Change to half_stack then to stack
+    none: 0
+    single_craft: 50
+    half_stack: 0
+    stack: 0
+  tech_tree_information: none
+  starting_items:
+    burner-mining-drill: 4
+    small-lamp: 50
+    stone-furnace: 4
+    electric-furnace: 20
+  recipe_time: # Change to new_normal then new_fast
+    vanilla: 0
+    fast: 0
+    normal: 0
+    slow: 0
+    chaos: 0
+    new_fast: 0
+    new_normal: 0
+    new_slow: 50
+  recipe_ingredients:
+    science_pack: 50
+  recipe_ingredients_offset: 5  # Change to 3, then to 1 then to -1
+  imported_blueprints: true
+  world_gen:
+    autoplace_controls:
+      coal:
+        frequency: 1.2
+        richness: 6
+        size: 0.6
+      copper-ore:
+        frequency: 1.2
+        richness: 6
+        size: 0.6
+      crude-oil:
+        frequency: 1.2
+        richness: 6
+        size: 0.6
+      enemy-base:
+        frequency: 0.2
+        richness: 1
+        size: 1
+      iron-ore:
+        frequency: 1.2
+        richness: 6
+        size: 0.6
+      stone:
+        frequency: 1.2
+        richness: 6
+        size: 0.6
+      trees:
+        frequency: 0.3
+        richness: 1
+        size: 3
+      uranium-ore:
+        frequency: 1.2
+        richness: 6
+        size: 0.6
+      starting_area_moisture:
+        frequency: 1
+        richness: 1
+        size: 1
+      nauvis_cliff:
+        frequency: 1
+        richness: 1
+        size: 1
+      water:
+        frequency: 1.2
+        richness: 1.2
+        size: 1.2
+    cliff_settings:
+      cliff_elevation_0: 10
+      cliff_elevation_interval: 40
+      name: cliff
+      richness: 1
+    enemy_evolution:
+      destroy_factor: 0.002
+      enabled: false
+      pollution_factor: 9.0e-07
+      time_factor: 4.0e-06
+    enemy_expansion:
+      enabled: true
+      max_expansion_cooldown: 416000
+      max_expansion_distance: 7
+      min_expansion_cooldown: 24400
+      settler_group_max_size: 6
+      settler_group_min_size: 2
+    peaceful_mode: false
+    pollution:
+      ageing: 1
+      diffusion_ratio: 0.02
+      enabled: false
+      enemy_attack_pollution_consumption_modifier: 1
+      min_pollution_to_damage_trees: 60
+      pollution_restored_per_tree_damage: 10
+    property_expression_names:
+      control-setting:aux:bias: 0
+      control-setting:aux:frequency:multiplier: 1
+      control-setting:moisture:bias: 0
+      control-setting:moisture:frequency:multiplier: 1
+    seed: null
+    starting_area: 0.6  # Change to 1
+  progressive: on
+  teleport_traps: 0
+  grenade_traps: 20
+  cluster_grenade_traps: 20
+  artillery_traps: 25  #Change to 20 then to 15 then to 10 then to 5 then to 0
+  atomic_rocket_traps: 0
+  attack_traps: 0
+  evolution_traps: 5
+  evolution_trap_increase: 5
+  death_link: true
+  energy_link: true
+  # Item & Location Options
+  local_items:
+    - Artillery Trap
+    - Cluster Grenade Trap
+    - Grenade Trap
+
+Pokemon Red and Blue:
+  # Game Options
+  progression_balancing: 1
+  accessibility: minimal
+  elite_four_badges_condition: random
+  elite_four_key_items_condition: random
+  elite_four_pokedex_condition: random-low
+  victory_road_condition: random
+  route_22_gate_condition: random
+  viridian_gym_condition: random
+  cerulean_cave_badges_condition: random
+  cerulean_cave_key_items_condition: random
+  route_3_condition: defeat_brock
+  robbed_house_officer: true
+  second_fossil_check_condition: 3
+  fossil_check_item_types: any
+  exp_all: randomize
+  old_man: vanilla
+  badgesanity: random
+  badges_needed_for_hm_moves: on
+  key_items_only: false
+  tea: true
+  extra_key_items: true
+  split_card_key: random
+  all_elevators_locked: true
+  extra_strength_boulders: false
+  require_item_finder: false
+  randomize_hidden_items:
+    'on': 1
+    'off': 4
+  prizesanity: random
+  trainersanity: full
+  dexsanity: random
+  randomize_pokedex: randomize
+  require_pokedex: true
+  all_pokemon_seen: true
+  oaks_aide_rt_2: random-low
+  oaks_aide_rt_11: random-low
+  oaks_aide_rt_15: random-low
+  stonesanity: false
+  door_shuffle:  # Remove decoupled, then remove insanity then remove full
+    'off': 1
+    simple: 1
+    full: 1
+    insanity: 1
+    decoupled: 1
+  warp_tile_shuffle: mixed
+  randomize_rock_tunnel: false
+  dark_rock_tunnel_logic: true
+  free_fly_location: true
+  town_map_fly_location: true
+  minimum_steps_between_encounters: 6
+  level_scaling: by_spheres_and_distance
+  exp_modifier:  #Change to triple then quadruple
+    normal: 50 
+    triple: 0 
+    quadruple: 0 
+  randomize_wild_pokemon: match_base_stats
+  area_1_to_1_mapping: true
+  randomize_starter_pokemon: match_base_stats
+  randomize_static_pokemon: match_base_stats
+  randomize_legendary_pokemon: static
+  catch_em_all: first_stage
+  randomize_pokemon_stats: shuffle
+  randomize_pokemon_catch_rates: false
+  minimum_catch_rate: 3 #Change to 30 then 60
+  randomize_trainer_parties: match_base_stats
+  trainer_legendaries: true
+  move_balancing: false
+  fix_combat_bugs: true
+  randomize_pokemon_movesets: prefer_types
+  confine_transform_to_ditto: true
+  start_with_four_moves: false
+  same_type_attack_bonus: true
+  randomize_tm_moves: true
+  tm_same_type_compatibility: 70
+  tm_normal_type_compatibility: 50
+  tm_other_type_compatibility: 30
+  hm_same_type_compatibility: 90
+  hm_normal_type_compatibility: 30
+  hm_other_type_compatibility: 15
+  inherit_tm_hm_compatibility: true
+  safari_zone_normal_battles: true
+  normalize_encounter_chances: false
+  reusable_tms: true
+  better_shops: off
+  starting_money: random-low
+  lose_money_on_blackout: true
+  trap_percentage: 10
+  death_link: true

@@ -1,0 +1,184 @@
+﻿name: JoyTheBard
+game:
+ DLCQuest: 1 #       line 9  (Use ctrl+G)
+ Outer Wilds: 1 #    line 65
+ Super Mario 64: 1 # line 96
+ The Witness: 1 #    line 130
+description: YAML for Roguelike Async 2.
+DLCQuest: # 8 upgrades on lines 9, 19, 20, and 21
+  progression_balancing: 0 # -> 10 -> 20 -> 30 -> 40 -> 50
+  accessibility: full
+  coinsanity: coin
+  campaign: both
+  item_shuffle: shuffled
+  coinbundlequantity:
+    5: 5
+    10: 10
+    20: 5
+  permanent_coins: 'false'
+  ending_choice: 'true' # -> 'any'
+  double_jump_glitch: simple # -> none
+  time_is_money: optional # -> required
+  death_link: 'true'
+  # Credit to superfid2006 for the excluded location/plando block
+  exclude_locations:
+  - Not Exactly Noble # Unavoidable death for a single check
+  plando_items: # Makes sure to make temporary spikes scout-/avoidable
+    - items:
+        Temporary Spike: true
+      locations:
+        - Animation Pack
+        - Armor for your Horse Pack
+        - Audio Pack
+        - Canadian Dialog Pack
+        - Checkpoint Pack
+        - Cut Content Pack
+        - DLC NPC Pack
+        - Day One Patch Pack
+        - Death of Comedy Pack
+        - Finish the Fight Pack
+        - Gun Pack
+        - Harmless Plants Pack
+        - Health Bar Pack
+        - High Definition Next Gen Pack
+        - Increased HP Pack
+        - Incredibly Important Pack
+        - Map Pack
+        - Movement Pack
+        - Name Change Pack
+        - Night Map Pack
+        - Parallax Pack
+        - Particles Pack
+        - Pause Menu Pack
+        - Psychological Warfare Pack
+        - Remove Ads Pack
+        - Season Pass
+        - Sexy Outfits Pack
+        - The Zombie Pack
+        - Time is Money Pack
+        - Top Hat Pack
+        - Wall Jump Pack
+      world: false
+      from_pool: true
+      force: true
+
+Outer Wilds: # 13 Upgrades on lines 66, 68, 70, 75, 76, 79, 82, and 89
+  progression_balancing: 0 # -> 25 -> 50
+  accessibility: full
+  goal: song_of_the_nomai # -> song_of_five
+  spawn:
+    vanilla: 0 # . . . .  -> 5 -> 5
+    random_non_vanilla: 5 #  5    0
+  early_key_item: 'any'
+  enable_eote_dlc: 'false'
+  randomize_coordinates: 'true'
+  randomize_orbits: 'true' # -> 'false'
+  randomize_rotations: 'true' # -> 'false'
+  randomize_warp_platforms: 'true'
+  randomize_dark_bramble_layout:
+    'false': 0 # -> 0 -> 5 -> 10
+    'true': 10 #    5    0     0
+    hub_start: 0 #  5    5     0
+  trap_chance: random-range-10-20 # -> 5-10 -> 0-5
+  trap_type_weights:
+    Audio Trap: 1
+    Nap Trap: 2
+    Ship Damage Trap: 2
+  death_link: default
+  logsanity: random
+  split_translator: 'true' # -> 'false'
+  enable_hn1_mod: 'false'
+  enable_outsider_mod: 'false'
+  enable_ac_mod: 'false'
+  enable_hn2_mod: 'false'
+  enable_fq_mod: 'false'
+
+Super Mario 64: # 18 Upgrades on lines 97, 99, 103, 116, 121, 122, 123, 126, and 128
+  progression_balancing: 0 # -> 25 -> 50
+  accessibility: full
+  area_rando: courses_and_secrets # -> courses_and_secrets_separate
+  buddy_checks: 'true'
+  exclamation_boxes: 1ups_only
+  progressive_keys: random
+  enable_coin_stars: 'true' # -> 'false'
+  enable_move_rando: 'true'
+  move_rando_actions:
+  - Triple Jump
+  - Long Jump
+  - Backflip
+  - Side Flip
+  - Wall Kick
+  - Dive
+  - Ground Pound
+  - Kick
+  - Climb
+  - Ledge Grab
+  # Change all strict_x_requirements to 'true' with one upgrade
+  strict_cap_requirements: 'false'
+  strict_cannon_requirements: 'false'
+  strict_move_requirements: 'false' 
+  amount_of_stars: '120'
+  first_bowser_star_door_cost: random-range-35-40 # -> 25-35 -> 15-25 -> 5-15
+  basement_star_door_cost: random-range-45-50 # -> 35-45 -> 25-35 -> 15-25
+  second_floor_star_door_cost: random-range-65-70 # -> 55-65 -> 45-55 -> 35-45
+  mips1_cost: random-range-10-20
+  mips2_cost: random-range-40-50
+  stars_to_finish: random-range-80-90 # -> 70-80 -> 60-70 -> 50-60 
+  death_link: 'true'
+  completion_type: all_bowser_stages # -> last_bowser_stage
+
+The Witness: # 17 Upgrades on lines 131, 134, 138, 154, 167, 168, 170, 181, and 183
+  progression_balancing: 0 # -> 25 -> 50
+  accessibility: full
+  puzzle_randomization:
+    sigma_normal: 0 # -> 0 -> 5
+    umbra_variety: 0 #   5    5
+    sigma_expert: 10 #   5    0
+  victory_condition:
+    elevator: 0 # . .  -> 10 -> 5
+    challenge: 10 # . . .  5    0
+    mountain_box_long: 0 # 0   10
+    panel_hunt: 5 # . . .  5    5
+  mountain_lasers: random-range-5-9
+  challenge_lasers: random-range-8-11
+  panel_hunt_total: random-range-60-100
+  panel_hunt_required_percentage: random-range-60-80
+  panel_hunt_postgame: disable_mountain_lasers_locations
+  panel_hunt_discourage_same_area_factor: '10'
+  disable_non_randomized_puzzles: 'false'
+  shuffle_discarded_panels: 'true'
+  shuffle_vault_boxes: 'true'
+  shuffle_EPs:
+    individual: 5
+    obelisk_sides: 5
+  EP_difficulty: tedious # -> normal
+  shuffle_postgame: 'false'
+  shuffle_symbols: 'true'
+  shuffle_doors:
+    panels: 5
+    doors: 5
+    mixed: 10
+  door_groupings: random
+  shuffle_boat: 'true'
+  shuffle_lasers:
+    local: 5
+    anywhere: 5
+  obelisk_keys: 'true'
+  trap_percentage: random-range-10-20 # -> 5-10 -> 0-5
+  puzzle_skip_amount: 0 # -> 2 -> 5 -> 7
+  hint_amount:
+    0: 15 # -> 5 -> 0
+    5: 10 #    10   0
+    10: 5 #    15   5
+    15: 0 #    10  10
+    20: 0 #    5   15
+    25: 0 #    0   10
+    30: 0 #    0    5
+  vague_hints: stable
+  area_hint_percentage: '20'
+  laser_hints: 'false'
+  early_caves: add_to_pool
+  elevators_come_to_you: 'false' # -> 'true'
+  death_link: 'true'
+  death_link_amnesty: 0 # -> 2 -> 4
+  shuffle_dog: random_item

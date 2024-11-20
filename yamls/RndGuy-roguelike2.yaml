@@ -1,0 +1,574 @@
+name: RndGuy
+game: 
+  Hollow Knight: 10
+  Celeste 64: 12
+  Blasphemous: 10
+  Muse Dash: 12
+  The Witness: 5
+description: Roguelike2 async by empathy.mp3
+
+Hollow Knight:
+  # these will always be the value defined
+  progression_balancing: random-range-low-0-50
+  RandomizeDreamers: 'true'
+  RandomizeSkills: 'true'
+  RandomizeSwim: 'true'
+  RandomizeCharms: 'true'
+  RandomizeKeys: 'true'
+  RandomizeMaskShards: 'true'
+  RandomizeVesselFragments: 'true'
+  RandomizeCharmNotches: 'true'
+  RandomizePaleOre: 'true'
+  RandomizeGeoChests: 'true'
+  RandomizeJunkPitChests: 'true'
+  RandomizeRancidEggs: 'true'
+  RandomizeRelics: 'true'
+  RandomizeBossEssence: 'true'
+  RandomizeGrubs: 'true'
+  RandomizeMimics: 'true'
+  RandomizeMaps: 'true'
+  RandomizeStags: 'true'
+  RandomizeGeoRocks: 'random'
+  RandomizeBossGeo: 'true'
+  RandomizeSoulTotems: 'random'
+  RandomizeLoreTablets: 'random'
+  RandomizeElevatorPass: 'random'
+  ExtraPlatforms: 'random'
+  PreciseMovement: 'true'
+  ProficientCombat: 'true'
+  BackgroundObjectPogos: 'true'
+  EnemyPogos: 'true'
+  ObscureSkips: 'true'
+  ShadeSkips: 'false'
+  InfectionSkips: 'true'
+  FireballSkips: 'true'
+  StartLocation: king's_pass
+  AddUnshuffledLocations: 'false'
+  Goal: 
+    'radiance': 50
+    'godhome': 1
+    'godhome_flower': 1
+  WhitePalace: include
+  DeathLink: 'true'
+  DeathLinkShade: shade
+  DeathLinkBreaksFragileCharms: 'false'
+  MinimumGeoPrice: '1'
+  MinimumGrubPrice: '1'
+  MinimumEssencePrice: '1'
+  MinimumCharmPrice: '1'
+  MinimumEggPrice: '1'
+  EggShopSlots: 'random-range-0-10'
+  SlyShopSlots: 'random-range-3-13'
+  SlyKeyShopSlots: 'random-range-1-11'
+  IseldaShopSlots: 'random-range-0-7'
+  SalubraShopSlots: 'random-range-0-10'
+  SalubraCharmShopSlots: 'random-range-0-10'
+  LegEaterShopSlots: 'random-range-0-8'
+  GrubfatherRewardSlots: 'random-range-2-12'
+  SeerRewardSlots: 'random-range-3-13'
+  ExtraShopSlots: 'random-range-0-10'
+  SplitCrystalHeart: 
+    'true': 80
+    'false': 20
+  SplitMothwingCloak: 
+    'true': 80
+    'false': 20
+  SplitMantisClaw: 
+    'true': 80
+    'false': 20
+  CostSanity: 'on'
+  CostSanityHybridChance: '10'
+  CostSanityEggWeight: '1'
+  CostSanityGrubWeight: '1'
+  CostSanityEssenceWeight: '1'
+  CostSanityCharmWeight: '1'
+  CostSanityGeoWeight: '8'
+  extra_local_items:
+    'none': 25
+    'dreamers': 25
+    'fragments': 25
+    'dreamersAndFragments': 25
+  start_inventory:
+    Sprintmaster: 1
+  # these might be changed by triggers
+  RandomizeFocus: 'true'
+  RandomizeNail: 'true'
+  RandomizeWhisperingRoots: 'random'
+  RandomizeGrimmkinFlames: 'random'
+  RandomizeJournalEntries: 'random'
+  RandomizeLifebloodCocoons: 'random'
+  SpikeTunnels: 'true'
+  AcidSkips: 'true'
+  DamageBoosts: 'true'
+  DangerousSkips: 'true'
+  DarkRooms: 'true'
+  ComplexSkips: 'true'
+  DifficultSkips: 'true'
+  MaximumGeoPrice: '1000'
+  MaximumGrubPrice: '23'
+  MaximumEssencePrice: '1400'
+  MaximumCharmPrice: '40'
+  MaximumEggPrice: '10'
+  local_items: [Mimics, LifebloodCocoons, SoulTotems, JournalEntries, LoreTablets, Maps]
+
+  # these will be changed by upgrades and may affect the items just above
+  StartingGeo: '0' # random-range-0-1000, random-range-0-3000
+  RemoveSpellUpgrades: 'true' # set to false
+  RandomCharmCosts: 'random-range-90-180' # random-range-90-140, random-range-90-110, random-range-70-110
+  starting_difficulty:  # set high to 10, then set high to 0
+    'low': 10
+    'mid': 20
+    'high': 30
+  skips_enabled: # remove all, then remove tedious, then remove dangerous
+    'all': 20
+    'exclude_tedious': 20
+    'exclude_dangerous': 20
+    'exclude_painful': 20
+  shop_costs: # remove expensive, then also remove pricey
+    'sale': 1
+    'cheap': 4
+    'average': 20
+    'pricey': 20
+    'expensive': 20
+
+  triggers:
+    # skips
+    - option_category: Hollow Knight
+      option_name: skips_enabled
+      option_result: 'all'
+      options:
+        Hollow Knight:
+          AcidSkips: 'true'
+          DamageBoosts: 'true'
+          DangerousSkips: 'true' 
+          SpikeTunnels: 'true' 
+          DifficultSkips: 'true'
+          ComplexSkips: 'true'
+          DarkRooms: 'true'
+    - option_category: Hollow Knight
+      option_name: skips_enabled
+      option_result: 'exclude_tedious'
+      options:
+        Hollow Knight:
+          AcidSkips: 'true'
+          SpikeTunnels: 'true' 
+          DifficultSkips: 'true'
+          DamageBoosts: 'true'
+          DangerousSkips: 'true' 
+          ComplexSkips: 'false'
+          DarkRooms: 'false'
+    - option_category: Hollow Knight
+      option_name: skips_enabled
+      option_result: 'exclude_dangerous'
+      options:
+        Hollow Knight:
+          AcidSkips: 'true'
+          SpikeTunnels: 'true' 
+          DifficultSkips: 'true'
+          DamageBoosts: 'false'
+          DangerousSkips: 'false' 
+          ComplexSkips: 'false'
+          DarkRooms: 'false'
+    - option_category: Hollow Knight
+      option_name: skips_enabled
+      option_result: 'exclude_painful'
+      options:
+        Hollow Knight:
+          AcidSkips: 'false'
+          SpikeTunnels: 'false' 
+          DifficultSkips: 'false'
+          DamageBoosts: 'false'
+          DangerousSkips: 'false' 
+          ComplexSkips: 'false'
+          DarkRooms: 'false'
+    # shop costs
+    - option_category: Hollow Knight
+      option_name: shop_costs
+      option_result: 'expensive'
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: '1500'
+          MaximumGrubPrice: '40'
+          MaximumEssencePrice: '2000'
+          MaximumCharmPrice: '32'
+          MaximumEggPrice: '10'
+    - option_category: Hollow Knight
+      option_name: shop_costs
+      option_result: 'pricey'
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: '1000'
+          MaximumGrubPrice: '30'
+          MaximumEssencePrice: '1600'
+          MaximumCharmPrice: '26'
+          MaximumEggPrice: '8'
+    - option_category: Hollow Knight
+      option_name: shop_costs
+      option_result: 'average'
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: '750'
+          MaximumGrubPrice: '20'
+          MaximumEssencePrice: '1300'
+          MaximumCharmPrice: '20'
+          MaximumEggPrice: '6'
+    - option_category: Hollow Knight
+      option_name: shop_costs
+      option_result: 'cheap'
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: '500'
+          MaximumGrubPrice: '16'
+          MaximumEssencePrice: '1000'
+          MaximumCharmPrice: '16'
+          MaximumEggPrice: '5'
+    - option_category: Hollow Knight
+      option_name: shop_costs
+      option_result: 'sale'
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: '300'
+          MaximumGrubPrice: '12'
+          MaximumEssencePrice: '800'
+          MaximumCharmPrice: '12'
+          MaximumEggPrice: '4'
+    # randomise local progression - not related to upgrades
+    - option_category: Hollow Knight
+      option_name: extra_local_items
+      option_result: 'dreamers'
+      options:
+        Hollow Knight:
+          +local_items: 
+            - 'Dreamers'
+    - option_category: Hollow Knight
+      option_name: extra_local_items
+      option_result: 'fragments'
+      options:
+        Hollow Knight:
+          +local_items: 
+            - 'WhiteFragments'
+    - option_category: Hollow Knight
+      option_name: extra_local_items
+      option_result: 'dreamersAndFragments'
+      options:
+        Hollow Knight:
+          +local_items: 
+            - 'WhiteFragments'
+            - 'Dreamers'
+    # starting difficulty
+    - option_category: Hollow Knight
+      option_name: starting_difficulty
+      option_result: 'low'
+      options:
+        Hollow Knight:
+          RandomizeFocus: 'false'
+          RandomizeNail: 'random'
+    - option_category: Hollow Knight
+      option_name: starting_difficulty
+      option_result: 'mid'
+      options:
+        Hollow Knight:
+          RandomizeFocus: 'random'
+          RandomizeNail: 'random'
+    - option_category: Hollow Knight
+      option_name: starting_difficulty
+      option_result: 'high'
+      options:
+        Hollow Knight:
+          RandomizeFocus: 'true'
+          RandomizeNail: 'true'
+
+Celeste 64:
+  progression_balancing: random-range-low-0-50
+  death_link: 'true'
+  death_link_amnesty: random-range-high-1-3 # change the upper range number to 5, then 8, then 12, then 17, then 23, then 30
+  logic_difficulty: 
+    standard: 25
+    hard: 75 # reduce to 25, then to 5
+  move_shuffle: 'true'
+  total_strawberries: '46'
+  strawberries_required_percentage: '100' # random-range-90-100, then random_range-75-100
+  friendsanity: 'random'
+  signsanity: 'random'
+  carsanity: 'random'
+  badeline_chaser_source: locations
+  badeline_chaser_frequency: '1'
+  badeline_chaser_speed: '2'
+  badeline_difficulty: # remove '5', then remove '4', then remove '3', then remove '2'
+    '0': 10
+    '1': 20
+    '2': 30
+    '3': 40
+    '4': 50
+    '5': 60 
+  start_inventory: {}
+  triggers:
+    - option_category: Celeste 64
+      option_name: badeline_difficulty
+      option_result: '5'
+      options:
+        Celeste 64:
+          badeline_chaser_frequency: '1'
+          badeline_chaser_speed: '2'
+    - option_category: Celeste 64
+      option_name: badeline_difficulty
+      option_result: '4'
+      options:
+        Celeste 64:
+          badeline_chaser_frequency: '1'
+          badeline_chaser_speed: '3'
+    - option_category: Celeste 64
+      option_name: badeline_difficulty
+      option_result: '3'
+      options:
+        Celeste 64:
+          badeline_chaser_frequency: '2'
+          badeline_chaser_speed: '4'
+    - option_category: Celeste 64
+      option_name: badeline_difficulty
+      option_result: '2'
+      options:
+        Celeste 64:
+          badeline_chaser_frequency: '4'
+          badeline_chaser_speed: '5'
+    - option_category: Celeste 64
+      option_name: badeline_difficulty
+      option_result: '1'
+      options:
+        Celeste 64:
+          badeline_chaser_frequency: '8'
+          badeline_chaser_speed: '10'
+    - option_category: Celeste 64
+      option_name: badeline_difficulty
+      option_result: '0'
+      options:
+        Celeste 64:
+          badeline_chaser_frequency: '0'
+          badeline_chaser_speed: '10'
+
+Blasphemous:
+  progression_balancing: random-range-low-0-50
+  penitence: 'true'
+  ending: ending_c
+  death_link: 'true'
+  prie_dieu_warp: 'true'
+  skip_cutscenes: 'true'
+  start_wheel: 'true'
+  dash_shuffle: 'random'
+  wall_climb_shuffle: 'random'
+  skill_randomizer: 'true'
+  start_inventory: {}
+  thorn_shuffle:
+    anywhere: 50
+    local_only: 50
+  corpse_hints: random
+  enemy_scaling: 'true'
+  # the following may be changed by triggers
+  enemy_randomizer: randomized
+  enemy_groups: 'false'
+  # the following has upgrades
+  difficulty:
+    easy: 1
+    normal: 5
+    hard: 25 # 15, 5, 1
+  skip_long_quests: # reduce 'true' to 40, then reduce 'true' to 0
+    'false': 20
+    'true': 80
+  boots_of_pleading: 'false' # random
+  purified_hand: 'false' # random
+  starting_location: # remove rooftops, then remove knot of words
+    albero: 10
+    convent: 10
+    knot_of_words: 10
+    rooftops: 10
+  reliquary_shuffle: 'false' # random
+  enemy_randomiser_difficulty: # remove '4', then also remove '3', then also remove '2'
+    '0': 10
+    '1': 20
+    '2': 30
+    '3': 40
+    '4': 50
+  triggers:
+    - option_category: Blasphemous
+      option_name: enemy_randomiser_difficulty
+      option_result: '0'
+      options:
+        Blasphemous:
+          enemy_randomizer: 'disabled'
+    - option_category: Blasphemous
+      option_name: enemy_randomiser_difficulty
+      option_result: '1'
+      options:
+        Blasphemous:
+          enemy_randomizer: 'shuffled'
+          enemy_groups: 'true'
+    - option_category: Blasphemous
+      option_name: enemy_randomiser_difficulty
+      option_result: '2'
+      options:
+        Blasphemous:
+          enemy_randomizer: 'randomized'
+          enemy_groups: 'true'
+    - option_category: Blasphemous
+      option_name: enemy_randomiser_difficulty
+      option_result: '3'
+      options:
+        Blasphemous:
+          enemy_randomizer: 'shuffled'
+          enemy_groups: 'false'
+    - option_category: Blasphemous
+      option_name: enemy_randomiser_difficulty
+      option_result: '4'
+      options:
+        Blasphemous:
+          enemy_randomizer: 'randomized'
+          enemy_groups: 'false'
+
+
+Muse Dash:
+  progression_balancing: random-range-low-0-50
+  starting_song_count: '5'
+  additional_song_count: '45'
+  music_sheet_count_percentage: '40'
+  music_sheet_win_count_percentage: '100' # random-range-95-100, random-range-90-100, random-range-85-100, random-range-80-100
+  dlc_packs:
+  - Muse Plus
+  - CHUNITHM COURSE MUSE
+  - maimai DX Limited-time Suite
+  - MSR Anthology
+  - Miku in Museland
+  - Rin Len's Mirrorland
+  streamer_mode_enabled: 'false'
+  song_difficulty_mode: manual
+  song_difficulty_min: '11'
+  song_difficulty_max: '11'
+  song_difficulty_progression: '0' # 1, 2, 3, 4, 5
+  grade_needed: silvers
+  death_link: 'true'
+  chosen_traps:
+  - Background Freeze Trap
+  - Bad Apple Trap
+  - Chromatic Aberration Trap
+  - Error SFX Trap
+  - Focus Line Trap
+  - Gray Scale Trap
+  - Nyaa SFX Trap
+  - Pixelate Trap
+  - Ripple Trap
+  - Vignette Trap
+  trap_count_percentage: '35' # random-range-25-35, random-range-15-35, random-range-5-35
+  start_inventory: {}
+  local_items: [Music Sheet]
+  triggers:
+    - option_category: Muse Dash
+      option_name: song_difficulty_progression
+      option_result: '0'
+      options:
+        Muse Dash:
+          song_difficulty_min:
+            '11': 100
+    - option_category: Muse Dash
+      option_name: song_difficulty_progression
+      option_result: '1'
+      options:
+        Muse Dash:
+          song_difficulty_min:
+            '10': 100
+    - option_category: Muse Dash
+      option_name: song_difficulty_progression
+      option_result: '2'
+      options:
+        Muse Dash:
+          song_difficulty_min:
+            '9': 50
+            '10': 50
+    - option_category: Muse Dash
+      option_name: song_difficulty_progression
+      option_result: '3'
+      options:
+        Muse Dash:
+          song_difficulty_min:
+            '8': 50
+            '9': 50
+            '10': 50
+    - option_category: Muse Dash
+      option_name: song_difficulty_progression
+      option_result: '4'
+      options:
+        Muse Dash:
+          song_difficulty_min:
+            '0': 50
+            '8': 50
+            '9': 50
+            '10': 50
+    - option_category: Muse Dash
+      option_name: song_difficulty_progression
+      option_result: '5'
+      options:
+        Muse Dash:
+          song_difficulty_min:
+            '0': 50
+            '8': 50
+            '9': 50
+
+
+The Witness:
+  # these stay the same
+  progression_balancing: random-range-low-0-50
+  victory_condition: panel_hunt
+  mountain_lasers: random-high
+  challenge_lasers: random-high
+  panel_hunt_total: random-high
+  panel_hunt_postgame: random
+  panel_hunt_discourage_same_area_factor: '0'
+  disable_non_randomized_puzzles: 'false'
+  shuffle_discarded_panels: 'true'
+  shuffle_EPs:
+    individual: 50
+    obelisk_sides: 50
+  shuffle_postgame: 'false'
+  shuffle_symbols: 'true'
+  shuffle_doors: random
+  door_groupings: random
+  shuffle_boat: 'true'
+  shuffle_lasers:
+    local: 50
+    anywhere: 50
+  obelisk_keys: 'true'
+  hint_amount: random-low
+  vague_hints: random
+  area_hint_percentage: random
+  laser_hints: 'false'
+  early_caves: add_to_pool
+  elevators_come_to_you:
+    'false': 50
+    'true': 25
+  shuffle_dog:
+    puzzle_skip: 50
+    random_item: 50
+  death_link: 'true'
+  # these are upgrades
+  puzzle_randomization:
+    sigma_normal: 25
+    sigma_expert: 25 # reduce to 5
+    umbra_variety: 25 # reduce to 5
+  panel_hunt_required_percentage: # change to random-range-high-90-100, then to random-range-high-75-100
+    '100': 50
+  shuffle_vault_boxes: 'true' # change to random
+  EP_difficulty: # upgrade 1 = change eclipse to 0, upgrade 2 = change normal to 30
+    normal: 0
+    tedious: 20
+    eclipse: 10
+  trap_percentage: # change to random, then to random-low
+    random-high: 50
+  puzzle_skip_amount: # change random-range-low-0-10 to 50, then remove '0'
+    '0': 50
+    random-range-low-0-10: 0
+  death_link_amnesty: # 5 upgrades, detailed per option below
+    '0': 50
+    '1': 0 # first upgrade: reduce '0' by 10 (to 40) and increase '1' to 10
+    '2': 0 # second upgrade: reduce '0' by 10 (to 30) and increase '2' to 20
+    '3': 0 # third upgrade: reduce '0' by 10 (to 20) and increase '3' to 30
+    '4': 0 # fourth upgrade: reduce '0' by 10 (to 10) and increase '4' to 40
+    '5': 0 # fifth upgrade: reduce '0' by 10 (to 0) and increase '5' to 50
+

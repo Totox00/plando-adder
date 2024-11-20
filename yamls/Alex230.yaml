@@ -1,0 +1,7 @@
+Manual_SingleLevelRoguelike2_Alexander230:
+    progression_balancing: 0    # increase this by 10, 5 times
+    death_link: 'true'
+
+game: Manual_SingleLevelRoguelike2_Alexander230
+description: Manual for a single big Doom level
+name: Alex230

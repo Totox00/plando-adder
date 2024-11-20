@@ -1,0 +1,76 @@
+name: Maxor
+game: A Link to the Past
+A Link to the Past:
+  progression_balancing: 50
+  accessibility: items
+  goal: bosses
+  glitches_required: no_glitches
+  dark_room_logic: torches
+  triforce_pieces_mode: percentage
+  triforce_pieces_percentage: '115'
+  triforce_pieces_required: random
+  triforce_pieces_available: '30'
+  triforce_pieces_extra: '10'
+  entrance_shuffle: crossed
+  entrance_shuffle_seed: random
+  key_drop_shuffle: 'true'
+  restrict_dungeon_item_on_boss: 'true'
+  item_pool: expert #change to hard then to normal
+  item_functionality: expert #change to hard then to normal
+  enemy_health: expert #change to hard then to default
+  enemy_damage: default
+  progressive: 'on'
+  swordless: 'false'
+  dungeon_counters: pickup
+  retro_bow: 'false'
+  retro_caves: 'false'
+  hints: full
+  scams: 'off'
+  killable_thieves: 'true'
+  bush_shuffle: 'false'
+  shop_item_slots: random
+  randomize_shop_inventories: default
+  shuffle_shop_inventories: 'false'
+  include_witch_hut: random
+  randomize_shop_prices: 'false'
+  randomize_cost_types: 'false'
+  shop_price_modifier: '80'
+  shuffle_prizes: general
+  tile_shuffle: 'false'
+  glitch_boots: 'true'
+  beemizer_total_chance: '0'
+  beemizer_trap_chance: '60'
+  timer: none
+  countdown_start_time: '10'
+  red_clock_time: '-2'
+  blue_clock_time: '2'
+  green_clock_time: '4'
+  death_link: true
+  allow_collect: 'true'
+  ow_palettes: default
+  uw_palettes: default
+  hud_palettes: default
+  sword_palettes: default
+  shield_palettes: default
+  heartbeep: half
+  heartcolor: red
+  quickswap: 'true'
+  menuspeed: normal
+  music: 'true'
+  reduceflashing: 'true'
+  triforcehud: normal 
+  mode: random
+  open_pyramid: random
+  crystals_needed_for_gt: random
+  crystals_needed_for_ganon: random
+  big_key_shuffle: any_world
+  small_key_shuffle: original_dungeon
+  compass_shuffle: random
+  map_shuffle: random
+  boss_shuffle: random
+  pot_shuffle: false
+  enemy_shuffle: true
+  shuffle_capacity_upgrades: true
+  bombless_start: false
+  misery_mire_medallion: random
+  turtle_rock_medallion: random

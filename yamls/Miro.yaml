@@ -1,0 +1,698 @@
+game:                 # go to line (Ctrl+G):
+  A Hat in Time: 3    # line 14
+  DLCQuest: 6         # line 174
+  Pokemon Emerald: 2  # line 233
+  Hollow Knight: 5    # line 358
+  Minecraft: 1        # line 588
+  Timespinner: 9      # line 603
+name: MiroRogue
+description: Miro combined yaml for Rougelike Async
+requires:
+  plando: items
+
+A Hat in Time:
+  EndGoal:
+    finale: 10
+    rush_hour: 50         # change to 2
+    seal_the_deal: 10     # remove this line (or change to 0)
+  LogicDifficulty: expert # change to hard, then to moderate, then to normal
+  CTRLogic: nothing       # change to sprint, then to scooter, then to time_stop_only
+  PonCost: high           # change to medium, then to low
+  ChapterCost: high       # change to medium, then to low
+  DLC: high               # change to medium, then to low, then to off
+  TrapChance: random      # change to random-range-low-0-70, then to 0
+  StartWithCompassBadge:
+    'false': 10           # remove this line (or change to 0)
+    'true': 25
+
+  progression_balancing: 1
+  death_link: true
+  ShuffleAlpineZiplines:
+    'false': 10
+    'true': 50
+  ShuffleStorybookPages: &1-10
+    'false': 5
+    'true': 50
+  ShuffleActContracts: *1-10
+  ShuffleSubconPaintings: *1-10
+  NoPaintingSkips:
+    'false': 25
+    'true': 10
+  BadgeSellerMinItems: random-low
+  BadgeSellerMaxItems: random-high
+  ActRandomizer:
+    'false': 10
+    light: 40
+    insanity: 25
+  FinaleShuffle:
+    'false': 20
+    'true': 10
+  StartingChapter:
+    '1': 25
+    '2': 20
+    '3': 20
+    '4': 20
+  ChapterCostIncrement: random-middle
+  ChapterCostMinDifference: random-middle
+  RandomizeHatOrder:
+    'false': 2
+    'true': 25
+  UmbrellaLogic: random
+  CompassBadgeMode:
+    closest: 25
+    important_only: 1
+    important_first: 1
+  YarnCostMin: random-low
+  YarnCostMax: random-middle
+  YarnAvailable: random-middle
+  MinExtraYarn: random-middle
+  HatItems: &1-2
+    'false': 25
+    'true': 50
+  ExcludeTour: random
+  BaseballBat: random
+  NyakuzaThugMinShopItems: random-low
+  NyakuzaThugMaxShopItems: random-high
+  NoTicketSkips: random
+  DWShuffle: random
+  DWShuffleCountMin: random-low
+  DWShuffleCountMax: random-middle
+  DWExcludeCandles:
+    'false': 1
+    'true': 25
+  DWTimePieceRequirement: random-middle
+  triggers:
+    - option_category: A Hat in Time
+      option_name: PonCost
+      option_result: high
+      options:
+        A Hat in Time:
+          MinPonCost: 100
+          MaxPonCost: 400
+          MetroMinPonCost: 60
+          MetroMaxPonCost: 220
+    - option_category: A Hat in Time
+      option_name: PonCost
+      option_result: medium
+      options:
+        A Hat in Time:
+          MinPonCost: 50
+          MaxPonCost: 250
+          MetroMinPonCost: 30
+          MetroMaxPonCost: 130
+    - option_category: A Hat in Time
+      option_name: PonCost
+      option_result: low
+      options:
+        A Hat in Time:
+          MinPonCost: 10
+          MaxPonCost: 30
+          MetroMinPonCost: 10
+          MetroMaxPonCost: 20
+    - option_category: A Hat in Time
+      option_name: ChapterCost
+      option_result: high
+      options:
+        A Hat in Time:
+          LowestChapterCost: random-high
+          HighestChapterCost: random-high
+          FinalChapterMinCost: random-high
+          FinalChapterMaxCost: random-high
+    - option_category: A Hat in Time
+      option_name: ChapterCost
+      option_result: medium
+      options:
+        A Hat in Time:
+          MinPonCost: random-middle
+          MaxPonCost: random-middle
+          MetroMinPonCost: random-middle
+          MetroMaxPonCost: random-middle
+    - option_category: A Hat in Time
+      option_name: ChapterCost
+      option_result: low
+      options:
+        A Hat in Time:
+          MinPonCost: random-low
+          MaxPonCost: random-low
+          MetroMinPonCost: random-low
+          MetroMaxPonCost: random-low
+    - option_category: A Hat in Time
+      option_name: DLC
+      option_result: high
+      options:
+        A Hat in Time:
+          EnableDLC1: true
+          Tasksanity: true
+          TasksanityCheckCount: random-range-middle-5-25
+          EnableDLC2: true
+          EnableDeathWish: true
+    - option_category: A Hat in Time
+      option_name: DLC
+      option_result: medium
+      options:
+        A Hat in Time:
+          EnableDLC1: *1-2
+          Tasksanity: true
+          TasksanityCheckCount: random-range-low-2-18
+          EnableDLC2: *1-2
+          EnableDeathWish:
+            'false': 50
+            'true': 40
+    - option_category: A Hat in Time
+      option_name: DLC
+      option_result: low
+      options:
+        A Hat in Time:
+          EnableDLC1: &2-1
+            'false': 50
+            'true': 25
+          Tasksanity: true
+          TasksanityCheckCount: random-range-low-1-8
+          EnableDLC2: *2-1
+
+DLCQuest:
+  progression_balancing: 0  # increase to 33, then to 66, then to 99
+  ending_choice: random     # change to any
+  double_jump_glitch:
+    none: 25
+    simple: 25              # remove this line (or change to 0)
+  time_is_money: optional   # change to required
+  start_hints: []           # add one per upgrade, 10 in total: "Big Sword Pack", "Double Jump Pack", "Finish the Fight Pack", "Gun Pack", "Incredibly Important Pack", "Map Pack", "Really Big Sword Pack", "Season Pass", "Unfathomable Sword Pack", "Wall Jump Pack", "Armor for your Horse Pack"
+
+  death_link: true
+  coinsanity:
+    none: 3
+    coin: 50
+  campaign: both
+  item_shuffle:
+    disabled: 25
+    shuffled: 50
+  coinbundlequantity: random-range-low-5-100
+  permanent_coins: random
+  start_inventory: {Pause Menu Pack: 1, Day One Patch Pack: 1}
+  plando_items:
+    - items:
+        Temporary Spike: true
+      locations:
+        - Animation Pack
+        - Armor for your Horse Pack
+        - Audio Pack
+        - Canadian Dialog Pack
+        - Checkpoint Pack
+        - Cut Content Pack
+        - DLC NPC Pack
+        - Day One Patch Pack
+        - Death of Comedy Pack
+        - Finish the Fight Pack
+        - Gun Pack
+        - Harmless Plants Pack
+        - Health Bar Pack
+        - High Definition Next Gen Pack
+        - Increased HP Pack
+        - Incredibly Important Pack
+        - Map Pack
+        - Movement Pack
+        - Name Change Pack
+        - Night Map Pack
+        - Parallax Pack
+        - Particles Pack
+        - Pause Menu Pack
+        - Psychological Warfare Pack
+        - Remove Ads Pack
+        - Season Pass
+        - Sexy Outfits Pack
+        - The Zombie Pack
+        - Time is Money Pack
+        - Top Hat Pack
+        - Wall Jump Pack
+      world: false
+      from_pool: true
+      force: true
+
+Pokemon Emerald:
+  goal:           # remove steven, then champion, then legendary_hunt
+    steven: 50
+    champion: 25
+    legendary_hunt: 25
+    norman: 5
+  dexsanity:
+    'false': 50
+    'true': 20    # remove this line (or change to 0)
+  trainersanity:
+    'false': 50
+    'true': 30    # remove this line (or change to 0)
+  require_flash:  # remove neither, then only_granite_cave AND only_victory_road.
+    neither: 50
+    only_granite_cave: 5
+    only_victory_road: 5
+    both: 1
+  legendary_hunt_count: random-high # change to random-low
+  trainer_party_blacklist: []       # add "_Legendaries"
+  force_fully_evolved: random-low   # change to random-high
+  ability_blacklist:                # add a new line with:  Wonder Guard: 1
+    Arena Trap: 1
+    Shadow Tag: 1
+  exp_modifier: 100                 # change to 200, then 300
+  match_trainer_levels_bonus: -10   # change to -5, then to 0, then to 5
+
+  progression_balancing: 1
+  badges:
+    vanilla: 1
+    shuffle: 10
+    completely_random: 30
+  hms:
+    vanilla: 1
+    shuffle: 5
+    completely_random: 50
+  key_items: *1-10
+  bikes: *1-10
+  event_tickets: *1-10
+  rods: *1-10
+  overworld_items: &5-4
+    'false': 50
+    'true': 40
+  hidden_items: *5-4
+  npc_gifts: *5-4
+  berry_trees:
+    'false': 50
+    'true': 30
+  item_pool_type: random
+  require_itemfinder: &5-1
+    'false': 50
+    'true': 10
+  elite_four_requirement: &badgesgyms
+    badges: 25
+    gyms: 10
+  elite_four_count:
+    '8': 25
+    random-high: 25
+  norman_requirement: *badgesgyms
+  norman_count:
+    '4': 25
+    random-low: 25
+  legendary_hunt_catch:
+    'false': 25
+    'true': 1
+  wild_pokemon: random
+  starters: random
+  trainer_parties: random
+  legendary_encounters: random
+  misc_pokemon: random
+  types:
+    vanilla: 25
+    shuffle: 1
+  abilities:
+    vanilla: 25
+    follow_evolutions: 10 
+  level_up_moves:
+    vanilla: 25
+    random: 50
+  move_match_type_bias: random-low
+  move_normal_type_bias: random-low
+  tm_tutor_compatibility: random-high
+  hm_compatibility: random-high
+  tm_tutor_moves: &2-5
+    'false': 20
+    'true': 50
+  reusable_tms_tutors: true
+  guaranteed_catch: true
+  normalize_encounter_rates: true
+  purge_spinners: true
+  blind_trainers: *2-5
+  match_trainer_levels:
+    'off': 20
+    multiplicative: 50
+  better_shops: true
+  extra_boulders: *1-2
+  extra_bumpy_slope: *1-2
+  modify_118: *1-2
+  free_fly_location: false
+  hm_requirements: fly_without_badge
+  turbo_a: true
+  receive_item_messages: progression
+  remote_items: true
+  music: *5-1
+  fanfares: *5-1
+  death_link: true
+  start_inventory:
+    HM02 Fly: 1
+  triggers:
+    - option_category: Pokemon Emerald
+      option_name: trainersanity
+      option_result: 'false'
+      options:
+        Pokemon Emerald:
+          blind_trainers: true
+    - option_category: Pokemon Emerald
+      option_name: dexsanity
+      option_result: 'true'
+      options:
+        Pokemon Emerald:
+          wild_pokemon:
+            match_base_stats: 1
+            match_type: 1
+            match_base_stats_and_type: 1
+            completely_random: 1
+
+Hollow Knight:
+  RandomizeFocus:
+    'false': 25
+    'true': 50          # remove this line (or change to 0)
+  RandomizeNail:
+    'false': 25
+    'true': 50          # remove this line (or change to 0)
+  AnnoyingChecks: high  # change to medium, then to low
+  SkipDifficulty: all   # change to hard, then medium, then easy, then off
+  GoalDifficulty: hard  # change to medium, then to easy
+  Costs: high           # change to medium, then to low
+  SplitCrystalHeart: &split
+    'false': 20
+    'true': 50          # change to 5
+
+  progression_balancing: 0
+  accessibility: random
+  RandomizeDreamers:
+    'false': 5
+    'true': 25
+  RandomizeSkills: &1-50
+    'false': 1
+    'true': 50
+  RandomizeSwim: *1-2
+  RandomizeKeys: *1-50
+  RandomizeVesselFragments: *1-50
+  RandomizeGeoChests: *1-50
+  RandomizeJunkPitChests: random
+  RandomizeRancidEggs: 
+    'false': 50
+    'true': 50
+  RandomizeRelics:
+    'false': 10
+    'true': 50
+  RandomizeBossEssence:
+    'false': 50
+    'true': 20
+  RandomizeGrubs: *1-10
+  RandomizeMimics: *1-50
+  RandomizeMaps: *1-10
+  RandomizeStags: *1-50
+  RandomizeLifebloodCocoons:
+    'false': 50
+    'true': 25
+  RandomizeJournalEntries: *1-10
+  RandomizeGeoRocks: *5-1
+  RandomizeBossGeo: *1-10
+  RandomizeSoulTotems: *5-1
+  RandomizeLoreTablets: *5-1
+  RandomizeElevatorPass: *1-10
+  DeathLink: true
+  CostSanity:
+    'off': 50
+    'on': 25
+    'shopsonly': 25
+  SplitMothwingCloak: *split
+  SplitMantisClaw: *split
+  local_items: [Mimics, LifebloodCocoons, SoulTotems]
+  start_inventory:
+    Sprintmaster: 1
+  triggers:
+    - option_category: Hollow Knight
+      option_name: AnnoyingChecks
+      option_result: high
+      options:
+        Hollow Knight:
+          RandomizeWhisperingRoots: random
+          RandomizeGrimmkinFlames: random
+          WhitePalace:
+            nopathofpain: 10
+            include: 10
+    - option_category: Hollow Knight
+      option_name: AnnoyingChecks
+      option_result: medium
+      options:
+        Hollow Knight:
+          RandomizeWhisperingRoots: *5-1
+          RandomizeGrimmkinFlames: *5-1
+          WhitePalace:
+            kingfragment: 10
+            nopathofpain: 10
+    - option_category: Hollow Knight
+      option_name: AnnoyingChecks
+      option_result: low
+      options:
+        Hollow Knight:
+          WhitePalace:
+            exclude: 30
+            kingfragment: 10
+    - option_category: Hollow Knight
+      option_name: SkipDifficulty
+      option_result: all
+      options:
+        Hollow Knight:
+            PreciseMovement: true
+            ProficientCombat: true
+            BackgroundObjectPogos: true
+            EnemyPogos: true
+            ObscureSkips: true
+            ShadeSkips: true
+            InfectionSkips: true
+            FireballSkips: true
+            SpikeTunnels: true
+            AcidSkips: true
+            DamageBoosts: true
+            DangerousSkips: true
+            DarkRooms: true
+            ComplexSkips: true
+            DifficultSkips: true
+            RemoveSpellUpgrades: true
+    - option_category: Hollow Knight
+      option_name: SkipDifficulty
+      option_result: hard
+      options:
+        Hollow Knight:
+          PreciseMovement: true
+          ProficientCombat: true
+          BackgroundObjectPogos: true
+          EnemyPogos: true
+          ObscureSkips: true
+          InfectionSkips: true
+          FireballSkips: true
+          SpikeTunnels: random
+          AcidSkips: random
+          DamageBoosts: true
+          DangerousSkips: random
+          DarkRooms: true
+          ComplexSkips: random
+          DifficultSkips: random
+    - option_category: Hollow Knight
+      option_name: SkipDifficulty
+      option_result: medium
+      options:
+        Hollow Knight:
+          PreciseMovement: random
+          ProficientCombat: random
+          BackgroundObjectPogos: true
+          EnemyPogos: true
+          ObscureSkips: true
+          InfectionSkips: true
+          FireballSkips: random
+          DamageBoosts: random
+          DarkRooms: random
+    - option_category: Hollow Knight
+      option_name: SkipDifficulty
+      option_result: easy
+      options:
+        Hollow Knight:
+          BackgroundObjectPogos: true
+          EnemyPogos: true
+          ObscureSkips: true
+          InfectionSkips: true
+    - option_category: Hollow Knight
+      option_name: GoalDifficulty
+      option_result: hard
+      options:
+        Hollow Knight:
+          Goal:
+            radiance: 50
+            grub_hunt: 10
+          GrubHuntGoal: random-range-40-46
+    - option_category: Hollow Knight
+      option_name: GoalDifficulty
+      option_result: medium
+      options:
+        Hollow Knight:
+          Goal:
+            siblings: 50
+            grub_hunt: 15
+          GrubHuntGoal: random-range-28-34
+    - option_category: Hollow Knight
+      option_name: GoalDifficulty
+      option_result: easy
+      options:
+        Hollow Knight:
+          Goal:
+            hollowknight: 50
+            grub_hunt: 15
+          GrubHuntGoal: random-range-16-22
+    - option_category: Hollow Knight
+      option_name: Costs
+      option_result: high
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: 400
+          MaximumGrubPrice: 33
+          MaximumCharmPrice: 30
+          MaximumEssencePrice: 2400
+          MaximumEggPrice: 15
+          RandomCharmCosts: 75
+    - option_category: Hollow Knight
+      option_name: Costs
+      option_result: medium
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: 270
+          MaximumEssencePrice: 1400
+          StartingGeo: 100
+          RandomCharmCosts: 100
+    - option_category: Hollow Knight
+      option_name: Costs
+      option_result: low
+      options:
+        Hollow Knight:
+          MaximumGeoPrice: 150
+          MaximumGrubPrice: 13 
+          MaximumCharmPrice: 10
+          MaximumEssencePrice: 400
+          MaximumEggPrice: 5
+          StartingGeo: 1000
+          RandomCharmCosts: 50
+    - option_category: Hollow Knight
+      option_name: RandomizeRancidEggs
+      option_result: 'false'
+      options:
+        Hollow Knight:
+          CostSanityEggWeight: '0'
+    - option_category: Hollow Knight
+      option_name: RandomizeGrubs
+      option_result: 'false'
+      options:
+        Hollow Knight:
+          CostSanityGrubWeight: '0'
+    - option_category: Hollow Knight
+      option_name: RandomizeBossEssence
+      option_result: 'false'
+      options:
+        Hollow Knight:
+          CostSanityEssenceWeight: '0'
+
+Minecraft:
+  advancement_goal: 80      # change to 60, then to 40, then to 20
+  required_bosses: both     #change to ender_dragon, then to wither, then to none
+  shuffle_structures:
+    'false': 50             # remove this line (or change to 0)
+    'true': 50
+  combat_difficulty: hard   # change to normal, then to easy
+  include_postgame_advancements: true # change to false
+  bee_traps: random-high    # change to random-low, then to 0
+  send_defeated_mobs: true  # change to false
+  progression_balancing: 1
+  egg_shards_required: 0
+  egg_shards_available: 0
+  death_link: true
+
+Timespinner:
+  start_with_jewelry_box: &convenience false # change to true
+  eye_spy:
+    'false': 50
+    'true': &speed 25       # change to 0
+  gyre_archives: 
+    'false': 10
+    'true': &difficult_areas 50 # change to 5
+  boss_rando:
+    'off': 25
+    scaled: 50
+    unscaled: &reduce_difficulty 5 # set to 0
+  hp_cap: 250               # increase to 350, then 450, then 999
+  boss_healing: false       # change to true
+  shop_multiplier: 2        # change to 1, then to 0
+  dad_percent: false        # change to random, then to true
+  trap_chance: random-range-low-5-90 # change to random-range-low-0-35, then to 0
+
+  start_with_meyef: *convenience
+  quick_seed:
+    'false': *speed
+    'true': 50
+  cantoran: &shorten1
+    'false': 10
+    'true': *difficult_areas
+  enter_sandman: *shorten1
+  damage_rando:
+    'off': 25
+    allnerfs: *reduce_difficulty
+    mostlynerfs: 25
+    balanced: 5
+    mostlybuffs: 5
+  EnemyRando: 
+    off: 5
+    scaled: *reduce_difficulty
+  level_cap: 18
+  extra_earrings_xp: random
+  death_link: true
+  progression_balancing: 1
+  accessibility: random
+  downloadable_items: *2-5
+  specific_keycards: *1-2
+  inverted: random
+  lore_checks: *2-5
+  shop_fill:
+    default: 25
+    randomized: 50
+    vanilla: 25
+  shop_warp_shards:
+    'false': 1
+    'true': 50
+  loot_pool:
+    vanilla: 25
+    randomized: 25
+  drop_rate_category: random
+  loot_tier_distro: random
+  show_bestiary: *1-2
+  show_drops: *1-2
+  rising_tides:
+    'false': 20
+    'true': 50
+  unchained_keys: &shorten2
+    'false': 10
+    'true': 50
+  back_to_the_future: *shorten2
+  triggers:
+    - option_category: Timespinner
+      option_name: quick_seed
+      option_result: false
+      options:
+        Timespinner:
+          unchained_keys: 'true'
+    - option_category: Timespinner
+      option_name: boss_healing
+      option_result: true
+      options:
+        Timespinner:
+          extra_earrings_xp: 24
+    - option_category: Timespinner
+      option_name: hp_cap
+      option_result: 350
+      options:
+        Timespinner:
+          level_cap: 23
+    - option_category: Timespinner
+      option_name: hp_cap
+      option_result: 450
+      options:
+        Timespinner:
+          level_cap: 28
+    - option_category: Timespinner
+      option_name: hp_cap
+      option_result: 999
+      options:
+        Timespinner:
+          level_cap: 99
+          start_hints: [Pendulum]

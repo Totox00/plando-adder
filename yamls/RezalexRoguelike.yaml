@@ -1,0 +1,77 @@
+﻿
+name: Rezalex
+description: Wayward Witches async ALTTP
+game: A Link to the Past
+A Link to the Past:
+  progression_balancing: 50
+  accessibility: items
+  goal: crystals
+  mode:
+    open: 1
+    inverted: 1
+  glitches_required: no_glitches
+  dark_room_logic: lamp
+  open_pyramid: open
+  crystals_needed_for_gt: random-high
+  crystals_needed_for_ganon: random-high
+  entrance_shuffle: dungeons_simple
+  entrance_shuffle_seed: random
+  big_key_shuffle: any_world
+  small_key_shuffle: original_dungeon
+  key_drop_shuffle: 'false'
+  compass_shuffle: start_with
+  map_shuffle: start_with
+  restrict_dungeon_item_on_boss: 'false'
+  item_pool: normal
+  item_functionality: expert #change to hard then normal
+  enemy_health: expert #change to hard then normal
+  enemy_damage: shuffled #change to default
+  progressive: 'on'
+  swordless: 'false'
+  dungeon_counters: 'on'
+  retro_bow: 'false'
+  retro_caves: 'false'
+  hints: 'off'
+  scams: 'off'
+  boss_shuffle:
+    basic: 1
+    full: 1
+    chaos: 1
+  pot_shuffle: 'false'
+  enemy_shuffle: 'false'
+  killable_thieves: 'true'
+  bush_shuffle: 'true'
+  shop_item_slots: 0
+  randomize_shop_inventories: randomize_by_shop_type
+  shuffle_shop_inventories: 'false'
+  include_witch_hut: 'false'
+  randomize_shop_prices: 'false'
+  randomize_cost_types: 'false'
+  shop_price_modifier: 100
+  shuffle_capacity_upgrades: 'off'
+  bombless_start: 'false'
+  shuffle_prizes: both
+  tile_shuffle: 'true'
+  misery_mire_medallion: random
+  turtle_rock_medallion: random
+  glitch_boots: 'false'
+  beemizer_total_chance: random-high
+  beemizer_trap_chance: random-high #change to random-low
+  timer: none
+  death_link: 'true'
+  allow_collect: 'true'
+  ow_palettes: default
+  uw_palettes: default
+  hud_palettes: default
+  sword_palettes: default
+  shield_palettes: default
+  heartbeep: quarter
+  heartcolor: red
+  quickswap: 'true'
+  menuspeed: normal
+  music: 'true'
+  reduceflashing: 'true'
+  exclude_locations: Magic Bat
+  start_inventory:
+    Rupees (300): 2 #just in case King Zora is in logic early on, would rather not farm multiple times
+    Bombs (3): 1

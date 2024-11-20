@@ -1,0 +1,161 @@
+﻿name: sheen
+game:
+  Kingdom Hearts Birth by Sleep: 3
+  Super Metroid Map Rando: 1
+  Factorio: 1
+Kingdom Hearts Birth by Sleep: #9 yaml changes
+  character:
+    ventus: 1
+    aqua: 1
+    terra: 1
+  starting_worlds: 1 #1 -> 2 -> 3 -> 4 -> 5
+  exp_multiplier: 1x # 1x -> 2x -> 4x -> 6x
+  final_terra_xehanort_ii: 'false'
+  mirage_arena: 'false'
+  command_board: 'false'
+  super_bosses: 'false'
+  max_hp_increases: 8
+  randomize_keyblade_stats: 'true'
+  keyblade_min_str: 2
+  keyblade_max_str: 10
+  keyblade_min_mgc: -2 #-2 -> 3
+  keyblade_max_mgc: 6 # 6 -> 10
+  realm_of_darkness_early: 'false'
+
+Super Metroid Map Rando: #11 yaml changes
+  accessibility: minimal
+  remote_items: 'true'
+  death_link: enable
+  preset: hard # hard -> medium
+  item_pool: custom
+  custom_item_pool:
+    ETank: 10 #10 -> 14
+    Missile: 32
+    PowerBomb: 10 # 10 -> 15
+    ReserveTank: 4
+    Super: 12 #12 -> 19
+  shinespark_tiles: 26
+  heated_shinespark_tiles: 29
+  shinecharge_leniency_frames: 90
+  resource_multiplier: 100
+  gate_glitch_leniency: 5
+  door_stuck_leniency: 2
+  escape_timer_multiplier: 100
+  start_location_mode:
+    ship: 1
+    randomroom: 1
+  phantoon_proficiency: 50
+  draygon_proficiency: 50
+  ridley_proficiency: 50
+  botwoon_proficiency: 50
+  mother_brain_proficiency: 50
+  save_animals: maybe
+  early_save: 'true'
+  ultra_low_qol: 'false'
+  quality_of_life: default
+  objectives: bosses
+  doors_mode: ammo #ammo -> blue
+  area_assignment: randomized
+  supers_double: 'false' #false -> true
+  mother_brain: vanilla
+  escape_enemies_cleared: 'false'
+  escape_refill: 'false'
+  escape_movement_items: 'false'
+  mark_map_stations: 'false' #'false' -> 'true'
+  room_outline_revealed: 'true'
+  transition_letters: 'true'
+  item_markers: majors
+  item_dots_disappear: 'true'
+  all_items_spawn: 'true'
+  buffed_drops: 'false' #false -> 'true'
+  acid_chozo: 'true'
+  fast_elevators: 'true'
+  fast_doors: 'true'
+  fast_pause_menu: 'true'
+  respin: 'false'
+  infinite_space_jump: 'false'
+  momentum_conservation: 'false' #false -> true
+  wall_jump: collectible #collectible -> vanilla
+  etank_refill: vanilla
+  maps_revealed: hidden #hidden -> revealed
+  map_layout: wild
+  energy_free_shinesparks: 'false'
+  reserve_hud_style: revamped
+  vanilla_screw_attack_animation: split
+  palette_theme: areathemed
+  tile_theme: none
+  music: areathemed
+  disable_beeping: vanilla
+  shaking: vanilla
+  moonwalk: 'true'
+
+Factorio:
+  max_science_pack: utility_science_pack #utility_science_pack -> production_science_pack -> chemical_science_pack
+  goal: satellite # satellite -> rocket
+  tech_tree_layout: large_diamonds #large_diamonds -> single
+  min_tech_cost: 50 #50 -> 5
+  max_tech_cost: 2000 # 2000 -> 500
+  tech_cost_distribution: even
+  tech_cost_mix: 70
+  ramping_tech_costs: 'false'
+  silo: randomize_recipe # randomize_recipe -> spawn
+  satellite: randomize_recipe
+  free_samples: none # none -> single_craft -> stack
+  tech_tree_information: advancement
+  recipe_time: chaos # chaos -> new_normal -> new_fast
+  recipe_ingredients: science_pack
+  recipe_ingredients_offset: 2 # 2 -> 1 -> 0 -> -1
+  imported_blueprints: true
+  progressive: on
+  teleport_traps: 0
+  grenade_traps: 0
+  cluster_grenade_traps: 0
+  artillery_traps: 0
+  atomic_rocket_traps: 1 # 1 -> 0
+  attack_traps: 0
+  evolution_traps: 0
+  evolution_trap_increase: 1
+  death_link: 'true'
+  energy_link: 'true'
+
+  starting_items: # there are 5 upgrades here: automation starter pack, starting robots, Spoodertron, Nuclear survival kit, Unlimited Power. They each unlock multiple starting items. They can be unlocked in any order
+    burner-mining-drill: 19
+    stone-furnace: 19
+
+    ## automation starter pack (6 items)
+    #steel-furnace: 48
+    #assembling-machine-2: 24
+    #electric-mining-drill: 24
+    #lab: 12
+    #efficiency-module: 100
+    #transport-belt: 300
+
+
+    ## starting robots (5 items)
+    # power-armor: 1
+    # battery-equipment: 5
+    # personal-roboport-equipment: 1
+    # solar-panel-equipment: 9
+    # construction-robot: 15
+    
+    ## Spoodertron (4 items)
+    # Spidertron: 1
+
+    
+    ## Nuclear survival kit
+    # power-armor-mk2: 1
+    # energy-shield-mk2-equipment: 24
+    # personal-laser-defense-equipment: 5
+    # exoskeleton-equipment: 3
+    # fusion-reactor-equipment: 1 #NOTE: if AP moves to The Space Age, this may need to be renamed
+    
+    ## Unlimited Power
+    # nuclear-reactor: 1
+    # uranium-fuel-cell: 300
+    # heat-exchanger: 4
+    # steam-turbine: 8
+    
+
+
+    
+    

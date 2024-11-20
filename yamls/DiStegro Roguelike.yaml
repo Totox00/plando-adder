@@ -1,0 +1,551 @@
+﻿name: DiStegRogue
+
+description: Random Emerald/RB/OoT/LttP
+
+game: 
+  Pokemon Red and Blue: 1
+  Pokemon Emerald: 1
+  Ocarina of Time: 1
+  A Link to the Past: 1
+requires:
+  version: 0.5.1
+
+Pokemon Red and Blue:
+  progression_balancing: 0
+  accessibility: full
+  game_version: red
+  trainer_name: DiStgro
+  rival_name: Zoinks
+  
+  #Elite 4 Badges to 4-8, then 4-6
+  elite_four_badges_condition: 
+    random-range-6-8: 50
+    random-range-4-8: 0
+    random-range-4-6: 0
+  
+  #Elite 4 Key Items to 50-100. then 50-70
+  elite_four_key_items_condition:
+    random-range-80-100: 50
+    random-range-50-100: 0
+    random-range-50-70: 0
+  
+  elite_four_pokedex_condition: 0
+  victory_road_condition: 2
+  route_22_gate_condition: 2
+  viridian_gym_condition: 2
+  cerulean_cave_badges_condition: 4
+  cerulean_cave_key_items_condition: 50
+  route_3_condition: boulder_badge
+  robbed_house_officer: true
+  second_fossil_check_condition: 3
+  fossil_check_item_types: key_items
+  exp_all: randomize
+  old_man: vanilla
+  badgesanity: true
+  badges_needed_for_hm_moves: on
+  key_items_only: false
+  tea: true
+  extra_key_items: true
+  split_card_key: off
+  all_elevators_locked: false
+  extra_strength_boulders: true
+  require_item_finder: false
+  randomize_hidden_items: on
+  prizesanity: false
+  trainersanity: full
+  dexsanity: 0
+  randomize_pokedex: start_with
+  require_pokedex: true
+  all_pokemon_seen: true
+  oaks_aide_rt_2: 5
+  oaks_aide_rt_11: 10
+  oaks_aide_rt_15: 15
+  stonesanity: true
+  door_shuffle: off
+  warp_tile_shuffle: vanilla
+  randomize_rock_tunnel: false
+  dark_rock_tunnel_logic: true
+  free_fly_location: false
+  town_map_fly_location: true
+  blind_trainers: 0
+  minimum_steps_between_encounters: 25
+  level_scaling: auto
+  
+  # EXP Modifier from 16 to 32 to 48
+  exp_modifier:
+    16: 50
+    32: 0
+    48: 0
+
+  randomize_wild_pokemon: completely_random
+  area_1_to_1_mapping: true
+  randomize_starter_pokemon: completely_random
+  randomize_static_pokemon: completely_random
+
+  # Randomize Legendaries to Any
+  randomize_legendary_pokemon:
+    vanilla: 50
+    any: 0
+
+  catch_em_all: off
+  randomize_pokemon_stats: randomize
+  randomize_pokemon_catch_rates: true
+  minimum_catch_rate: 3
+  randomize_trainer_parties: completely_random
+  trainer_legendaries: true
+  move_balancing: true
+  fix_combat_bugs: true
+  randomize_pokemon_movesets: prefer_types
+  confine_transform_to_ditto: true
+  start_with_four_moves: false
+  same_type_attack_bonus: true
+  randomize_tm_moves: false
+  tm_same_type_compatibility: 0
+  tm_normal_type_compatibility: 0
+  tm_other_type_compatibility: 0
+  hm_same_type_compatibility: random-range-15-50
+  hm_normal_type_compatibility: random-range-15-50
+  hm_other_type_compatibility: random-range-15-50
+  inherit_tm_hm_compatibility: true
+  randomize_move_types: false
+  randomize_pokemon_types: vanilla
+  secondary_type_chance: vanilla
+  randomize_type_chart: vanilla
+  normal_matchups: 143
+  super_effective_matchups: 38
+  not_very_effective_matchups: 38
+  immunity_matchups: 6
+  type_chart_seed: random
+  safari_zone_normal_battles: true
+  normalize_encounter_chances: true
+  reusable_tms: true
+  better_shops: on
+  master_ball_price: 5000
+  starting_money: 3000
+  lose_money_on_blackout: false
+  poke_doll_skip: in_logic
+  bicycle_gate_skips: in_logic
+  trap_percentage: 50
+  poison_trap_weight: disabled
+  fire_trap_weight: medium
+  paralyze_trap_weight: medium
+  sleep_trap_weight: medium
+  ice_trap_weight: medium
+  randomize_pokemon_palettes: vanilla
+  death_link: true
+  
+Pokemon Emerald:
+  progression_balancing: 0
+  accessibility: full
+  
+  # Steven to Champion to Norman
+  goal:
+    norman: 0
+    champion: 0
+    steven: 50
+    
+  badges: completely_random
+  hms: completely_random
+  key_items: true
+  bikes: true
+  event_tickets: true
+  rods: false
+  overworld_items: true
+  hidden_items: false
+  npc_gifts: true
+  berry_trees: false
+  dexsanity: false
+  trainersanity: false
+  item_pool_type: shuffled
+  require_itemfinder: true
+  require_flash: both
+  elite_four_requirement: gyms
+  
+  #From 6-8 to 4-8, to 4-6
+  elite_four_count:
+    random-range-6-8: 50
+    random-range-4-8: 0
+    random-range-4-6: 0
+
+  norman_requirement: badges
+  norman_count: 4
+  legendary_hunt_catch: false
+  legendary_hunt_count: 3
+  allowed_legendary_hunt_encounters:
+    ['Groudon', 'Kyogre', 'Rayquaza', 'Latios', 'Latias', 'Regirock', 'Registeel', 'Regice', 'Ho-Oh', 'Lugia', 'Deoxys', 'Mew']
+  wild_pokemon: completely_random
+  
+  #Replace "_Legendaries" with "[]"
+  wild_encounter_blacklist: _Legendaries
+  starters: completely_random
+
+  #Replace "_Legendaries" with "[]"
+  starter_blacklist: _Legendaries
+
+  trainer_parties: completely_random
+
+  #Replace "[]" with "_Legendaries"
+  trainer_party_blacklist: []
+  
+  force_fully_evolved: random-range-30-55
+  legendary_encounters: shuffle
+  misc_pokemon: completely_random
+  types: vanilla
+  abilities: vanilla
+  ability_blacklist: []
+  
+  level_up_moves: randomized
+  move_match_type_bias: random-range-50-85
+  move_normal_type_bias: random-range-29-40
+  tm_tutor_compatibility: 0
+  hm_compatibility: full
+  tm_tutor_moves: false
+  reusable_tms_tutors: true
+  move_blacklist: []
+  min_catch_rate: 3
+  
+  #Guaranteed Catch False to True
+  guaranteed_catch:
+    false: 50
+    true: 0
+    
+  normalize_encounter_rates: true
+  exp_modifier: 250
+  blind_trainers: true
+  purge_spinners: true
+  match_trainer_levels: multiplicative
+
+  #Levels Bonus from 50 to 60, to 70
+  match_trainer_levels_bonus:
+    50: 50
+    60: 0
+    70: 0
+
+  double_battle_chance: random-range-30-60
+  better_shops: true
+  remove_roadblocks: []
+  extra_boulders: true
+  extra_bumpy_slope: true
+  modify_118: true
+  free_fly_location: false
+  hm_requirements: fly_without_badge
+  turbo_a: false
+  receive_item_messages: progression
+  remote_items: true
+  music: false
+  fanfares: false
+  death_link: true
+  enable_wonder_trading: true
+  easter_egg: EMERALD SECRET
+  
+Ocarina of Time:
+  # Game Options
+  progression_balancing: 0
+  accessibility: full
+  death_link: true
+  logic_rules: glitchless
+  logic_no_night_tokens_without_suns_song: true
+  logic_tricks: []
+  open_forest: closed
+  open_kakariko: open
+  open_door_of_time: false
+  zora_fountain: closed
+  gerudo_fortress: normal
+  bridge:
+    stones: 1
+    medallions: 1
+    dungeons: 1
+    tokens: 1
+    hearts: 1
+  trials: random
+  starting_age: child
+  shuffle_interior_entrances: off
+  shuffle_grotto_entrances: false
+  shuffle_dungeon_entrances: all
+  shuffle_overworld_entrances: false
+  owl_drops: false
+  warp_songs: false
+  spawn_positions: off
+  
+  #Shuffle Bosses from Full to Limited
+  shuffle_bosses:
+    limited: 0
+    full: 50
+
+  triforce_hunt: true
+  triforce_goal: random
+  extra_triforce_percentage: random-range-10-25
+  bombchus_in_logic: false
+  dungeon_shortcuts: off
+  dungeon_shortcuts_list: []
+  
+  #MQ Dungeons Mode from mq to count to vanilla
+  mq_dungeons_mode:
+    vanilla: 0
+    count: 0
+    mq: 50
+
+  mq_dungeons_list: []
+  mq_dungeons_count: 6
+  bridge_stones: 2
+  bridge_medallions: 5
+  bridge_rewards: 7
+  bridge_tokens: random-range-40-80
+  bridge_hearts: random-range-8-15
+  shuffle_song_items: song
+  shopsanity: random_number
+  shop_slots: random
+  shopsanity_prices: affordable
+  tokensanity: all
+  shuffle_scrubs: low
+  shuffle_child_trade: shuffle
+  shuffle_freestanding_items: off
+  shuffle_pots: off
+  shuffle_crates: all
+  shuffle_cows: true
+  shuffle_beehives: true
+  shuffle_kokiri_sword: true
+  shuffle_ocarinas: true
+  shuffle_gerudo_card: true
+  shuffle_beans: true
+  shuffle_medigoron_carpet_salesman: true
+  shuffle_frog_song_rupees: true
+  shuffle_mapcompass: keysanity
+  shuffle_smallkeys: regional
+  shuffle_hideoutkeys: keysanity
+  shuffle_bosskeys: any_dungeon
+  enhance_map_compass: true
+  shuffle_ganon_bosskey:
+    remove: 5
+    vanilla: 5
+    dungeon: 5
+    regional: 5
+    overworld: 5
+    any_dungeon: 5
+    keysanity: 5
+    on_lacs: 5
+    stones: 5
+    medallions: 5
+    dungeons: 5
+    tokens: 5
+    hearts: 5
+  ganon_bosskey_medallions: 6
+  ganon_bosskey_stones: 3
+  ganon_bosskey_rewards: 9
+  ganon_bosskey_tokens: random-range-30-90
+  ganon_bosskey_hearts: random-range-6-18
+  key_rings: choose
+  key_rings_list:
+    ["Bottom of the Well", "Fire Temple", "Forest Temple", "Shadow Temple", "Spirit Temple", "Water Temple"]
+  no_escape_sequence: true
+  no_guard_stealth: true
+  no_epona_race: true
+  skip_some_minigame_phases: true
+  complete_mask_quest: false
+  useful_cutscenes: false
+  fast_chests: true
+  free_scarecrow: true
+  fast_bunny_hood: true
+  plant_beans: false
+  chicken_count: 7
+  big_poe_count: 1
+  fae_torch_count: 1
+  correct_chest_appearances: off
+  minor_items_as_major_chest: false
+  invisible_chests: false
+  correct_potcrate_appearances: textures_unchecked
+  hints: none
+  misc_hints: true
+  hint_dist: async
+  text_shuffle: none
+  
+  #Damage Multi from Quadruple to Double to Normal
+  damage_multiplier:
+    normal: 0
+    double: 0
+    quadruple: 50
+    
+  #Deadly Bonks from Quadruple to Double to Normal
+  deadly_bonks:
+    normal: 0
+    double: 0
+    quadruple: 50
+
+  no_collectible_hearts: false
+  starting_tod: random
+  blue_fire_arrows: true
+  fix_broken_drops: true
+  start_with_consumables: true
+  start_with_rupees: true
+  item_pool_value: balanced
+  junk_ice_traps: on
+  ice_trap_appearance: anything
+  adult_trade_start: claim_check
+  default_targeting: hold
+  display_dpad: true
+  dpad_dungeon_menu: true
+  correct_model_colors: true
+  background_music: off
+  fanfares: randomized
+  ocarina_fanfares: false
+  kokiri_color: random_choice
+  goron_color: random_choice
+  zora_color: random_choice
+  silver_gauntlets_color: random_choice
+  golden_gauntlets_color: random_choice
+  mirror_shield_frame_color: random_choice
+  navi_color_default_inner: white
+  navi_color_default_outer: match_inner
+  navi_color_enemy_inner: yellow
+  navi_color_enemy_outer: match_inner
+  navi_color_npc_inner: light_blue
+  navi_color_npc_outer: match_inner
+  navi_color_prop_inner: green
+  navi_color_prop_outer: match_inner
+  sword_trail_duration: 4
+  sword_trail_color_inner: random_choice
+  sword_trail_color_outer: match_inner
+  bombchu_trail_color_inner: red
+  bombchu_trail_color_outer: match_inner
+  boomerang_trail_color_inner: random_choice
+  boomerang_trail_color_outer: match_inner
+  heart_color: random_choice
+  magic_color: random_choice
+  a_button_color: n64_blue
+  b_button_color: n64_green
+  c_button_color: yellow
+  start_button_color: n64_red
+  sfx_navi_overworld: default
+  sfx_navi_enemy: default
+  sfx_low_hp: random_ear_safe
+  sfx_menu_cursor: default
+  sfx_menu_select: default
+  sfx_nightfall: random_ear_safe
+  sfx_horse_neigh: random_ear_safe
+  sfx_hover_boots: random_ear_safe
+  sfx_ocarina: random
+  triforce_location:
+    local: 5
+    nonlocal: 5
+  local_items:
+    - "Gold Skulltula Token"
+    - "Ice Trap"
+  non_local_items:
+    []
+triggers:
+  - option_category: Ocarina of Time
+    option_name: triforce_location
+    option_result: local
+    options: 
+      Ocarina of Time:
+        +local_items:
+          - "Triforce Piece"
+  - option_category: Ocarina of Time
+    option_name: triforce_location
+    option_result: nonlocal
+    options: 
+      Ocarina of Time:
+        +non_local_items:
+          - "Triforce Piece"
+  
+A Link to the Past:
+  progression_balancing: 0
+  accessibility: full
+  goal:
+    crystals: 5
+    bosses: 1
+    pedestal: 5
+    ganon_pedestal: 5
+    triforce_hunt: 5
+    local_triforce_hunt: 5
+    ganon_triforce_hunt: 5
+    local_ganon_triforce_hunt: 5
+  mode: standard
+  glitches_required: no_glitches
+  dark_room_logic: lamp
+  open_pyramid: goal
+  crystals_needed_for_gt: random
+  crystals_needed_for_ganon: random-range-3-6
+  triforce_pieces_mode: random
+  triforce_pieces_percentage: random
+  triforce_pieces_required: random
+  triforce_pieces_available: random
+  triforce_pieces_extra: random
+  entrance_shuffle: vanilla
+  entrance_shuffle_seed: random
+  big_key_shuffle: own_dungeons
+  small_key_shuffle: own_dungeons
+  key_drop_shuffle: true
+  compass_shuffle: start_with
+  map_shuffle: start_with
+  restrict_dungeon_item_on_boss: false
+  item_pool: normal
+  
+  #Item Functionality from Normal to Easy
+  item_functionality: 
+    normal: 50
+    easy: 0
+  
+  #Enemy Health from hard to default
+  enemy_health:
+    hard: 50
+    default: 0
+  
+  #Enemy Damage from shuffled to default
+  enemy_damage: 
+    shuffled: 50
+    default: 0
+  
+  progressive: on
+  swordless: false
+  dungeon_counters: on
+  retro_bow: false
+  retro_caves: false
+  hints: on
+  scams: all
+  
+  #Boss Shuffle from Chaos to Basic to None
+  boss_shuffle:
+    chaos: 50
+    basic: 0
+    none: 0
+  
+  pot_shuffle: false
+  enemy_shuffle: false
+  killable_thieves: true
+  bush_shuffle: false
+  shop_item_slots: 30
+  randomize_shop_inventories: randomize_each
+  shuffle_shop_inventories: false
+  include_witch_hut: true
+  randomize_shop_prices: true
+  randomize_cost_types: true
+  shop_price_modifier: 100
+  shuffle_capacity_upgrades: on
+  bombless_start: true
+  shuffle_prizes: general
+  tile_shuffle: false
+  misery_mire_medallion: random
+  turtle_rock_medallion: random
+  glitch_boots: true
+  beemizer_total_chance: random-range-30-50
+  beemizer_trap_chance: random-range-40-60
+  timer: none
+  countdown_start_time: 10
+  red_clock_time: -2
+  blue_clock_time: 2
+  green_clock_time: 4
+  death_link: true
+  allow_collect: true
+  ow_palettes: default
+  uw_palettes: default
+  hud_palettes: default
+  sword_palettes: default
+  shield_palettes: default
+  heartbeep: normal
+  heartcolor: random
+  quickswap: true
+  menuspeed: normal
+  music: false
+  reduceflashing: true
+  triforcehud: normal

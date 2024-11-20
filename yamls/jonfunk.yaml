@@ -1,0 +1,685 @@
+name: jf-rogue
+description: jonfunk's submission for Wayward Witches
+
+game: 
+    Rogue Legacy: 1
+    Timespinner: 1
+    A Hat in Time: 1
+    Hollow Knight: 1
+    Muse Dash: 1
+
+Rogue Legacy:
+  progression_balancing:
+    '0': 8
+  accessibility:
+    items: 25
+  starting_gender:
+    random: 25
+  starting_class:
+    random: 9
+  available_classes:
+    Barbarian: 1
+    Knight: 1
+    Mage: 1
+    Shinobi: 1
+    Spellthief: 1
+    Traitor: 1
+  new_game_plus:
+    normal: 6
+    new_game_plus: 31 # if we're running long, remove this line
+    new_game_plus_2: 6 # remove this line
+  fairy_chests_per_zone:
+    '1': 19
+    '2': 27
+    '3': 24
+    '4': 12  # remove this line
+  chests_per_zone:
+    random-range-middle-25-40: 8
+  universal_fairy_chests:
+    'true': 9
+    'false': 8  # remove this line
+  universal_chests:
+    'false': 18
+    'true': 5
+  vendors:
+    start_unlocked: 10
+    early: 9
+    normal: 8  # remove this line
+  architect:
+    start_unlocked: 18
+    early: 12
+    anywhere: 25
+    disabled: 16
+  architect_fee:
+    random: 13
+  disable_charon:
+    random: 11
+  require_purchasing:
+    random: 7
+  progressive_blueprints:
+    'false': 25
+  gold_gain_multiplier:
+    normal: 22
+    quarter: 2
+    half: 7  # remove this line
+    double: 7
+    quadruple: 2
+    random: 18
+  number_of_children:
+    '1': 5  # remove this line
+    '5': 9
+    random: 16
+    '2': 9
+    '3': 14
+    '4': 17
+  free_diary_on_generation:
+    random: 11
+  khidr:
+    random: 7
+  alexander:
+    random: 13
+  leon:
+    random: 10
+  herodotus:
+    random: 9
+  health_pool:
+    '15': 25
+  mana_pool:
+    '15': 25
+  attack_pool:
+    '15': 25
+  magic_damage_pool:
+    '15': 25
+  armor_pool:
+    '10': 25
+  equip_pool:
+    '10': 25
+  crit_chance_pool:
+    '5': 25
+  crit_damage_pool:
+    '5': 25
+  allow_default_names:
+    'true': 25
+  death_link:
+    'true': 12
+  start_hints:
+    Sky Blueprints: 1
+    Vampire Runes: 1
+
+Timespinner:
+  progression_balancing:
+    '0': 6
+  accessibility:
+    items: 25
+  StartWithJewelryBox:
+    'false': 25
+  DownloadableItems:
+    random: 10
+  EyeSpy:
+    random: 13
+  StartWithMeyef:
+    random: 13
+  QuickSeed:
+    'true': 8
+  SpecificKeycards:
+    random: 8
+  Inverted:
+    'false': 25
+    'true': 9  # remove this line
+  GyreArchives:
+    'false': 25
+    'true': 5  # remove this line
+  Cantoran:
+    random: 10
+  LoreChecks:
+    random: 12
+  BossRando:
+    'off': 2
+    scaled: 10
+  EnemyRando:
+    'off': 7
+    scaled: 14
+  DamageRando:
+    'off': 4
+    allnerfs: 2  # remove this line
+    mostlynerfs: 2  # remove this line
+    balanced: 8
+    mostlybuffs: 6
+    allbuffs: 4
+  HpCap:
+    '999': 25
+  LevelCap:
+    '99': 25
+  ExtraEarringsXP:
+    random-low: 14
+  BossHealing:
+    'true': 25
+  ShopFill:
+    randomized: 7
+    random: 7
+  ShopWarpShards:
+    random: 7
+  ShopMultiplier:
+    '1': 25
+  LootPool:
+    randomized: 7
+  DropRateCategory:
+    random: 8
+  FixedDropRate:
+    random: 10
+    random-low: 10
+    random-middle: 10
+    random-high: 10
+  LootTierDistro:
+    default_weight: 25
+    full_random: 8
+    inverted_weight: 8
+    random: 18
+  ShowBestiary:
+    random: 9
+  ShowDrops:
+    random: 5
+  EnterSandman:
+    random: 5
+  DadPercent:
+    random: 8
+  RisingTides:
+    'false': 1
+    'true': 8
+  UnchainedKeys:
+    'false': 25
+    'true': 5
+  TrapChance:
+    '0': 11
+    '10': 11  # remove this line
+    '5': 16
+  Traps:
+    Bee Trap: 1
+    Chaos Trap: 1
+    Meteor Sparrow Trap: 1
+    Neurotoxin Trap: 1
+    Poison Trap: 1
+  PresentAccessWithWheelAndSpindle:
+    'false': 4
+    'true': 9
+  DeathLink:
+    'true': 7
+  start_hints:
+    Lightwall: 1
+    Succubus Hairpin: 1
+
+A Hat in Time:
+  progression_balancing:
+    '50': 25
+  accessibility:
+    minimal: 7
+  death_link:
+    'false': 25
+  EndGoal:
+    finale: 19
+    rush_hour: 6  # remove this line
+    seal_the_deal: 3  # remove this line
+    random: 6  # remove this line
+  ShuffleAlpineZiplines:
+    'false': 9
+    'true': 6  # remove this line
+    random: 10
+  LogicDifficulty:
+    normal: 25
+  ShuffleStorybookPages:
+    'false': 12
+    'true': 25  # remove this line
+    random: 9
+  ShuffleActContracts:
+    'false': 11
+    'true': 25
+    random: 8
+  ShuffleSubconPaintings:
+    'false': 25
+    'true': 8  # remove this line
+    random: 16
+  NoPaintingSkips:
+    'true': 9
+  CTRLogic:
+    time_stop_only: 25
+  MinPonCost:
+    '75': 25
+    random-low: 17
+  MaxPonCost:
+    '300': 25
+    '200': 10
+    '400': 25  # remove this line
+  BadgeSellerMinItems:
+    '4': 25
+    random-middle: 14
+  BadgeSellerMaxItems:
+    '8': 25
+    '10': 8
+  ActRandomizer:
+    'false': 8
+    light: 25
+    insanity: 8  # remove this line
+  FinaleShuffle:
+    'false': 25
+    'true': 7
+  StartingChapter:
+    '1': 14
+    random: 14
+  LowestChapterCost:
+    '5': 25
+    random-middle: 9
+  HighestChapterCost:
+    '25': 11
+    random-middle: 12
+  ChapterCostIncrement:
+    '4': 25
+    random-middle: 13
+  ChapterCostMinDifference:
+    '4': 25
+    random-middle: 12
+  FinalChapterMinCost:
+    '30': 25
+    random-middle: 16
+  FinalChapterMaxCost:
+    '35': 25
+    '40': 19
+    '30': 27
+  YarnBalancePercent:
+    '20': 25
+  TimePieceBalancePercent:
+    '35': 25
+  RandomizeHatOrder:
+    'false': 13
+    'true': 25
+    time_stop_last: 13
+    random: 17
+  UmbrellaLogic:
+    'false': 25
+    'true': 18
+    random: 14
+  StartWithCompassBadge:
+    'false': 12
+    'true': 25
+  CompassBadgeMode:
+    closest: 25
+  MaxExtraTimePieces:
+    '16': 25
+    random-high: 13
+  YarnCostMin:
+    '4': 25
+    random-low: 11
+  YarnCostMax:
+    '8': 25
+    '12': 5  # remove this line
+    '10': 12
+  YarnAvailable:
+    '50': 25
+    random-middle: 10
+  MinExtraYarn:
+    '10': 25
+    random-middle: 11
+  HatItems:
+    'false': 7
+    'true': 15
+  EnableDLC1:
+    'false': 25
+    'true': 9
+  Tasksanity:
+    'false': 25
+    'true': 2
+  TasksanityTaskStep:
+    '1': 25
+    '3': 5
+  TasksanityCheckCount:
+    '18': 6  # remove this line
+    '15': 9
+    '12': 13
+    '9': 18
+  ExcludeTour:
+    'false': 9
+    'true': 13
+  ShipShapeCustomTaskGoal:
+    '0': 25
+  EnableDLC2:
+    'false': 25
+    'true': 14
+  BaseballBat:
+    'false': 7
+    'true': 14
+  MetroMinPonCost:
+    '50': 23
+    '40': 22
+    '60': 23
+  MetroMaxPonCost:
+    '200': 25
+    '250': 25  # remove this line
+    '150': 25
+  NyakuzaThugMinShopItems:
+    '2': 25
+  NyakuzaThugMaxShopItems:
+    '4': 25
+    '5': 17
+  NoTicketSkips:
+    'true': 10
+  EnableDeathWish:
+    'false': 25
+  DWShuffle:
+    'false': 25
+  DWShuffleCountMin:
+    '18': 25
+  DWShuffleCountMax:
+    '25': 25
+  DeathWishOnly:
+    'false': 25
+  DWEnableBonus:
+    'false': 25
+  DWAutoCompleteBonuses:
+    'true': 25
+  DWExcludeAnnoyingContracts:
+    'true': 25
+  DWExcludeAnnoyingBonuses:
+    'true': 25
+  DWExcludeCandles:
+    'true': 25
+  DWTimePieceRequirement:
+    '15': 25
+  TrapChance:
+    '0': 12
+    random-low: 14
+    random-middle: 9  # remove this line
+    '5': 21
+  BabyTrapWeight:
+    '40': 25
+  LaserTrapWeight:
+    '40': 25
+  ParadeTrapWeight:
+    '20': 25
+  start_hints:
+    Dweller Mask: 1
+    Hookshot Badge: 1
+    Sprint Hat: 1
+    Umbrella: 1
+
+Hollow Knight:
+  progression_balancing:
+    '50': 25
+  accessibility:
+    minimal: 9
+  RandomizeDreamers:
+    'false': 12
+    'true': 5
+  RandomizeSkills:
+    'true': 25
+  RandomizeFocus:
+    'false': 25
+    'true': 10
+  RandomizeSwim:
+    'false': 11
+    'true': 10 # remove this option
+  RandomizeCharms:
+    'true': 25
+  RandomizeKeys:
+    'true': 25
+  RandomizeMaskShards:
+    'true': 25
+  RandomizeVesselFragments:
+    'true': 25
+  RandomizeCharmNotches:
+    'true': 25
+  RandomizePaleOre:
+    'true': 25
+  RandomizeGeoChests:
+    'false': 8
+    'true': 8
+  RandomizeJunkPitChests:
+    'false': 9
+  RandomizeRancidEggs:
+    'true': 25
+  RandomizeRelics:
+    'true': 25
+  RandomizeWhisperingRoots:
+    'false': 12
+    'true': 12
+  RandomizeBossEssence:
+    'false': 13
+    'true': 13
+  RandomizeGrubs:
+    'false': 13
+    'true': 13
+  RandomizeMimics:
+    'false': 13
+    'true': 13
+  RandomizeMaps:
+    'true': 13
+  RandomizeStags:
+    'false': 16
+    'true': 4
+  RandomizeLifebloodCocoons:
+    'true': 25
+  RandomizeGrimmkinFlames:
+    'false': 25
+  RandomizeJournalEntries:
+    'true': 12
+  RandomizeNail:
+    'false': 25
+    'true': 6
+  RandomizeGeoRocks:
+    'false': 25
+  RandomizeBossGeo:
+    'false': 12
+    'true': 12
+  RandomizeSoulTotems:
+    'false': 9
+    'true': 13
+  RandomizeLoreTablets:
+    'true': 14
+  RandomizeElevatorPass:
+    'false': 25
+    'true': 6
+  PreciseMovement:
+    'false': 25
+  ProficientCombat:
+    'false': 25
+    'true': 9    # remove this option
+  BackgroundObjectPogos:
+    'false': 25
+  EnemyPogos:
+    'false': 25  
+  ObscureSkips:
+    'false': 25
+  ShadeSkips:
+    'false': 25
+  InfectionSkips:
+    'false': 25
+  FireballSkips:
+    'false': 25
+  SpikeTunnels:
+    'false': 25
+  AcidSkips:
+    'false': 25
+  DamageBoosts:
+    'false': 25
+  DangerousSkips:
+    'false': 25
+  DarkRooms:
+    'false': 25
+    'true': 6   # remove this option
+  ComplexSkips:
+    'false': 25
+  DifficultSkips:
+    'false': 25
+  RemoveSpellUpgrades:
+    'false': 25
+    'true': 6
+  StartLocation:
+    king's_pass: 25
+  Goal:
+    any: 25
+  WhitePalace:
+    exclude: 25
+  ExtraPlatforms:
+    'true': 25
+  AddUnshuffledLocations:
+    'false': 25
+  StartingGeo:
+    '0': 9   # remove this option
+    '1000': 9
+    random-middle: 20
+  DeathLink:
+    'false': 25
+  DeathLinkShade:
+    shade: 25
+  DeathLinkBreaksFragileCharms:
+    'false': 25
+  MinimumGeoPrice:
+    '1': 25
+  MaximumGeoPrice:
+    '400': 25
+    random-low: 8
+  MinimumGrubPrice:
+    '1': 25
+  MaximumGrubPrice:
+    '23': 25
+    random-middle: 12
+  MinimumEssencePrice:
+    '1': 25
+  MaximumEssencePrice:
+    '1400': 25
+    random-middle: 9
+  MinimumCharmPrice:
+    '1': 25
+  MaximumCharmPrice:
+    '20': 25
+    random-middle: 12
+  RandomCharmCosts:
+    random-middle: 10   # remove this option
+    '89': 11   # remove this option
+    '79': 11
+    '69': 11
+    '59': 11
+  MinimumEggPrice:
+    '1': 25
+  MaximumEggPrice:
+    '10': 25
+  EggShopSlots:
+    '0': 25
+  SlyShopSlots:
+    '8': 25
+  SlyKeyShopSlots:
+    '6': 25
+  IseldaShopSlots:
+    '2': 25
+    random-low: 9
+  SalubraShopSlots:
+    '5': 25
+    random-low: 7
+  SalubraCharmShopSlots:
+    '5': 25
+    random-low: 6
+  LegEaterShopSlots:
+    '3': 25
+    random-low: 8
+  GrubfatherRewardSlots:
+    '7': 25
+    random-low: 9
+  SeerRewardSlots:
+    '8': 25
+    random-low: 13
+  ExtraShopSlots:
+    '0': 25
+    random-low: 10
+  SplitCrystalHeart:
+    'false': 5
+    'true': 12    # remove this option
+  SplitMothwingCloak:
+    'false': 6
+    'true': 14     # remove this option
+  SplitMantisClaw:
+    'false': 7
+    'true': 14  # remove this option
+  CostSanity:
+    'off': 25
+    'on': 3    # remove this option
+  CostSanityHybridChance:
+    '10': 25
+  CostSanityEggWeight:
+    '1': 25
+  CostSanityGrubWeight:
+    '1': 25
+  CostSanityEssenceWeight:
+    '1': 25
+  CostSanityCharmWeight:
+    '1': 25
+  CostSanityGeoWeight:
+    '8': 25
+  start_hints:
+    Claw: 1
+    Cloak: 1
+    Dive: 1
+    Nail: 1
+    Vertical: 1
+
+Muse Dash:
+  progression_balancing:
+    '50': 25
+  accessibility:
+    items: 25
+    minimal: 11
+  starting_song_count:
+    '5': 25
+    random: 8
+  additional_song_count:
+    '15': 15
+    '40': 20
+    '50': 13 # remove this option
+    '30': 20
+  music_sheet_count_percentage:
+    '10': 24
+    '20': 25
+    '40': 23 # remove this option
+  music_sheet_win_count_percentage:
+    '50': 22
+    '80': 25
+    '100': 8 # remove this option
+  dlc_packs:
+    Muse Plus: 1
+  streamer_mode_enabled:
+    'false': 25
+  song_difficulty_mode:
+    any: 18
+    hard: 22
+    expert: 23 # remove this option
+    master: 24 # remove this option
+    manual: 12
+    random: 7
+  song_difficulty_min:
+    '4': 17
+    '7': 22
+  song_difficulty_max:
+    '8': 16
+    '11': 22 # remove this option
+    '10': 22
+    '9': 20
+  grade_needed:
+    any: 4
+    b: 18
+    a: 14
+    pinks: 11 # remove this option
+  death_link:
+    'false': 25
+  chosen_traps:
+    Background Freeze Trap: 1
+    Chromatic Aberration Trap: 1
+    Error SFX Trap: 1
+    Focus Line Trap: 1
+    Gray Scale Trap: 1
+    Pixelate Trap: 1
+    Ripple Trap: 1
+    Vignette Trap: 1
+  trap_count_percentage:
+    '0': 1
+    '15': 25
+    random-low: 15 # remove this option
+    random-middle: 7 # remove this option
+  start_hints:
+    Music Sheet: 1

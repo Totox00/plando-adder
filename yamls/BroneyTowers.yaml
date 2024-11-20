@@ -1,0 +1,32 @@
+﻿name: Broney
+game: 
+  Super Metroid: 2
+  Super Metroid Map Rando: 2
+  Manual_Angband425_Broney: 1
+description: Endless Towers 2
+
+Super Metroid:
+  progression_balancing: '0'    # Yaml changes (2) - +25 each
+  death_link: 'enable_survive'
+  minor_qty: 20                 # Yaml changes (4) - +20 each, eventually reaching 100: 50
+  energy_qty: 'ultra_sparse'    # Yaml changes (3) - ultra_sparse => sparse => medium => vanilla
+  doors_colors_rando: 'true'    # Yaml change (false)
+  fun_combat: 'true'            # Yaml change (false)
+  fun_movement: 'true'          # Yaml change (false)
+  nerfed_charge: 'false'        # Yaml change (true)
+  tourian: 'vanilla'            # Yaml change (2) (vanilla -> fast -> disabled)
+
+Super Metroid Map Rando:
+  progression_balancing: '0'    # Yaml changes (5) - +10 each
+  death_link: 'enable_survive'
+  randomized_start: 'true'      # Yaml change (false)
+  mother_brain: 'vanilla'       # Yaml change (2) (vanilla -> short -> skip)
+  mark_map_stations: 'false'    # Yaml change (true)
+  buffed_drops: 'false'         # Yaml change (true)
+  wall_jump: 'collectible'      # Yaml change (vanilla)
+
+Manual_Angband425_Broney:
+  progression_balancing: '0'    # Yaml changes (5) - +10 each
+  death_link: 'true'
+  star_acquire_percent: 10      # Yaml change (4) (+10 each)
+
