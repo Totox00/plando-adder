@@ -124,19 +124,17 @@ fn main() {
 
             if let Some(filler_items) = filler_list.get(&player) {
                 if filler_items.iter().any(|(item_game, _)| item_game == game) {
-                    let mut items = vec![];
-
-                    for (item_game, item) in filler_items {
-                        if item_game == game {
-                            items.push(format!("\"{item}\": true"));
-                        }
-                    }
-
                     let mut locations = vec![];
-
                     for (item_game, _, location, _) in &plando_items {
                         if item_game != game {
                             locations.push(location.clone());
+                        }
+                    }
+
+                    let mut items = vec![];
+                    for (item_game, item) in filler_items {
+                        if item_game == game {
+                            items.push(format!("\"{item}\": {}", locations.len()));
                         }
                     }
 
@@ -210,20 +208,18 @@ fn add_plando(yaml: &OsString, plando_list: &mut PlandoList, filler_list: &mut F
                 if let Some(filler_items) = filler_items {
                     if let Some(plando_items) = &plando_items {
                         if filler_items.iter().any(|(game, _)| game == maybe_game) {
-                            let mut items = vec![];
-
-                            for (game, item) in filler_items {
-                                if game == maybe_game {
-                                    items.push(format!("\"{item}\": true"));
-                                }
-                            }
-
                             let mut locations = vec![];
-
                             for (game, _, location, _, _) in plando_items.iter() {
                                 if game != maybe_game {
                                     write_plando = true;
                                     locations.push(location.clone());
+                                }
+                            }
+
+                            let mut items = vec![];
+                            for (game, item) in filler_items {
+                                if game == maybe_game {
+                                    items.push(format!("\"{item}\": {}", locations.len()));
                                 }
                             }
 

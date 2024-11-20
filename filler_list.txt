@@ -168,9 +168,7 @@ Relic
 Toto
 Sentinels of the Multiverse
 Hero Toughness 1
-Hero Fragility 1
 Villain Fragility 1
-Villain Toughness 1
 
 Toto
 Dark Souls III
